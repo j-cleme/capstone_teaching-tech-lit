@@ -1,25 +1,25 @@
 <script setup>
 import HelloWorld from "./components/HelloWorld.vue";
+import TeachingModal from "./components/TeachingModal.vue";
 import TheWelcome from "./components/TheWelcome.vue";
 </script>
 
 <template>
   <header>
-    <img
-      alt="Vue logo"
-      class="logo"
-      src="./assets/logo.svg"
-      width="125"
-      height="125"
-    />
+    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
 
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+      <HelloWorld msg="Teaching Tech Lit" />
     </div>
   </header>
 
   <main>
-    <TheWelcome />
+    <!-- <TeachingModal :title="Menu Icon" :textcontent="This is a menu icon, sometimes called a "Hamburger Menu\" "> -->
+    <TeachingModal>
+      <template #title>Menu Icon</template>
+      <template #textcontent>This is a menu icon, sometimes called a "Hamburger Menu" due to its horizontal
+        layers.</template>
+    </TeachingModal>
   </main>
 </template>
 
