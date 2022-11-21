@@ -1,5 +1,6 @@
 <script setup>
 import TeachingModal from "./components/TeachingModal.vue";
+import Drawer from "./components/drawer.vue";
 import { Menu } from 'lucide-vue-next';
 
 </script>
@@ -13,12 +14,22 @@ export default {
         { id: 3, title: 'Embedded Links', textContent: '' }
       ]
     }
+  },
+  methods: {
+    navDrawer() {
+      let sidenav = document.getElementById('sidenav');
+      sidenav.style.width = "200px";
+    }
   }
 }
 
 </script>
 
 <template>
+  <nav>
+    <Menu @click="navDrawer()" />
+    <Drawer></Drawer>
+  </nav>
   <main>
     <TeachingModal :title="sections[0].title" :text-content="sections[0].textContent">
       <!-- <template #title>Menu Icon</template> -->
