@@ -1,31 +1,43 @@
 <script setup>
 import { Menu } from 'lucide-vue-next';
 
-// defineProps({
-//   title: {
-//     type: String,
-//     required: true,
-//   },
-//   textcontent: {
-//     type: String,
-//     required: true,
-//   }
-// });
+</script>
+<script>
+
+export default {
+  data() {
+    return {}
+  },
+  props: {
+    title: String,
+    textContent: String,
+  },
+  methods: {
+    clickHandler(title) {
+      // happens when you click on the icon(?) and the relevant element needs to appear elsewhere
+      alert(title);
+    }
+  }
+
+}
 </script>
 
 <template>
-  <article class="teaching-modal">
-    <div class="titleContainer">
-      <h1>
-        <slot name="title"></slot>
-      </h1>
+  <article class="teaching-modal" @click="clickHandler(title)">
+    <h1>
+      <!-- <slot name="title"></slot> -->
+      {{ title }}
+    </h1>
+    <p>
+      {{ textContent }}
+      <!-- <slot name="textcontent"></slot> -->
+    </p>
+    <div class="iconSlot">
+
       <slot name="icon">
         <Menu />
       </slot>
     </div>
-    <p>
-      <slot name="textcontent"></slot>
-    </p>
   </article>
 </template>
 
@@ -46,11 +58,13 @@ article {
   gap: 2.5rem;
 }
 
-.titleContainer {
-  width: 100%;
+article * {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  place-items: center;
+  place-content: center;
+}
+
+.iconSlot {
+  transform: scale(2.5);
 }
 </style>
