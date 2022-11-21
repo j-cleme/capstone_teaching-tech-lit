@@ -22,11 +22,7 @@ export default {
 </script>
 
 <template>
-  <nav>
-    <Menu @click="navDrawer()" />
-    <Drawer></Drawer>
-  </nav>
-  <main>
+  <Drawer />
   <main class="columns-10 flex justify-center">
     <TeachingModal :title="sections[0].title" :text-content="sections[0].textContent">
       <template>
