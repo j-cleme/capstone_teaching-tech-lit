@@ -22,7 +22,9 @@ export default {
 </script>
 
 <template>
-  <Drawer />
+  <div class="container">
+    <div class="row">
+      <Drawer class="columns-1"/>
   <main class="columns-10 flex justify-center">
     <TeachingContainer :title="sections[0].title" :text-content="sections[0].textContent">
       <template>
@@ -30,4 +32,6 @@ export default {
       </template>
     </TeachingContainer>
   </main>
+    </div>
+  </div>
 </template>
