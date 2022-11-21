@@ -32,12 +32,9 @@ export default {
   </nav>
   <main>
     <TeachingModal :title="sections[0].title" :text-content="sections[0].textContent">
-      <!-- <template #title>Menu Icon</template> -->
       <template>
         <Menu />
       </template>
-      <!-- <template #textcontent>This is a menu icon, sometimes called a "Hamburger Menu" due to its horizontal
-        layers.</template> -->
     </TeachingModal>
   </main>
 </template>
