@@ -12,12 +12,12 @@ export default {
       let sidenav = document.getElementById('sidenav');
       if (this.$data.navOpen === true) {
         // sidenav.style.transform = "translateX(-200px)";
-        sidenav.classList.remove("-translate-x-full")
+        // sidenav.classList.add("-translate-x-full")
         this.$data.navOpen = false;
       }
       if (this.$data.navOpen === false) {
         // sidenav.style.transform = "translateX(0px)";
-        sidenav.classList.add("-translate-x-full")
+        // sidenav.classList.remove("-translate-x-full")
         this.$data.navOpen = true;
       }
     },
@@ -26,9 +26,9 @@ export default {
 </script>
 
 <template>
-  <nav class="columns-1 flex justify-start my-4 bg-black">
+  <nav class="columns-1 bg-black">
     <Menu @click="toggleNav()" color="orange" />
-    <ul class="drawer-container -translate-x-full" id="sidenav">
+    <ul class="drawer-container" :class="{ '-translate-x-full': navOpen }" id="sidenav">
       <li><a href="#">Lorem Ipsum</a></li>
       <li><a href="#">Lorem Ipsum</a></li>
       <li><a href="#">Lorem Ipsum</a></li>
