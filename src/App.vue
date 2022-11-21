@@ -1,9 +1,9 @@
 <script setup>
 import TeachingModal from "./components/TeachingModal.vue";
 import Drawer from "./components/drawer.vue";
-import { Menu } from 'lucide-vue-next';
-
+import { Menu } from "lucide-vue-next";
 </script>
+
 <script>
 export default {
   data() {
@@ -16,10 +16,6 @@ export default {
     }
   },
   methods: {
-    navDrawer() {
-      let sidenav = document.getElementById('sidenav');
-      sidenav.style.transform = "translateX(0px)";
-    }
   }
 }
 
@@ -31,6 +27,7 @@ export default {
     <Drawer></Drawer>
   </nav>
   <main>
+  <main class="columns-10 flex justify-center">
     <TeachingModal :title="sections[0].title" :text-content="sections[0].textContent">
       <template>
         <Menu />
@@ -38,14 +35,3 @@ export default {
     </TeachingModal>
   </main>
 </template>
-
-<style scoped>
-main {
-  display: flex;
-  place-items: center;
-  max-width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 20%;
-}
-</style>
