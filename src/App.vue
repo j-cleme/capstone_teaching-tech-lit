@@ -1,5 +1,5 @@
 <script setup>
-import TeachingModal from "./components/TeachingModal.vue";
+import TeachingContainer from "./components/TeachingContainer.vue";
 import Drawer from "./components/drawer.vue";
 import { Menu } from "lucide-vue-next";
 </script>
@@ -24,10 +24,10 @@ export default {
 <template>
   <Drawer />
   <main class="columns-10 flex justify-center">
-    <TeachingModal :title="sections[0].title" :text-content="sections[0].textContent">
+    <TeachingContainer :title="sections[0].title" :text-content="sections[0].textContent">
       <template>
         <Menu />
       </template>
-    </TeachingModal>
+    </TeachingContainer>
   </main>
 </template>
