@@ -15,7 +15,7 @@ export default {
   methods: {
     clickHandler(title) {
       // happens when you click on the icon(?) and the relevant element needs to appear elsewhere
-      alert(title);
+      // alert(title);
     }
   }
 
