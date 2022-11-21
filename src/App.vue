@@ -18,7 +18,7 @@ export default {
   methods: {
     navDrawer() {
       let sidenav = document.getElementById('sidenav');
-      sidenav.style.width = "200px";
+      sidenav.style.transform = "translateX(0px)";
     }
   }
 }
