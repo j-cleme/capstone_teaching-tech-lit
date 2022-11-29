@@ -11,13 +11,9 @@ export default {
     toggleNav() {
       let sidenav = document.getElementById('sidenav');
       if (this.$data.navOpen === true) {
-        // sidenav.style.transform = "translateX(-200px)";
-        // sidenav.classList.add("-translate-x-full")
         this.$data.navOpen = false;
       }
       if (this.$data.navOpen === false) {
-        // sidenav.style.transform = "translateX(0px)";
-        // sidenav.classList.remove("-translate-x-full")
         this.$data.navOpen = true;
       }
     },
@@ -53,15 +49,15 @@ export default {
     transition: 0.5s;
 } */
 
-.drawer-container a {
+/* .drawer-container li {
   text-decoration: none;
   display: block;
   padding: 15px;
   color: white;
-}
+} */
 
 
-.drawer-container a:hover {
+/* .drawer-container a:hover {
   background-color: #F76902;
-}
+} */
 </style>
