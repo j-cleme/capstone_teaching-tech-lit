@@ -1,6 +1,6 @@
 <script setup>
 import TeachingContainer from "./components/TeachingContainer.vue";
-import { Menu, Search } from "lucide-vue-next";
+import { BeanOff, Menu, Search } from "lucide-vue-next";
 import Nav from "./components/Nav.vue";
 </script>
 
@@ -10,13 +10,13 @@ export default {
     return {
       sections: [
         { id: 1, title: "Menu Icon", textContent: "This is a menu icon, sometimes called a \"Hamburger Menu\" due to its horizontal layers." },
-        { id: 2, title: "Search Icon", textContent: "This is a search icon, indicating a searchable field" },
-        { id: 3, title: "Embedded Links", textContent: "" }
+        { id: 2, title: "Search Icon", textContent: "This is a search icon, indicating a searchable field." },
+        { id: 3, title: "Bean Icon", textContent: "This indicates that your bean has been disabled." }
       ]
     };
   },
   methods: {},
-  components: { Nav, TeachingContainer }
+  components: { Nav, TeachingContainer, BeanOff }
 }
 
 </script>
@@ -29,6 +29,9 @@ export default {
     </TeachingContainer>
     <TeachingContainer :title="sections[1].title" :text-content="sections[1].textContent">
       <Search />
+    </TeachingContainer>
+    <TeachingContainer :title="sections[2].title" :text-content="sections[2].textContent">
+      <BeanOff />
     </TeachingContainer>
   </main>
 </template>
