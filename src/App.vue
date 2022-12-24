@@ -1,7 +1,7 @@
 <script setup>
 import TeachingContainer from "./components/TeachingContainer.vue";
-import Drawer from "./components/drawer.vue";
 import { Menu } from "lucide-vue-next";
+import Nav from "./components/Nav.vue";
 </script>
 
 <script>
@@ -22,16 +22,12 @@ export default {
 </script>
 
 <template>
-  <div class="container">
-    <div class="row">
-      <Drawer class="col-1"/>
-  <main class="col-10 flex justify-center">
+  <Nav />
+  <main class="flex flex-col justify-center">
     <TeachingContainer :title="sections[0].title" :text-content="sections[0].textContent">
       <template>
         <Menu />
       </template>
     </TeachingContainer>
   </main>
-    </div>
-  </div>
 </template>

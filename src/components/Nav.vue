@@ -1,0 +1,43 @@
+<script setup>
+import { Menu } from 'lucide-vue-next';
+</script>
+
+<script>
+export default {
+  data() {
+    return { navOpen: false }
+  },
+  methods: {
+    toggleNav() {
+      let sidenav = document.getElementById('sidenav');
+      if (this.$data.navOpen === true) {
+        this.$data.navOpen = false;
+        console.log("set navOpen to false")
+      } else if (this.$data.navOpen === false) {
+        this.$data.navOpen = true;
+        console.log("set navOpen to true")
+      }
+    },
+  }
+}
+</script>
+
+<template>
+  <nav
+    class="bg-neutral-400 grid grid-cols-1 grid-flow-row auto-rows-max justify-around h-screen duration-100 absolute z-10"
+    :class="[navOpen ? 'w-3/4' : 'w-0']" id="sidenav">
+    <Menu :size="50" @click="toggleNav()" class="mx-2 my-2 md:hover:rotate-90 duration-75 text-neutral-800" />
+    <a class="px-4 py-2 text-lg font-semibold text-neutral-900 duration-100" :class="[navOpen ? '' : 'hidden']"
+      href="#">Lorem
+      Ipsone</a>
+    <a class="px-4 py-2 text-lg font-semibold text-neutral-900 duration-100" :class="[navOpen ? '' : 'hidden']"
+      href="#">Lorem
+      Ipstwo</a>
+    <a class="px-4 py-2 text-lg font-semibold text-neutral-900 duration-100" :class="[navOpen ? '' : 'hidden']"
+      href="#">Lorem
+      Ipsthree</a>
+    <!-- TODO please dont type all these out manually lol -->
+    <!-- could use pug, or make another component specifically for this link, but honestly if we are just making this list once thats too much effort -->
+    <!-- ez emmet ebbreviation: a.px-5.py-2.text-lg.font-semibold.text-neutral-900 -->
+  </nav>
+</template>
