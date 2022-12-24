@@ -23,20 +23,15 @@ export default {
 </script>
 
 <template>
-  <article class="teaching-modal" @click="clickHandler(title)">
+  <article class="border border-neutral-600 p-4 m-4 grid grid-cols-2 grid-rows-2 items-center justify-center gap-2"
+    @click="clickHandler(title)">
     <h1>
-      <!-- <slot name="title"></slot> -->
       {{ title }}
     </h1>
-    <p>
+    <p class="row-span-2">
       {{ textContent }}
-      <!-- <slot name="textcontent"></slot> -->
     </p>
-    <div class="iconSlot">
-
-      <slot name="icon">
-        <Menu />
-      </slot>
-    </div>
+    <slot>
+    </slot>
   </article>
 </template>
