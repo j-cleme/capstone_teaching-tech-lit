@@ -1,5 +1,4 @@
 <script setup>
-import { Menu } from 'lucide-vue-next';
 
 </script>
 <script>
