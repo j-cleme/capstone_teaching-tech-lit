@@ -9,14 +9,13 @@ export default {
   data() {
     return {
       sections: [
-        { id: 1, title: "Menu Icon", textContent: "This is a menu icon, sometimes called a \"Hamburger Menu\" due to its horizontal layers." },
-        { id: 2, title: "Search Icon", textContent: "This is a search icon, indicating a searchable field." },
-        { id: 3, title: "Bean Icon", textContent: "This indicates that your bean has been disabled." }
+        { title: "Menu Icon", icon: "Menu", textContent: "This is a menu icon, sometimes called a \"Hamburger Menu\" due to its horizontal layers." },
+        { title: "Search Icon", icon: "Search", textContent: "This is a search icon, indicating a searchable field." },
+        { title: "Bean Icon", icon: "BeanOff", textContent: "This indicates that your bean has been disabled." }
       ]
     };
   },
-  methods: {},
-  components: { Nav, TeachingContainer, BeanOff }
+  methods: {}
 }
 
 </script>
