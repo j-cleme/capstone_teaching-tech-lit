@@ -22,8 +22,8 @@
 	];
 </script>
 
-<main class="flex flex-col justify-center">
+<main class="flex flex-col justify-center m-5 mx-auto justify-self-center md:w-1/2 border p-4">
 	{#each sections as item}
-		<TeachingContainer title={item.title} icon={item.icon} textContent={item.textContent} />
+		<TeachingContainer {...item} />
 	{/each}
 </main>
