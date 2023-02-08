@@ -30,15 +30,31 @@
 			class="w-full m-2 p-2 border border-solid border-blue-700 flex flex-row justify-around items-center"
 		>
 			<button
-				class="p-2 bg-neutral-700 text-white w-full border border-white active:border-teal-400"
+				class="p-2 bg-neutral-700 text-white w-full border-4 border-neutral-700 active:border-4 active:border-teal-400"
 				>one</button
 			>
 			<button
-				class="p-2 bg-neutral-700 text-white w-full border border-white active:border-teal-400"
+				class="p-2 bg-neutral-500 text-white w-full border-4 border-neutral-500 active:border-4 active:border-teal-400"
 				>two</button
 			>
 			<button
-				class="p-2 bg-neutral-700 text-white w-full border border-white active:border-teal-400"
+				class="p-2 bg-neutral-700 text-white w-full border-4 border-neutral-700 active:border-4 active:border-teal-400"
+				>three</button
+			>
+		</span>
+		<span
+			class="w-full m-2 p-2 border border-solid border-blue-700 flex flex-row justify-around items-center"
+		>
+			<button
+				class="p-2 bg-neutral-700 text-white w-full border-4 border-neutral-700 active:border-4 active:border-teal-400"
+				>one</button
+			>
+			<button
+				class="p-2 bg-neutral-500 text-white w-full border-4 border-neutral-500 active:border-4 active:border-teal-400"
+				>two</button
+			>
+			<button
+				class="p-2 bg-neutral-700 text-white w-full border-4 border-neutral-700 active:border-4 active:border-teal-400"
 				>three</button
 			>
 		</span>
