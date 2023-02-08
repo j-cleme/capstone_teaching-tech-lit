@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  h1 {
+    @apply text-5xl leading-normal;
+  }
+
+  h2 {
+    @apply text-3xl leading-normal;
+  }
+
+  .icon_desc {
+    @apply inline-flex flex-row w-full m-2 p-2 border border-solid border-neutral-800;
+  }
+
+  img {
+    @apply max-w-sm max-h-96
+  }
+}
