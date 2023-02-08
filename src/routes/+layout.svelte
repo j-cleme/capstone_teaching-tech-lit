@@ -45,12 +45,13 @@
 </header>
 <nav class={navStyles} id="sidenav">
 	<a on:click={toggleNav} on:keypress={toggleNav} href="/" class={navLinkStyle}>Home </a>
-	<a on:click={toggleNav} on:keypress={toggleNav} href="/quiztest" class={navLinkStyle}
-		>quiztest
+	<a on:click={toggleNav} on:keypress={toggleNav} href="/#Buttons" class={navLinkStyle}>Buttons </a>
+	<a on:click={toggleNav} on:keypress={toggleNav} href="/#Icons" class={navLinkStyle}>Icons </a>
+	<a on:click={toggleNav} on:keypress={toggleNav} href="/#Browsers" class={navLinkStyle}
+		>Browsers
 	</a>
-	<a on:click={toggleNav} on:keypress={toggleNav} href="/" class={navLinkStyle}>Home2 </a>
-	<a on:click={toggleNav} on:keypress={toggleNav} href="/" class={navLinkStyle}>Lorem Ipsone </a>
-	<a on:click={toggleNav} on:keypress={toggleNav} href="/" class={navLinkStyle}>Lorem Ipstwo </a>
+	<a on:click={toggleNav} on:keypress={toggleNav} href="/#Devices" class={navLinkStyle}>Devices</a>
+	<a on:click={toggleNav} on:keypress={toggleNav} href="/#Safety" class={navLinkStyle}>Safety</a>
 	<a on:click={toggleNav} on:keypress={toggleNav} href="/" class={navLinkStyle}>Lorem Ipsthree </a>
 	<a on:click={toggleNav} on:keypress={toggleNav} href="/" class={navLinkStyle}>Lorem Ipsfour </a>
 </nav>
