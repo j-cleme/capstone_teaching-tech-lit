@@ -10,10 +10,10 @@
 		<br />
 		<a
 			href="/buttons"
-			class="text-black bg-gradient-to-br from-teal-500 to-cyan-400 text-2xl duration-75 focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-semibold rounded-lg text-md px-5 py-2.5 text-center"
+			class="text-black bg-gradient-to-br from-teal-500 to-cyan-400 text-2xl duration-75 drop-shadow-md hover:drop-shadow-lg focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-semibold rounded-lg text-md px-5 py-2.5 text-center"
 			>Get Started &#10140;</a
 		>
 	</div>
 	<div><img src="/assets/logo.png" alt="the Teaching Tech Lit logo." /></div>
-	<hr/>
+	<hr />
 </main>
