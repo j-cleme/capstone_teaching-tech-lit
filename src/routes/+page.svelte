@@ -15,5 +15,5 @@
 		>
 	</div>
 	<div><img src="/assets/logo.png" alt="the Teaching Tech Lit logo." /></div>
-	<h2>Tests</h2>
+	<hr/>
 </main>
