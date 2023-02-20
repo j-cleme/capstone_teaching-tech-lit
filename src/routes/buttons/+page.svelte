@@ -4,61 +4,61 @@
 	<div class="flex flex-auto flex-row flex-wrap justify-evenly m-2">
 		<button
 			type="button"
-			class="focus:outline-none text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800"
+			class="transition duration-100 ease-in-out focus:outline-none text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800"
 			>Green</button
 		>
 		<button
 			type="button"
-			class="focus:outline-none text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900"
+			class="transition duration-100 ease-in-out focus:outline-none text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900"
 			>Red</button
 		>
 		<button
 			type="button"
-			class="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+			class="transition duration-100 ease-in-out text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
 			>Purple to Pink</button
 		>
 		<button
 			type="button"
-			class="text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+			class="transition duration-100 ease-in-out text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
 			>Pink to Orange</button
 		>
 		<button
 			type="button"
-			class="text-gray-900 bg-gradient-to-r from-teal-200 to-lime-200 hover:bg-gradient-to-l hover:from-teal-200 hover:to-lime-200 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-teal-700 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+			class="transition duration-100 ease-in-out text-gray-900 bg-gradient-to-r from-teal-200 to-lime-200 hover:bg-gradient-to-l hover:from-teal-200 hover:to-lime-200 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-teal-700 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
 			>Teal to Lime</button
 		>
 		<button
 			type="button"
-			class="text-white bg-yellow-400 hover:bg-yellow-500 focus:outline-none focus:ring-4 focus:ring-yellow-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:focus:ring-yellow-900"
+			class="transition duration-100 ease-in-out text-white bg-yellow-400 hover:bg-yellow-500 focus:outline-none focus:ring-4 focus:ring-yellow-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:focus:ring-yellow-900"
 			>Yellow</button
 		>
 		<button
 			type="button"
-			class="text-white bg-purple-700 hover:bg-purple-800 focus:outline-none focus:ring-4 focus:ring-purple-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900"
+			class="transition duration-100 ease-in-out text-white bg-purple-700 hover:bg-purple-800 focus:outline-none focus:ring-4 focus:ring-purple-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900"
 			>Purple</button
 		>
 		<button
-			class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-pink-500 to-orange-400 group-hover:from-pink-500 group-hover:to-orange-400 hover:text-white focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800"
+			class="transition duration-100 ease-in-out relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-pink-500 to-orange-400 group-hover:from-pink-500 group-hover:to-orange-400 hover:text-white focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800"
 		>
 			<span
-				class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0"
+				class="transition duration-100 ease-in-out relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0"
 			>
 				Pink to orange
 			</span>
 		</button>
 		<button
 			type="button"
-			class="text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+			class="transition duration-100 ease-in-out text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
 			>Cyan</button
 		>
 		<button
 			type="button"
-			class="text-purple-700 hover:text-white border border-purple-700 hover:bg-purple-800 focus:ring-4 focus:outline-none focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-purple-400 dark:text-purple-400 dark:hover:text-white dark:hover:bg-purple-500 dark:focus:ring-purple-900"
+			class="transition duration-100 ease-in-out text-purple-700 hover:text-white border border-purple-700 hover:bg-purple-800 focus:ring-4 focus:outline-none focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-purple-400 dark:text-purple-400 dark:hover:text-white dark:hover:bg-purple-500 dark:focus:ring-purple-900"
 			>Purple</button
 		>
 		<button
 			type="button"
-			class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm p-2.5 text-center inline-flex items-center mr-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+			class="transition duration-100 ease-in-out text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm p-2.5 text-center inline-flex items-center mr-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
 		>
 			<svg
 				aria-hidden="true"
@@ -76,7 +76,7 @@
 		</button>
 		<button
 			type="button"
-			class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center mr-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+			class="transition duration-100 ease-in-out text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center mr-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
 		>
 			<svg
 				aria-hidden="true"
@@ -95,7 +95,7 @@
 		<button
 			disabled
 			type="button"
-			class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 inline-flex items-center"
+			class="transition duration-100 ease-in-out text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 inline-flex items-center"
 		>
 			<svg
 				aria-hidden="true"
@@ -118,7 +118,7 @@
 		</button>
 		<button
 			type="button"
-			class="text-white bg-blue-400 dark:bg-blue-500 cursor-not-allowed font-medium rounded-lg text-sm px-5 py-2.5 text-center"
+			class="transition duration-100 ease-in-out text-white bg-blue-400 dark:bg-blue-500 cursor-not-allowed font-medium rounded-lg text-sm px-5 py-2.5 text-center"
 			disabled>Disabled button</button
 		>
 	</div>
@@ -127,15 +127,15 @@
 		class="w-full m-2 p-2 border border-solid border-blue-700 flex flex-row justify-around items-center"
 	>
 		<button
-			class="p-2 bg-neutral-700 text-white w-full border-4 border-neutral-700 active:border-4 active:border-teal-400"
+			class="transition duration-100 ease-in-out p-2 bg-neutral-700 text-white w-full border-4 border-neutral-700 active:border-4 active:border-teal-400"
 			>one</button
 		>
 		<button
-			class="p-2 bg-neutral-500 text-white w-full border-4 border-neutral-500 active:border-4 active:border-teal-400"
+			class="transition duration-100 ease-in-out p-2 bg-neutral-500 text-white w-full border-4 border-neutral-500 active:border-4 active:border-teal-400"
 			>two</button
 		>
 		<button
-			class="p-2 bg-neutral-700 text-white w-full border-4 border-neutral-700 active:border-4 active:border-teal-400"
+			class="transition duration-100 ease-in-out p-2 bg-neutral-700 text-white w-full border-4 border-neutral-700 active:border-4 active:border-teal-400"
 			>three</button
 		>
 	</span>
@@ -143,15 +143,15 @@
 		class="w-full m-2 p-2 border border-solid border-blue-700 flex flex-row justify-around items-center"
 	>
 		<button
-			class="p-2 bg-neutral-700 text-white w-full border-4 border-neutral-700 active:border-4 active:border-teal-400"
+			class="transition duration-100 ease-in-out p-2 bg-neutral-700 text-white w-full border-4 border-neutral-700 active:border-4 active:border-teal-400"
 			>one</button
 		>
 		<button
-			class="p-2 bg-neutral-500 text-white w-full border-4 border-neutral-500 active:border-4 active:border-teal-400"
+			class="transition duration-100 ease-in-out p-2 bg-neutral-500 text-white w-full border-4 border-neutral-500 active:border-4 active:border-teal-400"
 			>two</button
 		>
 		<button
-			class="p-2 bg-neutral-700 text-white w-full border-4 border-neutral-700 active:border-4 active:border-teal-400"
+			class="transition duration-100 ease-in-out p-2 bg-neutral-700 text-white w-full border-4 border-neutral-700 active:border-4 active:border-teal-400"
 			>three</button
 		>
 	</span>
