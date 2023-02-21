@@ -11,11 +11,11 @@
     @apply text-3xl leading-normal;
   }
 
-  .icon_desc {
-    @apply inline-flex flex-row w-full m-2 p-2 border border-solid border-neutral-800;
-  }
-
   img {
     @apply max-w-sm max-h-96
+  }
+
+  main {
+    @apply w-full md:w-4/5 m-auto
   }
 }
