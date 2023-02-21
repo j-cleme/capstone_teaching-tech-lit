@@ -24,18 +24,25 @@
 	<hr />
 </main>
 -->
-
+<style>
+	main{
+		margin: auto;
+		margin-top: 2rem;
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+</style>
 <main>
 	<div class="grid lg:grid-cols-2">
 		<div class="flex flex-col justify-center leading-loose justify-items-center">
-			<h1 class="text-6xl md:text-6xlmd:text-left font-semibold pb-4">
+			<h1 class="text-6xl md:text-6xlmd:text-left font-semibold pb-4" style="color: #3549A6;">
 				Teaching Tech Lit
 			</h1>
-			<h2 class="text-2xl md:text-left pb-4 ">
-				A guided introduction to the internet
+			<h2 class="text-2xl md:text-left pb-4 font-thin">
+				A guided introduction to the internet for adults looking to learn tech intuition and literacy.
 			</h2>
-			<button class="bg-blue-500  text-white font-semibold py-2 px-4 border  rounded w-52 text-2xl ">
-				Get Started &#10140;
+			<button class=" bg-transparent  py-2 px-4 border  font-light rounded w-52 text-2xl" style="color: #3549A6; border-color: #3549A6;">
+				Get Started
 			</button>
 			 <!-- <a 
 				href="/buttons"
@@ -48,13 +55,17 @@
 		</div>
 	</div>
 	<hr/>
-	<div class="flex flex-col my-10">
-		<h1 class="text-5xl md:text-6xlmd:text-left font-semibold pb-4">
-			What is Teaching Tech Lit?
-		</h1>
-
-		<p class="text-lg">
-			Current technological literacy programs are for young children (6-12) or if it is for adults it is only job skills training. We are instead looking to teach adults tech intuition and literacy, rather than focusing on programs like Office or Adobe. Older people who did not grow up with computers and tech face the biggest gap in technological literacy.
-		</p>
+	<div class="">
+		<div class="flex flex-col my-10">
+			<h1 class="text-5xl md:text-6xlmd:text-left font-semibold pb-4" style="color: #3549A6;">
+				What is Teaching Tech Lit?
+			</h1>
+	
+			<div class="mr-32">
+				<p class="text-xl font-thin">
+					Current technological literacy programs are for young children (6-12) or if it is for adults it is only job skills training. We are instead looking to teach adults tech intuition and literacy, rather than focusing on programs like Office or Adobe. Older people who did not grow up with computers and tech face the biggest gap in technological literacy.
+				</p>
+			</div>
+		</div>
 	</div>
 </main>
