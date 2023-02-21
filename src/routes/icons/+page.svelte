@@ -10,7 +10,9 @@
 	</p>
 
 	<p>In the top left or right corner of any program there will likely be three icons:</p>
-	<div class="w-4/5 m-auto grid grid-cols-3 grid-rows-1 gap-16 items-center justify-around my-8">
+	<div
+		class=" m-auto inline-grid grid-cols-1 md:grid-cols-3 grid-rows-3 md:grid-rows-1 items-center justify-around"
+	>
 		<div class="flex flex-col w-full border-2 border-black rounded-lg h-80">
 			<div class="flex h-40 w-full justify-center items-center">
 				<X size="64" />
