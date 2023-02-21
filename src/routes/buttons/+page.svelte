@@ -1,4 +1,4 @@
-<main class="flex flex-col justify-center border p-4">
+<main class="flex flex-col justify-center">
 	<h1 id="Buttons">Buttons</h1>
 	<p>Buttons can look like anything.</p>
 	<div class="flex flex-auto flex-row flex-wrap justify-evenly m-2">
