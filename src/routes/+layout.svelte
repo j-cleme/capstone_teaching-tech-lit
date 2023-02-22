@@ -84,31 +84,4 @@
 		href="/safety">Safety</a
 	>
 </nav>
-<!--
-<nav>
-	<div on:click={toggleMobileNav} on:keypress={toggleMobileNav} class=" md:hidden">
-		<Menu
-			size={40}
-			class="mx-2 my-2 duration-75 text-neutral-600 {navVisibleState ? 'rotate-90' : ''} "
-		/>
-	</div>
-	<div>
-		<a
-			on:click={toggleMobileNav}
-			on:keypress={toggleMobileNav}
-			href="/"
-			class="flex flex-row w-full m-0 justify-center items-center col-start-7 col-end-13 md:col-start-1 md:col-end-3"
-		>
-			<img src="/assets/logo.png" alt="Teaching Tech Lit logo" class="h-6 w-6" />
-			<h1 class="mx-1 md:px-2 py-2 text-lg font-semibold text-neutral-900">Teaching Tech Lit</h1>
-		</a>
-	</div>
-	<div>
-		<a href="#">Test</a>
-		<a href="#">Test</a>
-		<a href="#">Test</a>
-		<a href="#">Test</a>
-	</div>
-</nav>
--->
 <slot />
