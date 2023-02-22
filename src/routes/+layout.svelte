@@ -25,10 +25,10 @@
 			on:click={toggleMobileNav}
 			on:keypress={toggleMobileNav}
 			href="/"
-			class=""
+			class="hover:bg-white"
 		>
-			<img src="/assets/logo.png" alt="Teaching Tech Lit logo" class="h-6 w-6" />
-			<h1 class="mx-1 md:px-2 py-2 text-lg font-semibold text-neutral-900">Teaching Tech Lit</h1>
+			<img src="/assets/logo.png" alt="Teaching Tech Lit logo" class="h-6 w-6 " />
+			<h1 class="mx-1 md:px-2 py-2 text-lg font-semibold text-neutral-900 ">Teaching Tech Lit</h1>
 		</a>
 	{/if}
 	{#if !navVisibleState}
@@ -43,7 +43,7 @@
 	<a
 		on:click={toggleMobileNav}
 		on:keypress={toggleMobileNav}
-		class="px-2 py-2 hover:bg-blue-500 hover:rounded-full hover:text-white  row-start-3 md:row-start-1 col-span-12 md:col-span-1 {navVisibleState
+		class="link px-2 py-2  hover:rounded-full hover:text-white  row-start-3 md:row-start-1 col-span-12 md:col-span-1 {navVisibleState
 			? ''
 			: 'hidden md:inline'} md:row-start-1 md:col-start-8"
 		href="/buttons"
@@ -52,7 +52,7 @@
 	<a
 		on:click={toggleMobileNav}
 		on:keypress={toggleMobileNav}
-		class="px-2 py-2 hover:bg-blue-500 hover:rounded-full hover:text-white  row-start-4 md:row-start-1 col-span-12 md:col-span-1 {navVisibleState
+		class="link px-2 py-2  hover:rounded-full hover:text-white  row-start-4 md:row-start-1 col-span-12 md:col-span-1 {navVisibleState
 			? ''
 			: 'hidden md:inline'} md:row-start-1 md:col-start-9"
 		href="/icons"
@@ -61,7 +61,7 @@
 	<a
 		on:click={toggleMobileNav}
 		on:keypress={toggleMobileNav}
-		class="px-2 py-2 hover:bg-blue-500 hover:rounded-full hover:text-white  row-start-5 md:row-start-1 col-span-12 md:col-span-1 {navVisibleState
+		class="link px-2 py-2  hover:rounded-full hover:text-white  row-start-5 md:row-start-1 col-span-12 md:col-span-1 {navVisibleState
 			? ''
 			: 'hidden md:inline'} md:row-start-1 md:col-start-10"
 		href="/browsers"
@@ -70,7 +70,7 @@
 	<a
 		on:click={toggleMobileNav}
 		on:keypress={toggleMobileNav}
-		class="px-2 py-2 hover:bg-blue-500 hover:rounded-full hover:text-white row-start-6 md:row-start-1 col-span-12 md:col-span-1 {navVisibleState
+		class="link px-2 py-2  hover:rounded-full hover:text-white row-start-6 md:row-start-1 col-span-12 md:col-span-1 {navVisibleState
 			? ''
 			: 'hidden md:inline'} md:row-start-1 md:col-start-11"
 		href="/devices">Devices</a
@@ -78,7 +78,7 @@
 	<a
 		on:click={toggleMobileNav}
 		on:keypress={toggleMobileNav}
-		class="px-2 py-2 hover:bg-blue-500 hover:rounded-full hover:text-white  row-start-7 md:row-start-1 col-span-12 md:col-span-1 {navVisibleState
+		class="link px-2 py-2 hover:rounded-full hover:text-white  row-start-7 md:row-start-1 col-span-12 md:col-span-1 {navVisibleState
 			? ''
 			: 'hidden md:inline'} md:row-start-1 md:col-start-12"
 		href="/safety">Safety</a

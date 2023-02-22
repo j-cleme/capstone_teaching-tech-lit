@@ -35,15 +35,20 @@ main{
 nav a{
   margin-right: 1.5rem;
 }
-
 .test{
-  background-color: #ffffff;
-  opacity: 1;
-  background-image:  radial-gradient(#797ffd 1.9000000000000001px, transparent 1.9000000000000001px), radial-gradient(#797ffd 1.9000000000000001px, #ffffff 1.9000000000000001px);
-  background-size: 76px 76px;
-  background-position: 0 0,38px 38px;
+  background-color: #3549A6;
 }
-
 .w-98{
   width: 40rem;
+}
+.content-area{
+  width: 80%;
+  margin: 0 auto;
+}
+.link:hover{
+  background-color: #3549A6;
+}
+
+p{
+  max-width: 65ch;
 }
