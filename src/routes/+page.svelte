@@ -31,6 +31,9 @@
 		padding-left: 2rem;
 		padding-right: 2rem;
 	}
+	p{
+		max-width: 65ch;
+	}
 </style>
 <main>
 	<div class="grid lg:grid-cols-2">
@@ -38,10 +41,10 @@
 			<h1 class="text-6xl md:text-6xlmd:text-left font-semibold pb-4" style="color: #3549A6;">
 				Teaching Tech Lit
 			</h1>
-			<h2 class="text-2xl md:text-left pb-4 font-thin">
+			<h2 class="text-2xl md:text-left py-4 font-thin bg-gray-100 px-2 border">
 				A guided introduction to the internet for adults looking to learn tech intuition and literacy.
 			</h2>
-			<button class=" bg-transparent  py-2 px-4 border  font-light rounded w-52 text-2xl" style="color: #3549A6; border-color: #3549A6;">
+			<button class=" bg-transparent mt-4 py-2 px-4 border  font-light rounded w-52 text-2xl" style="color: #3549A6; border-color: #3549A6;">
 				Get Started
 			</button>
 			 <!-- <a 
