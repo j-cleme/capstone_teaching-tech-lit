@@ -30,7 +30,7 @@
 	}
 </style>
 <main class="">
-	<div class="grid lg:grid-cols-2 h-96 my-2">
+	<div class="grid lg:grid-cols-2 h-96 my-2 test">
 		<div class="flex flex-col justify-center leading-loose justify-items-center">
 			<h1 class="text-6xl md:text-6xlmd:text-left font-semibold pb-4" style="color: #3549A6;">
 				Teaching Tech Lit
