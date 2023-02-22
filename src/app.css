@@ -19,3 +19,31 @@
     @apply w-11/12 md:w-4/5 m-auto mt-16 min-h-screen
   }
 }
+nav{
+  width: 80%;
+  margin:0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+main{
+  margin: 0 auto;
+  padding: 0;
+}
+nav a{
+  margin-right: 1.5rem;
+}
+
+.test{
+  background-color: #ffffff;
+  opacity: 1;
+  background-image:  radial-gradient(#797ffd 1.9000000000000001px, transparent 1.9000000000000001px), radial-gradient(#797ffd 1.9000000000000001px, #ffffff 1.9000000000000001px);
+  background-size: 76px 76px;
+  background-position: 0 0,38px 38px;
+}
+
+.w-98{
+  width: 40rem;
+}

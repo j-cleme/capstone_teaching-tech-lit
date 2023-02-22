@@ -25,26 +25,20 @@
 </main>
 -->
 <style>
-	main{
-		margin: auto;
-		margin-top: 2rem;
-		padding-left: 2rem;
-		padding-right: 2rem;
-	}
 	p{
 		max-width: 65ch;
 	}
 </style>
-<main>
-	<div class="grid lg:grid-cols-2">
+<main class="">
+	<div class="grid lg:grid-cols-2 h-96 my-2">
 		<div class="flex flex-col justify-center leading-loose justify-items-center">
 			<h1 class="text-6xl md:text-6xlmd:text-left font-semibold pb-4" style="color: #3549A6;">
 				Teaching Tech Lit
 			</h1>
-			<h2 class="text-2xl md:text-left py-4 font-thin bg-gray-100 px-2 border">
+			<h2 class="text-2xl md:text-left py-4 font-thin px-2 ">
 				A guided introduction to the internet for adults looking to learn tech intuition and literacy.
 			</h2>
-			<button class=" bg-transparent mt-4 py-2 px-4 border  font-light rounded w-52 text-2xl" style="color: #3549A6; border-color: #3549A6;">
+			<button class=" bg-transparent mt-4 py-2 px-4 border bg-white font-light rounded w-52 text-2xl" style="color: #3549A6; border-color: #3549A6;">
 				Get Started
 			</button>
 			 <!-- <a 
@@ -53,19 +47,19 @@
 				>Get Started &#10140;</a
 			>-->
 		</div>
-		<div class="flex flex-col justify-center items-center">
+		<div class="flex flex-col justify-end items-end">
 			<img src="/assets/logo.png" alt="the Teaching Tech Lit logo." />
 		</div>
 	</div>
 	<hr/>
 	<div class="">
 		<div class="flex flex-col my-10">
-			<h1 class="text-5xl md:text-6xlmd:text-left font-semibold pb-4" style="color: #3549A6;">
+			<h1 class="text-5xl md:text-6xlmd:text-left font-semibold pb-3 border-b w-98" style="color: #3549A6;">
 				What is Teaching Tech Lit?
 			</h1>
 	
 			<div class="mr-32">
-				<p class="text-xl font-thin">
+				<p class="text-xl font-thin pt-3">
 					Current technological literacy programs are for young children (6-12) or if it is for adults it is only job skills training. We are instead looking to teach adults tech intuition and literacy, rather than focusing on programs like Office or Adobe. Older people who did not grow up with computers and tech face the biggest gap in technological literacy.
 				</p>
 			</div>
