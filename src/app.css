@@ -29,14 +29,6 @@ main {
   padding: 0;
 }
 
-nav a {
-  margin-right: 1.5rem;
-}
-
-.hero {
-  background-color: #3549A6;
-}
-
 .w-98 {
   width: 40rem;
 }
