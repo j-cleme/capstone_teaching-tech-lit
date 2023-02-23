@@ -26,9 +26,9 @@
 </div>
 <!-- What is teaching tech lit section -->
 <div class="content-area">
-	<div class="py-16">
+	<div class="my-14">
 		<div class="flex flex-col">
-			<h1 class="text-5xl md:text-6xlmd:text-left font-semibold pb-3 border-b w-98" style="color: #3549A6;">
+			<h1 class="text-5xl md:text-6xlmd:text-left font-semibold pb-3" style="color: #3549A6;">
 				What is Teaching Tech Lit?
 			</h1>
 	
@@ -42,11 +42,10 @@
 
 	<hr/>
 <!-- Lessons section -->
-	<h1 class="text-5xl md:text-6xlmd:text-left font-semibold mt-16 pb-3" style="color: #3549A6;">
+	<h1 class="text-5xl md:text-6xlmd:text-left font-semibold mt-10 pb-3" style="color: #3549A6;">
 		Lessons
-		<hr class="w-56 mt-3"/>
 	</h1>
-	<div class="grid lg:grid-cols-3 mt-10 mb-10">
+	<div class="grid lg:grid-cols-3 mt-8 mb-10">
 		<div class="cards rounded overflow-hidden shadow border py-2">
 			<div class="">
 			  <div class="font-bold text-3xl py-4 mb-2 text-gray-800">Browsers</div>
