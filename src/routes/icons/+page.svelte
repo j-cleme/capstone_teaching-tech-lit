@@ -2,7 +2,7 @@
 	import { Settings, MoveHorizontal, Grab, TextCursor, Pointer, MousePointer, Maximize, Minimize, X, Mouse } from 'lucide-svelte';
 </script>
 
-<div class="hero">
+<div class="bg-[#3549A6]">
 	<div class="content-area">
 		<h1 class="text-white" id="Icons">Lesson - Icons</h1>
 	</div>
