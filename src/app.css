@@ -18,15 +18,10 @@
   main {
     @apply w-11/12 md:w-4/5 m-auto mt-16 min-h-screen
   }
-}
-nav{
-  width: 80%;
-  margin:0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+
+  nav {
+    @apply w-4/5 mb-0 flex justify-between items-center pt-8 pb-8
+  }
 }
 main{
   margin: 0 auto;
