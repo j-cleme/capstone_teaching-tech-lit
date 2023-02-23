@@ -1,5 +1,6 @@
 <script>
 </script>
+<!-- Hero/Landing section -->
 <div class="hero">
 	<div class="grid lg:grid-cols-2 content-area">
 		<div class="flex flex-col justify-center leading-loose justify-items-center px-4 text-white">
@@ -23,6 +24,7 @@
 		</div>
 	</div>
 </div>
+<!-- What is teaching tech lit section -->
 <div class="content-area">
 	<div class="py-16">
 		<div class="flex flex-col">
@@ -37,7 +39,9 @@
 			</div>
 		</div>
 	</div>
+
 	<hr/>
+<!-- Lessons section -->
 	<h1 class="text-5xl md:text-6xlmd:text-left font-semibold mt-16 pb-3" style="color: #3549A6;">
 		Lessons
 		<hr class="w-56 mt-3"/>
