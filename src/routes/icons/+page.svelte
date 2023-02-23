@@ -63,7 +63,7 @@
 		different icons that each mean something different.
 	</p>
 	<div class="px-7 py-4 bg-white ring-1 ring-gray-900/5 rounded-lg leading-none flex items-top justify-start space-x-6 my-4">
-		<MousePointer size="64"/>
+		<MousePointer size="64" class="my-auto"/>
 		<div class="space-y-2">
 		  <p class="text-xl font-bold text-slate-800">Cursor Arrow</p>
 		  <p class="text-lg font-thin">
@@ -72,7 +72,7 @@
 		</div>
 	  </div>
 	  <div class="px-7 py-4 bg-white ring-1 ring-gray-900/5 rounded-lg leading-none flex items-top justify-start space-x-6 my-4">
-		<Pointer size="64"/>
+		<Pointer size="64" class="my-auto"/>
 		<div class="space-y-2">
 		  <p class="text-xl font-bold text-slate-800">Pointer</p>
 		  <p class="text-lg font-thin">
@@ -81,7 +81,7 @@
 		</div>
 	  </div>
 	  <div class="px-7 py-4 bg-white ring-1 ring-gray-900/5 rounded-lg leading-none flex items-top justify-start space-x-6 my-4">
-		<TextCursor size="64"/>
+		<TextCursor size="64" class="my-auto"/>
 		<div class="space-y-2">
 		  <p class="text-xl font-bold text-slate-800">Type</p>
 		  <p class="text-lg font-thin">
@@ -90,7 +90,7 @@
 		</div>
 	  </div>
 	  <div class="px-7 py-4 bg-white ring-1 ring-gray-900/5 rounded-lg leading-none flex items-top justify-start space-x-6 my-4">
-		<Grab size="64"/>
+		<Grab size="64" class="my-auto"/>
 		<div class="space-y-2">
 		  <p class="text-xl font-bold text-slate-800">Hand / Grab</p>
 		  <p class="text-lg font-thin">
@@ -125,7 +125,7 @@
 		</div>
 	
 		<div class="px-7 py-4 bg-white ring-1 ring-gray-900/5 rounded-lg leading-none flex items-top justify-start space-x-6 my-4">
-			<img src="/assets/logo.png" alt="The Teaching Tech Lit logo." style="width: 64px; height:64px"/>
+			<img src="/assets/logo.png" alt="The Teaching Tech Lit logo." style="width: 64px; height:64px" class="my-auto"/>
 			<div class="space-y-2">
 			  <p class="text-xl font-bold text-slate-800">Site Logo</p>
 			  <p class="text-lg font-thin">
@@ -135,7 +135,7 @@
 		</div>
 	
 		<div class="px-7 py-4 bg-white ring-1 ring-gray-900/5 rounded-lg leading-none flex items-top justify-start space-x-6 my-4">
-			<img src="/assets/Edge_logo.png" alt="Microsoft Edge Logo" style="width: 64px; height:64px"/>
+			<img src="/assets/Edge_logo.png" alt="Microsoft Edge Logo" style="width: 64px; height:64px" class="my-auto"/>
 			<div class="space-y-2">
 			  <p class="text-xl font-bold text-slate-800">App Icons</p>
 			  <p class="text-lg font-thin">
