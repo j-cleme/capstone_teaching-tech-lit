@@ -23,46 +23,56 @@
     @apply w-4/5 mb-0 flex justify-between items-center pt-8 pb-8
   }
 }
-main{
+
+main {
   margin: 0 auto;
   padding: 0;
 }
-nav a{
+
+nav a {
   margin-right: 1.5rem;
 }
-.hero{
+
+.hero {
   background-color: #3549A6;
 }
-.w-98{
+
+.w-98 {
   width: 40rem;
 }
-.content-area{
+
+.content-area {
   width: 80%;
   margin: 0 auto;
 }
-.cards{
+
+.cards {
   width: 75%;
   text-align: center;
   display: flex;
   flex-direction: column;
 }
-.link:hover{
+
+.link:hover {
   background-color: #3549A6;
 }
-hr{
+
+hr {
   height: 5px;
 
 }
-p{
+
+p {
   max-width: 65ch;
 }
-.responsive{
+
+.responsive {
   height: auto;
   width: 50%;
   margin: 0 auto;
 }
 
-.card-btn{
+.card-btn {
   margin: 0 auto;
   background-color: #3549A6;
   border-color: #3549A6;
@@ -70,4 +80,3 @@ p{
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
-
