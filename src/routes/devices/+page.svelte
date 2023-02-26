@@ -30,6 +30,7 @@
 			<div class="font-bold text-3xl mx-2 py-4 mb-2 text-gray-800">MacOS</div>
 			</div>
 			<div class="pt-2 pb-4">
+				<img src="/assets/apple_logo.png" alt="Apple logo" class="responsive" />
 			</div>
 		</div>
 		<div class="cards rounded overflow-hidden shadow border py-2 px-2 h-full">
@@ -37,7 +38,7 @@
 			<div class="font-bold text-3xl py-4 mb-2 text-gray-800">Windows</div>
 			</div>
 			<div class="pt-2 pb-4">
-
+				<img src="/assets/windows_logo.png" alt="Windows logo" class="responsive" />
 			</div>
 		</div>
 	</div>
