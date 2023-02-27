@@ -1,7 +1,11 @@
-<main class="flex flex-col justify-center">
-	<h1 id="Buttons">Buttons</h1>
-	<p>Buttons can look like anything.</p>
-	<div class="flex flex-auto flex-row flex-wrap justify-evenly m-2">
+<div class="bg-[#3549A6]">
+	<div class="content-area">
+		<h1 class="text-white" id="Icons">Lesson - Intro</h1>
+	</div>
+</div>
+<main class="content-area">
+	<p class="text-xl font-thin mt-10 mb-10">Buttons can look like anything.</p>
+	<div class="">
 		<button
 			type="button"
 			class="transition duration-100 ease-in-out focus:outline-none text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800"
@@ -122,9 +126,9 @@
 			disabled>Disabled button</button
 		>
 	</div>
-	<p>Buttons sometimes come in collections. A collection of buttons is called a "menu".</p>
+	<p class="text-xl font-thin my-6">Buttons sometimes come in collections. A collection of buttons is called a "menu".</p>
 	<span
-		class="w-full m-2 p-2 border border-solid border-blue-700 flex flex-row justify-around items-center"
+		class="w-full mb-4 p-2 border border-solid border-blue-700 flex flex-row justify-around items-center"
 	>
 		<button
 			class="transition duration-100 ease-in-out p-2 bg-neutral-700 text-white w-full border-4 border-neutral-700 active:border-4 active:border-teal-400"
@@ -140,7 +144,7 @@
 		>
 	</span>
 	<span
-		class="w-full m-2 p-2 border border-solid border-blue-700 flex flex-row justify-around items-center"
+		class="w-full mb-4 p-2 border border-solid border-blue-700 flex flex-row justify-around items-center"
 	>
 		<button
 			class="transition duration-100 ease-in-out p-2 bg-neutral-700 text-white w-full border-4 border-neutral-700 active:border-4 active:border-teal-400"
