@@ -18,9 +18,9 @@
 	</div>
 	<div
 		class=" m-auto inline-grid grid-cols-1 lg:grid-cols-3 grid-rows-3 lg:grid-rows-1 items-center justify-around my-4"
-		style="height: 300px;"
+		style=""
 	>
-		<div class="cards rounded overflow-hidden shadow border py-2 px-2 h-full">
+		<div class="cards rounded overflow-hidden shadow border py-2 px-2 lg:h-full m-auto">
 			<div class="">
 			<div class="font-bold text-3xl py-4 mb-2 text-gray-800">Close</div>
 			<X size="64" class="responsive"/>
@@ -31,7 +31,7 @@
 				</p>
 			</div>
 		</div>
-		<div class="cards rounded overflow-hidden shadow border py-2 px-2 h-full">
+		<div class="cards rounded overflow-hidden shadow border py-2 px-2 lg:my-0 my-4 lg:h-full m-auto">
 			<div class="">
 			<div class="font-bold text-3xl py-4 mb-2 text-gray-800">Maximize</div>
 			<Maximize size="64" class="responsive"/>
@@ -42,7 +42,7 @@
 				</p>
 			</div>
 		</div>
-		<div class="cards rounded overflow-hidden shadow border py-2 px-2 h-full">
+		<div class="cards rounded overflow-hidden shadow border py-2 px-2 lg:my-0 my-4 lg:h-full m-auto">
 			<div class="">
 			<div class="font-bold text-3xl py-4 mb-2 text-gray-800">Minimize</div>
 			<Minimize size="64" class="responsive"/>

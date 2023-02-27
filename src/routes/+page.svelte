@@ -1,4 +1,5 @@
 <script>
+	import {MousePointer, Settings } from 'lucide-svelte';
 </script>
 
 <!-- Hero/Landing section -->
@@ -11,8 +12,8 @@
 				literacy.
 			</h2>
 			<button
-				class=" bg-transparent mt-4 py-2 px-4 border border-white text-white font-light rounded w-52 text-2xl"
-			>
+				class=" bg-transparent mt-4 py-2 px-4 border border-white text-white rounded w-52 text-2xl hover:bg-white hover:text-[#3549A6] font-normal"
+				onclick="location.href='/buttons'">
 				Get Started
 			</button>
 			<!-- <a 
@@ -52,7 +53,7 @@
 		Lessons
 	</h1>
 	<div class="grid lg:grid-cols-3 mt-8 mb-10">
-		<div class="cards rounded overflow-hidden shadow border py-2">
+		<div class="cards rounded overflow-hidden shadow border py-2 ">
 			<div class="">
 				<div class="font-bold text-3xl py-4 mb-2 text-gray-800">Browsers</div>
 				<img src="/assets/Edge_logo.png" alt="edge logo" class="responsive pb-4" />
@@ -68,10 +69,10 @@
 				>Start</button
 			>
 		</div>
-		<div class="cards rounded overflow-hidden shadow border py-2">
-			<div class="">
-				<div class="font-bold text-3xl py-4 mb-2 text-gray-800">Browsers</div>
-				<img src="/assets/Edge_logo.png" alt="edge logo" class="responsive pb-4" />
+		<div class="cards rounded overflow-hidden shadow border py-2 lg:my-0 my-4">
+			<div class="lg:h-full">
+				<div class="font-bold text-3xl py-4 mb-2 text-gray-800 ">Icons</div>
+				<Settings size="64" class="responsive"/>
 			</div>
 			<div class="py-2">
 				<span
@@ -81,13 +82,13 @@
 			</div>
 			<button
 				class="p-2 border card-btn text-2xl text-white rounded hover:bg-blue-600 hover:border-blue-600"
-				>Start</button
+				 onclick="location.href='/icons'">Start</button
 			>
 		</div>
-		<div class="cards rounded overflow-hidden shadow border py-2">
+		<div class="cards rounded overflow-hidden shadow border py-2 lg:my-0 my-4">
 			<div class="">
-				<div class="font-bold text-3xl py-4 mb-2 text-gray-800">Browsers</div>
-				<img src="/assets/Edge_logo.png" alt="edge logo" class="responsive pb-4" />
+				<div class="font-bold text-3xl py-4 mb-2 text-gray-800">Devices</div>
+				<img src="/assets/windows_logo.png" alt="Windows logo" class="responsive pb-4" />
 			</div>
 			<div class="py-2">
 				<span
@@ -97,7 +98,7 @@
 			</div>
 			<button
 				class="p-2 border card-btn text-2xl text-white rounded hover:bg-blue-600 hover:border-blue-600"
-				>Start</button
+				onclick="location.href='/devices'" >Start</button
 			>
 		</div>
 	</div>
