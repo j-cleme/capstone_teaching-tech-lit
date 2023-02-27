@@ -1,5 +1,5 @@
 <script>
-	import {MousePointer, Settings } from 'lucide-svelte';
+	import { MousePointer, Settings } from 'lucide-svelte';
 </script>
 
 <!-- Hero/Landing section -->
@@ -13,14 +13,10 @@
 			</h2>
 			<button
 				class=" bg-transparent mt-4 py-2 px-4 border border-white text-white rounded w-52 text-2xl hover:bg-white hover:text-[#3549A6] font-normal"
-				onclick="location.href='/buttons'">
-				Get Started
+				onclick="location.href='/buttons'"
+			>
+				Click Here to Get Started &#10140;
 			</button>
-			<!-- <a 
-				href="/buttons"
-				class="scale-150 scale:0 justify-self-end text-black bg-gradient-to-br from-teal-500 to-cyan-400 text-2xl duration-75 drop-shadow-md hover:drop-shadow-lg focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-semibold rounded-lg text-md px-5 py-2.5 text-center"
-				>Get Started &#10140;</a
-			>-->
 		</div>
 		<div class="flex flex-col justify-end items-end">
 			<img src="/assets/T_Logo_White.png" alt="the Teaching Tech Lit logo." />
@@ -72,7 +68,7 @@
 		<div class="cards rounded overflow-hidden shadow border py-2 lg:my-0 my-4">
 			<div class="lg:h-full">
 				<div class="font-bold text-3xl py-4 mb-2 text-gray-800 ">Icons</div>
-				<Settings size="64" class="responsive"/>
+				<Settings size="64" class="responsive" />
 			</div>
 			<div class="py-2">
 				<span
@@ -82,7 +78,7 @@
 			</div>
 			<button
 				class="p-2 border card-btn text-2xl text-white rounded hover:bg-blue-600 hover:border-blue-600"
-				 onclick="location.href='/icons'">Start</button
+				onclick="location.href='/icons'">Start</button
 			>
 		</div>
 		<div class="cards rounded overflow-hidden shadow border py-2 lg:my-0 my-4">
@@ -98,32 +94,8 @@
 			</div>
 			<button
 				class="p-2 border card-btn text-2xl text-white rounded hover:bg-blue-600 hover:border-blue-600"
-				onclick="location.href='/devices'" >Start</button
+				onclick="location.href='/devices'">Start</button
 			>
 		</div>
 	</div>
 </div>
-
-<!--<main class="flex flex-col md:flex-row md:basis-2/4 md:justify-center md:gap-16">
-	<div
-		class="mt-4 md:mt-0 h-80 flex flex-col justify-around items-center md:items-start gap-y-3 md:gap-y-0"
-	>
-		<h1 class="text-4xl md:text-6xl text-center md:text-left leading-normal font-bold">
-			Teaching Tech Lit
-		</h1>
-		<h2 class="text-2xl text-center md:text-left leading-normal font-semibold">
-			A guided introduction to the internet
-		</h2>
-		<br />
-		<a
-			href="/buttons"
-			class="scale-150 md:scale-100 justify-self-end text-black bg-gradient-to-br from-teal-500 to-cyan-400 text-2xl duration-75 drop-shadow-md hover:drop-shadow-lg focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-semibold rounded-lg text-md px-5 py-2.5 text-center"
-			>Get Started &#10140;</a
-		>
-	</div>
-	<div class="hidden md:inline">
-		<img src="/assets/logo.png" alt="the Teaching Tech Lit logo." />
-	</div>
-	<hr />
-</main>
--->
