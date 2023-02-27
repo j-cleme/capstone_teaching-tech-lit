@@ -41,7 +41,22 @@
 		<p class="text-xl font-thin mt-4 mb-6">
 			A start button can be used to search a device for programs or files, its look and location differ depending on device.
 		</p>
-		<div></div>
+		<div class="grid grid-cols lg:grid-cols-3">
+			<div class="flex flex-col text-center w-72 rounded overflow-hidden shadow border p-6 h-full">
+				<p class="text-xl font-semibold mt-4 mb-6">
+					MacOS		
+				</p>
+				<img src="assets/apple_logo.png" alt="Apple logo" class="m-auto w-2/6 mb-8" />
+				<p class="text-sm font-semibold m-auto">Located - Top Left</p>
+			</div>
+			<div class="flex flex-col text-center w-72 rounded overflow-hidden shadow border p-6">
+				<p class="text-xl font-semibold mt-4 mb-6">
+					Windows
+				</p>
+				<img src="assets/windows_logo.png" alt="Apple logo" class="m-auto w-2/6 mb-8" />
+				<p class="text-sm font-semibold m-auto">Located - Bottom Left or Center</p>
+			</div>
+		</div>
 
 	</div>
 	<hr>
@@ -54,18 +69,18 @@
 		</p>
 		<div class="grid grid-cols lg:grid-cols-2">
 			<div class="cards rounded overflow-hidden shadow border p-6 h-full">
-				<p class="text-xl font-thin mt-4 mb-6">
+				<p class="text-xl font-semibold mt-4 mb-6">
 					On MacOS you have Finder which looks like this:		
 				</p>
-				<img src="assets/Finder.png" alt="MacOS Finder">
-				<p class="text-sm font-semibold">MacOS Ventura - Finder</p>
+				<img src="assets/Finder.png" alt="MacOS Finder" class="m-auto" />
+				<p class="text-sm font-semibold m-auto">MacOS Ventura - Finder</p>
 			</div>
 			<div class="cards rounded overflow-hidden shadow border p-6 h-full">
-				<p class="text-xl font-thin mt-4 mb-6">
+				<p class="text-xl font-semibold mt-4 mb-6">
 				On Windows you have File Explorer which looks like this:		
 			</p>
-			<img src="assets/File_Explorer.png" alt="Windows File Explorer" class="">
-			<p class="text-sm font-semibold mt-8">Windows 11 - File Explorer</p>
+			<img src="assets/File_Explorer.png" alt="Windows File Explorer" class="m-auto" />
+			<p class="text-sm font-semibold mt-6 m-auto">Windows 11 - File Explorer</p>
 		</div>
 		</div>
 		
