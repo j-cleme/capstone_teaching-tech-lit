@@ -10,8 +10,11 @@
 	}
 </script>
 
-<nav id="nav" class=" h-18 md:h-12 text-sm font-semibold border-b ">
-	<div on:click={toggleMobileNav} on:keypress={toggleMobileNav} class=" md:hidden">
+<nav
+	id="nav"
+	class="w-11/12 m-auto mb-0 flex justify-between items-center py-8 h-18 md:h-12 text-sm font-semibold border-b "
+>
+	<div on:click={toggleMobileNav} on:keypress={toggleMobileNav} class="md:hidden">
 		<Menu
 			size={40}
 			class="mx-2 my-2 duration-75 text-neutral-600 {navVisibleState ? 'rotate-90' : ''} "
@@ -32,84 +35,41 @@
 			<h1 class="mx-1 md:px-2 py-2 text-lg font-semibold text-neutral-900">Teaching Tech Lit</h1>
 		</a>
 	{/if}
-	{#if navVisibleState}
-		<a
-			on:click={toggleMobileNav}
-			on:keypress={toggleMobileNav}
-			class="link px-2 py-2 hover:rounded-full hover:text-white row-start-3 md:row-start-1 col-span-12 md:col-span-1 {navVisibleState
-				? ''
-				: 'hidden md:inline'} md:row-start-1 md:col-start-8"
-			href="/buttons"
-			>Buttons
-		</a>
-		<a
-			on:click={toggleMobileNav}
-			on:keypress={toggleMobileNav}
-			class="link px-2 py-2  hover:rounded-full hover:text-white  row-start-4 md:row-start-1 col-span-12 md:col-span-1 {navVisibleState
-				? ''
-				: 'hidden md:inline'} md:row-start-1 md:col-start-9"
-			href="/icons"
-			>Icons
-		</a>
-		<a
-			on:click={toggleMobileNav}
-			on:keypress={toggleMobileNav}
-			class="link px-2 py-2  hover:rounded-full hover:text-white  row-start-5 md:row-start-1 col-span-12 md:col-span-1 {navVisibleState
-				? ''
-				: 'hidden md:inline'} md:row-start-1 md:col-start-10"
-			href="/browsers"
-			>Browsers
-		</a>
-		<a
-			on:click={toggleMobileNav}
-			on:keypress={toggleMobileNav}
-			class="link px-2 py-2  hover:rounded-full hover:text-white row-start-6 md:row-start-1 col-span-12 md:col-span-1 {navVisibleState
-				? ''
-				: 'hidden md:inline'} md:row-start-1 md:col-start-11"
-			href="/devices">Devices</a
-		>
-		<a
-			on:click={toggleMobileNav}
-			on:keypress={toggleMobileNav}
-			class="link px-2 py-2 hover:rounded-full hover:text-white  row-start-7 md:row-start-1 col-span-12 md:col-span-1 {navVisibleState
-				? ''
-				: 'hidden md:inline'} md:row-start-1 md:col-start-12"
-			href="/safety">Safety</a
-		>
-	{/if}
-	{#if !navVisibleState}
-		<a
-			class="link px-2 py-2 hover:rounded-full hover:text-white row-start-3 md:row-start-1 col-span-12 md:col-span-1 {navVisibleState
-				? ''
-				: 'hidden md:inline'} md:row-start-1 md:col-start-8"
-			href="/buttons"
-			>Buttons
-		</a>
-		<a
-			class="link px-2 py-2  hover:rounded-full hover:text-white  row-start-4 md:row-start-1 col-span-12 md:col-span-1 {navVisibleState
-				? ''
-				: 'hidden md:inline'} md:row-start-1 md:col-start-9"
-			href="/icons"
-			>Icons
-		</a>
-		<a
-			class="link px-2 py-2  hover:rounded-full hover:text-white  row-start-5 md:row-start-1 col-span-12 md:col-span-1 {navVisibleState
-				? ''
-				: 'hidden md:inline'} md:row-start-1 md:col-start-10"
-			href="/browsers"
-			>Browsers
-		</a>
-		<a
-			class="link px-2 py-2  hover:rounded-full hover:text-white row-start-6 md:row-start-1 col-span-12 md:col-span-1 {navVisibleState
-				? ''
-				: 'hidden md:inline'} md:row-start-1 md:col-start-11"
-			href="/devices">Devices</a
-		>
-		<a
-			class="link px-2 py-2 hover:rounded-full hover:text-white  row-start-7 md:row-start-1 col-span-12 md:col-span-1 {navVisibleState
-				? ''
-				: 'hidden md:inline'} md:row-start-1 md:col-start-12"
-			href="/safety">Safety</a
-		>{/if}
+	<a
+		class="link group px-2 py-2 row-start-3 md:row-start-1 col-span-12 md:col-span-1 {navVisibleState
+			? ''
+			: 'hidden md:inline'} md:row-start-1 md:col-start-8"
+		href="/buttons"
+		>Buttons
+		<span
+			class="block bg-[#3549A6] max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5"
+		/>
+	</a>
+	<a
+		class="link px-2 py-2  hover:rounded-full hover:text-white  row-start-4 md:row-start-1 col-span-12 md:col-span-1 {navVisibleState
+			? ''
+			: 'hidden md:inline'} md:row-start-1 md:col-start-9"
+		href="/icons"
+		>Icons
+	</a>
+	<a
+		class="link px-2 py-2  hover:rounded-full hover:text-white  row-start-5 md:row-start-1 col-span-12 md:col-span-1 {navVisibleState
+			? ''
+			: 'hidden md:inline'} md:row-start-1 md:col-start-10"
+		href="/browsers"
+		>Browsers
+	</a>
+	<a
+		class="link px-2 py-2  hover:rounded-full hover:text-white row-start-6 md:row-start-1 col-span-12 md:col-span-1 {navVisibleState
+			? ''
+			: 'hidden md:inline'} md:row-start-1 md:col-start-11"
+		href="/devices">Devices</a
+	>
+	<a
+		class="link px-2 py-2 hover:rounded-full hover:text-white  row-start-7 md:row-start-1 col-span-12 md:col-span-1 {navVisibleState
+			? ''
+			: 'hidden md:inline'} md:row-start-1 md:col-start-12"
+		href="/safety">Safety</a
+	>
 </nav>
 <slot />
