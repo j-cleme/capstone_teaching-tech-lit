@@ -19,13 +19,19 @@
 			class="mx-2 my-2 duration-75 text-neutral-600 {navVisibleState ? 'rotate-90' : ''} "
 		/>
 	</div>
-	<a href="/" class="group flex flex-row w-full m-0 md:justify-start items-center">
-		<img src="/assets/logo.png" alt="Teaching Tech Lit logo" class="h-6 w-6" />
+	<a href="/" class="flex flex-row w-full m-0 md:justify-start items-center">
+		<img src="/assets/logo.png" alt="Teaching Tech Lit logo" class="group h-6 w-6" />
 		<h1 class="group mx-1 md:px-2 py-2 text-lg font-semibold text-neutral-900">
 			Teaching Tech Lit<span
 				class="block bg-[#3549A6] max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5"
 			/>
 		</h1>
+	</a>
+	<a class="group px-2 py-2 min-w-max {navVisibleState ? '' : 'hidden md:inline'}" href="/"
+		>Home
+		<span
+			class="block bg-[#3549A6] max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5"
+		/>
 	</a>
 	<a class="group px-2 py-2 min-w-max {navVisibleState ? '' : 'hidden md:inline'}" href="/devices"
 		>Lesson 1 <span class="inline-block stroke-red-600"
