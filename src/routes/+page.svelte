@@ -1,3 +1,7 @@
+<svelte:head>
+	<title>Teaching Tech Lit</title>
+</svelte:head>
+
 <main class="flex flex-col">
 	<section
 		class="flex flex-wrap justify-center items-center gap-x-10 m-auto p-8 min-h-[50vh] max-h-screen border-2 rounded-lg
@@ -11,9 +15,12 @@
 				A guided introduction to the internet for adults looking to learn tech intuition and
 				literacy.
 			</p>
-			<button class="bg-[#3549A6] text-xl font-semibold text-white py-2 px-4 rounded mt-3.5">
+			<a
+				href="/devices"
+				class="bg-[#3549A6] text-xl font-semibold text-white py-2 px-4 rounded border-b-4 border-blue-900 border-r-4"
+			>
 				Get Started <span>&#10148;</span>
-			</button>
+			</a>
 		</section>
 		<aside>
 			<img src="assets/educator.svg" alt="Educators svg" />

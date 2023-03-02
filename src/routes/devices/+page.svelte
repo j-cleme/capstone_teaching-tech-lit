@@ -1,3 +1,7 @@
+<svelte:head>
+	<title>Lesson 1 - Devices</title>
+</svelte:head>
+
 <div class="bg-[#3549A6]">
 	<div class="content-area">
 		<h1 class="text-white" id="Icons">Lesson 1 - Devices</h1>
