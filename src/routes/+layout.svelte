@@ -2,6 +2,8 @@
 	import '../app.css';
 	import { CheckCircle2, Menu, XCircle } from 'lucide-svelte';
 
+	const indicatorIconSize = 20;
+
 	let navVisibleState: Boolean = false;
 
 	function toggleMobileNav(): void {
@@ -35,7 +37,7 @@
 	</a>
 	<a class="group px-2 py-2 min-w-max {navVisibleState ? '' : 'hidden md:inline'}" href="/devices"
 		>Lesson 1 <span class="inline-block stroke-red-600"
-			><XCircle size={14} color="stroke-red-600" />
+			><XCircle size={indicatorIconSize} color="stroke-red-600" />
 			<!-- <CheckCircle2 size={14} color="stroke-emerald-800"  /> -->
 		</span>
 		<span
@@ -45,7 +47,7 @@
 	<a class="group px-2 py-2 min-w-max {navVisibleState ? '' : 'hidden md:inline'}" href="/icons"
 		>Lesson 2<span class="inline-block stroke-emerald-500">
 			<!-- <XCircle size={14} color="stroke-red-600" /> -->
-			<CheckCircle2 size={14} color="stroke-emerald-500" />
+			<CheckCircle2 size={indicatorIconSize} color="stroke-emerald-500" />
 		</span>
 		<span
 			class="block bg-[#3549A6] max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5"
