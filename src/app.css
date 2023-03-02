@@ -15,4 +15,8 @@
     @apply max-w-sm max-h-96
   }
 
+  html {
+    @apply selection:bg-[#3549A6] selection:text-white
+  }
+
 }
