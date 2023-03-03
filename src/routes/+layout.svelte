@@ -75,3 +75,9 @@
 	</a>
 </nav>
 <slot />
+
+<footer class="w-full mt-10 bg-[#3549A6] text-white p-8 flex flex-col">
+	<p>this is a beautiful, well crafted footer.</p>
+
+	<a href="/" class="underline max-w-fit">back to home <span>&#10148;</span></a>
+</footer>
