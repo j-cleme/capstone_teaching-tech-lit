@@ -11,15 +11,15 @@
 			<h1 class="text-6xl text-slate-800 font-semibold">
 				Teaching Tech Lit<span class="text-[#3549A6]">.</span>
 			</h1>
-			<p class="pt-3.5 lg:max-w-[47ch] text-xl text-slate-600">
+			<p class="pt-3.5 lg:max-w-[47ch] text-xl text-slate-600 mb-3.5">
 				A guided introduction to the internet for adults looking to learn tech intuition and
 				literacy.
 			</p>
 			<a
 				href="/devices"
-				class="bg-[#3549A6] text-xl font-semibold text-white py-2 px-4 rounded border-b-4 border-blue-900 border-r-4"
+				class="group bg-[#3549A6] text-xl font-semibold text-white py-2 px-4 rounded border-b-4 border-blue-900 transition-all duration-200 hover:bg-blue-900 border-r-4 hover:border-b-2 hover:border-r-2"
 			>
-				Get Started <span>&#10148;</span>
+				Get Started <span class="group hover:text-[#3549A6]">&#10148;</span>
 			</a>
 		</section>
 		<aside>
