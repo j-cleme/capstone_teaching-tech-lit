@@ -2,7 +2,26 @@
 	<title>Lesson 1 - Devices</title>
 </svelte:head>
 
-<div class="bg-[#3549A6]">
+<main>
+	<section class="flex flex-wrap justify-center items-center gap-x-10 p-8 w-fit
+	m-auto" role="banner">
+		<section class="rounded p-8">
+			<h1 class="text-6xl text-slate-800 font-semibold">
+				Lesson 1 <span class="text-[#3549A6]">-</span> Devices
+			</h1>
+			<p class="pt-3.5 lg:max-w-[47ch] text-xl text-slate-600 mb-3.5">
+				All devices are different, but some functions are seen across all platforms. 
+				Let's explore them.
+			</p>
+		</section>
+		<aside>
+			<img src="assets/devices/devices.svg" alt="Devices Hero Image">
+		</aside>
+	</section>
+	<hr class=" w-4/5 m-auto ">
+</main>
+
+<!--<div class="bg-[#3549A6]">
 	<div class="content-area">
 		<h1 class="text-white" id="Icons">Lesson 1 - Devices</h1>
 	</div>
@@ -96,4 +115,4 @@
 			Lesson 2 <span>&#10148;</span>
 		</a>
 	</section>
-</div>
+</div>-->
