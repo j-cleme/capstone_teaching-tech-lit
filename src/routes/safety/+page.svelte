@@ -7,6 +7,51 @@
 		<h1 class="text-white" id="Icons">Lesson 5 - Safety</h1>
 	</div>
 </div>
+<main>
+	<p>
+		Personal Info - Unless you are on a website you trust, it's safer not to submit your personal
+		information, also it's important to know that personal information can be faked by others.
+		Remember, what you put on the internet is always available on the internet.
+	</p>
+	<p>
+		Passwords - It is important to create strong passwords on websites that have your personal
+		information. Most websites have requirements for passwords including numbers capitalization and
+		symbols. Don't use the same password for multiple websites, because if one is compromised they
+		all are! The easiest way to keep your passwords safe is to write them down, you can't hack
+		paper. Also there are online services called password managers that can make the creation and
+		storage of passwords much easier for you. When it comes to passwords, longer is better.
+	</p>
+	<p>
+		Lock icon - This is a lock icon, when seen on the search bar in most browsers it means that the
+		webpage you are on is a secure connection, and you're not being monitored by a third party..
+	</p>
+	<p>
+		Ads - internet ads are on every webpage, most are on the sides of the pages, or snuck into the
+		middle of a webpage. You can usually tell it's an ad, because it is trying to sell you something
+		unrelated to what you are currently doing, or trying to make you click on it. Ads very often
+		have malware attached to them, if you see something you want to buy or investigate it is safer
+		to google search it.
+	</p>
+	<p>
+		Cookies - Cookies are internet files that track what you do on the internet. THESE ARE NOT BAD
+		THINGS. Cookies are typically used to keep you logged into websites without you having to
+		re-login on every page. They can be used by certain websites and advertisers to give you ads and
+		information based on your personal browsing history, many sites require your consent for this.
+	</p>
+	<p>
+		Pop ups - A pop up is usually an ad on a webpage used to trick you into clicking it so it can
+		put malware on your computer. It is OK to click the X button on the browser window it appears
+		on.
+	</p>
+	<p>
+		Phishing - Phishing is one of the most common internet scams, usually in an email or some other
+		form of internet communication, you might receive a message claiming to be your boss, friend or
+		family member. They then either ask for money, gift cards, passwords, or other sensitive
+		information. It is always good to double check through other means of communication if you
+		expect a message might be a phishing attempt.
+	</p>
+	<p>Uninstalling extensions browser</p>
+</main>
 <section class="flex items-center justify-center my-5">
 	<a
 		href="/"
