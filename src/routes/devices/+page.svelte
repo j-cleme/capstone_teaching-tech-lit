@@ -19,6 +19,22 @@
 		</aside>
 	</section>
 	<hr class=" w-4/5 m-auto ">
+	<section class=" p-8 flex flex-wrap">
+		<section class=" mr-14">
+			<h2 class="text-4xl text-slate-800 font-semibold">
+				Taskbars
+			</h2>
+			<p class="text-base text-slate-600 w-[50ch]">
+				Almost all devices have a top and/or bottom bar, these allow you to access things you need often quickly and easily.
+			</p>
+		</section>
+		<section>
+			<img src="assets/devices/MacOS_desktop.jpg" alt="MacOS desktop" class=" m-auto ">
+			<p class="text-base text-slate-600 w-[50ch]">
+				For MacOS there is both a top and bottom bar, the top bar is a menu and the bottom bar is used to hold your computer's apps.
+			</p>
+		</section>
+	</section>
 </main>
 
 <!--<div class="bg-[#3549A6]">
