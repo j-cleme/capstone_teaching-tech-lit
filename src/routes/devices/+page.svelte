@@ -1,7 +1,21 @@
 <svelte:head>
 	<title>Lesson 1 - Devices</title>
 </svelte:head>
+<script>
+    import { 
+        Lightbox,
+        LightboxGallery,
+        GalleryThumbnail,
+        GalleryImage
+    } from 'svelte-lightbox'
+    
+    let lightboxProgrammaticController
+</script>
+<style>
+	
 
+
+</style>
 <main>
 	<section class="flex flex-wrap justify-center items-center gap-x-10 p-8 w-fit
 	m-auto" role="banner">
@@ -29,13 +43,17 @@
 			</p>
 		</section>
 		<section class="mx-4 border-r px-4">
-			<img src="assets/devices/MacOS_desktop.jpg" alt="MacOS desktop" class=" m-auto mb-4">
+			<Lightbox description="MacOS Desktop" style="max-width: !important none;">
+				<img src="assets/devices/MacOS_desktop.jpg" alt="MacOS desktop" class=" m-auto mb-4 w-100 h-100">
+			</Lightbox>
 			<p class="text-base text-slate-600 w-[55ch] text-center">
 				For MacOS there is both a top and bottom bar, the top bar is a menu and the bottom bar is used to hold your computer's apps.
 			</p>
 		</section>
 		<section class="mx-4 px-4">
-			<img src="assets/devices/windows_desktop.png" alt="Windows desktop" class=" m-auto mb-4">
+			<Lightbox description="Windows 10 Desktop" style="max-width: !important none;">
+				<img src="assets/devices/windows_desktop.png" alt="Windows desktop" class=" m-auto mb-4">
+			</Lightbox>			
 			<p class="text-base text-slate-600 w-[55ch] text-center">
 				Windows only has a bottom bar that holds your open and most used apps as well as the start button.
 			</p>
