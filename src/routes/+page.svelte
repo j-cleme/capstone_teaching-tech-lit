@@ -1,3 +1,7 @@
+<script>
+	import Arrow from './Arrow.svelte';
+</script>
+
 <svelte:head>
 	<title>Teaching Tech Lit</title>
 </svelte:head>
@@ -17,9 +21,9 @@
 			</p>
 			<a
 				href="/devices"
-				class="group bg-[#3549A6] text-xl font-semibold text-white py-2 px-4 rounded border-b-4 border-blue-900 transition-all duration-200 hover:bg-blue-900 border-r-4 hover:border-b-2 hover:border-r-2"
+				class="group inline-flex whitespace-nowrap bg-[#ec598b] text-xl font-semibold text-white py-2 pr-2 pl-2.5 items-center justify-center rounded border-b-4 border-[#d76289] transition duration-100 border-r-2 border-l-2 hover:border-b-2 hover:border-r-2"
 			>
-				Get Started <span class="group hover:text-[#3549A6]">&#10148;</span>
+				Get Started <Arrow />
 			</a>
 		</section>
 		<aside>
