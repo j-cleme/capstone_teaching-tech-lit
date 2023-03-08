@@ -19,7 +19,7 @@
 		</aside>
 	</section>
 	<hr class=" w-4/5 m-auto ">
-	<section class=" p-8 flex flex-wrap">
+	<section class=" p-8 flex flex-wrap justify-center items-center">
 		<section class=" mr-14">
 			<h2 class="text-4xl text-slate-800 font-semibold">
 				Taskbars
@@ -28,10 +28,16 @@
 				Almost all devices have a top and/or bottom bar, these allow you to access things you need often quickly and easily.
 			</p>
 		</section>
-		<section>
-			<img src="assets/devices/MacOS_desktop.jpg" alt="MacOS desktop" class=" m-auto ">
-			<p class="text-base text-slate-600 w-[50ch]">
+		<section class="mx-4 border-r px-4">
+			<img src="assets/devices/MacOS_desktop.jpg" alt="MacOS desktop" class=" m-auto mb-4">
+			<p class="text-base text-slate-600 w-[55ch] text-center">
 				For MacOS there is both a top and bottom bar, the top bar is a menu and the bottom bar is used to hold your computer's apps.
+			</p>
+		</section>
+		<section class="mx-4 px-4">
+			<img src="assets/devices/windows_desktop.png" alt="Windows desktop" class=" m-auto mb-4">
+			<p class="text-base text-slate-600 w-[55ch] text-center">
+				Windows only has a bottom bar that holds your open and most used apps as well as the start button.
 			</p>
 		</section>
 	</section>
