@@ -17,7 +17,7 @@
 
 </style>
 <main>
-	<section class="flex items-center justify-center gap-x-10 p-8 lg:h-[40vh] my-10" role="banner">
+	<section class="flex items-center justify-center gap-x-10 p-8 my-10" role="banner">
 		<section class=" p-8">
 			<h1 class="text-6xl text-slate-800 font-semibold">
 				Lesson 1 <span class="text-[#3549A6]">-</span> Devices
@@ -27,11 +27,11 @@
 				Let's explore them.
 			</p>
 		</section>
-		<img src="assets/devices/devices.svg" alt="Devices Hero Image" class="lg:max-w-none lg:max-h-none">
+		<img src="assets/devices/devices.svg" alt="Devices Hero Image" class="">
 
 	</section>
 	<hr class=" w-4/5 m-auto ">
-	<section class=" p-8 flex flex-row justify-center items-center">
+	<section class=" p-8 flex flex-row justify-center items-center w-100">
 		<section class=" mr-12">
 			<h2 class="text-4xl text-slate-800 font-semibold">
 				Taskbars
@@ -41,17 +41,13 @@
 			</p>
 		</section>
 		<section class="border-r flex flex-col pr-8 items-center">
-			<Lightbox description="MacOS Desktop">
 				<img src="assets/devices/MacOS_desktop.jpg" alt="MacOS desktop" class=" m-auto mb-4 w-100 h-100">
-			</Lightbox>
 			<p class="text-base text-slate-600 w-[55ch] text-center">
 				For MacOS there is both a top and bottom bar, the top bar is a menu and the bottom bar is used to hold your computer's apps.
 			</p>
 		</section>
 		<section class="ml-8 flex flex-col items-center">
-			<Lightbox description="Windows 10 Desktop">
-				<img src="assets/devices/windows_desktop.png" alt="Windows desktop" class=" m-auto mb-4">
-			</Lightbox>			
+				<img src="assets/devices/windows_desktop.png" alt="Windows desktop" class=" m-auto mb-4">		
 			<p class="text-base text-slate-600 w-[55ch] text-center">
 				Windows only has a bottom bar that holds your open and most used apps as well as the start button.
 			</p>

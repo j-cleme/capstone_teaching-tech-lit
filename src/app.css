@@ -20,12 +20,7 @@
   }
 
   main{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: auto;
-    justify-items: center;
-    width: 85%;
+
   }
 
 }
