@@ -31,7 +31,7 @@
 
 	</section>
 	<hr class=" w-4/5 m-auto ">
-	<section class=" p-8 flex flex-row justify-center items-center w-100">
+	<section class=" p-8 flex flex-row justify-center items-center">
 		<section class=" mr-12">
 			<h2 class="text-4xl text-slate-800 font-semibold">
 				Taskbars
@@ -41,7 +41,7 @@
 			</p>
 		</section>
 		<section class="border-r flex flex-col pr-8 items-center">
-				<img src="assets/devices/MacOS_desktop.jpg" alt="MacOS desktop" class=" m-auto mb-4 w-100 h-100">
+				<img src="assets/devices/MacOS_desktop.jpg" alt="MacOS desktop" class=" m-auto mb-4">
 			<p class="text-base text-slate-600 w-[55ch] text-center">
 				For MacOS there is both a top and bottom bar, the top bar is a menu and the bottom bar is used to hold your computer's apps.
 			</p>
