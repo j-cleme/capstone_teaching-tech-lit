@@ -41,15 +41,37 @@
 			</p>
 		</section>
 		<section class="border-r flex flex-col pr-8 items-center">
+			<Lightbox>
 				<img src="assets/devices/MacOS_desktop.jpg" alt="MacOS desktop" class=" m-auto mb-4">
+			</Lightbox>
 			<p class="text-base text-slate-600 w-[55ch] text-center">
 				For MacOS there is both a top and bottom bar, the top bar is a menu and the bottom bar is used to hold your computer's apps.
 			</p>
 		</section>
 		<section class="ml-8 flex flex-col items-center">
-				<img src="assets/devices/windows_desktop.png" alt="Windows desktop" class=" m-auto mb-4">		
+			<Lightbox>
+				<img src="assets/devices/windows_desktop.png" alt="Windows desktop" class=" m-auto mb-4">
+			</Lightbox>					
 			<p class="text-base text-slate-600 w-[55ch] text-center">
 				Windows only has a bottom bar that holds your open and most used apps as well as the start button.
+			</p>
+		</section>
+	</section>
+	<hr class=" w-4/5 m-auto ">
+	<section class=" p-8 flex flex-row">
+		<div>
+			<img src="assets/devices/apple_logo.png" alt="Apple logo" class="">
+		</div>
+		<div>
+			<img src="assets/devices/windows_logo.png" alt="">
+		</div>
+		<section>
+			<h2 class="text-4xl text-slate-800 font-semibold">
+				Start Buttons
+			</h2>
+			<p class="text-base text-slate-600 w-[50ch] pt-2 ">
+				A start button can be used to search a device for programs or files, its look and location
+			differ depending on device.
 			</p>
 		</section>
 	</section>
