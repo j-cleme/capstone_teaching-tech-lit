@@ -16,9 +16,9 @@
 
 
 </style>
-<main>
-	<section class="flex items-center justify-center gap-x-10 p-8 my-10" role="banner">
-		<section class=" p-8">
+<main class="flex flex-col px-16 m-auto">
+	<section class="flex items-center gap-x-10 p-8 my-10" role="banner">
+		<section class="">
 			<h1 class="text-6xl text-slate-800 font-semibold">
 				Lesson 1 <span class="text-[#3549A6]">-</span> Devices
 			</h1>
@@ -31,7 +31,7 @@
 
 	</section>
 	<hr class=" w-4/5 m-auto ">
-	<section class=" p-8 flex flex-row justify-center items-center">
+	<section class=" p-8 flex flex-row items-center">
 		<section class=" mr-12">
 			<h2 class="text-4xl text-slate-800 font-semibold">
 				Taskbars
@@ -58,22 +58,29 @@
 		</section>
 	</section>
 	<hr class=" w-4/5 m-auto ">
-	<section class=" p-8 flex flex-row">
-		<div>
-			<img src="assets/devices/apple_logo.png" alt="Apple logo" class="">
-		</div>
-		<div>
-			<img src="assets/devices/windows_logo.png" alt="">
-		</div>
-		<section>
+	<section class=" p-8 flex flex-row-reverse items-center">
+		<section class="ml-12">
 			<h2 class="text-4xl text-slate-800 font-semibold">
 				Start Buttons
 			</h2>
 			<p class="text-base text-slate-600 w-[50ch] pt-2 ">
-				A start button can be used to search a device for programs or files, its look and location
+				A start button can be used to search a device for programs or files, its look and <span class="text-[#ec598b]">location</span>
 			differ depending on device.
 			</p>
 		</section>
+		<div class="flex flex-col justify-center items-center border-l">
+			<img src="assets/devices/apple_logo.png" alt="Apple logo" class="max-w-[50%] h-auto mb-4">
+			<p class="text-base text-slate-600 w-[55ch] text-center">
+				Located - <span class="text-[#ec598b]">Top Left</span>
+			</p>
+		</div>
+		<div class="flex flex-col justify-center items-center">
+			<img src="assets/devices/windows_logo.png" alt="" class="max-w-[50%] h-auto mb-4">
+			<p class="text-base text-slate-600 w-[55ch] text-center">
+				Located - <span class="text-[#ec598b]">Bottom Left</span> or <span class="text-[#ec598b]"> Center</span>
+			</p>
+		</div>
+		
 	</section>
 </main>
 
