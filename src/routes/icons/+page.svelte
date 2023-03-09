@@ -18,7 +18,7 @@
 </svelte:head>
 
 <main>
-	<section class="flex flex-wrap justify-center items-center gap-x-10 p-8 border-2 rounded-lg w-fit
+	<section class="flex flex-wrap justify-center items-center gap-x-10 p-8 w-fit
 	m-auto" role="banner">
 		<section class="rounded p-8">
 			<h1 class="text-6xl text-slate-800 font-semibold">
@@ -33,26 +33,87 @@
 			<img src="assets/icons/icons.svg" alt="Icon Hero Image">
 		</aside>
 	</section>
+	<hr>
+	<section class=" flex flex-row p-8 m-auto">
+		<section class="lg:max-w-[45ch] p-4 mr-8 pr-8">
+			<h1 class=" text-3xl text-slate-800 font-semibold ">
+				Window <span class="text-[#ec598b]">Action</span> Buttons
+			</h1>
+			<p class=" pt-2 text-base text-slate-600 mb-3.5 ">
+				In the top left or right corner of any program there will likely be three icons.
+			</p>
+		</section>
+		<section role="contentinfo" class="flex flex-wrap justify-center items-center ">
+			<div class=" p-4 flex flex-col h-full border-r">
+				<!-- <X size={70} enable-background={false}/> -->
+				<h3 class=" text-xl text-slate-800">Close</h3>
+				<p class="text-slate-600">
+					This will <span class="text-[#ec598b]">close</span> the program.
+				</p>
+			</div>
+			<div class=" p-4 flex flex-col border-r h-full">
+				<h3 class=" text-xl text-slate-800">Maximize</h3>
+				<p class="text-slate-600 lg:max-w-[28ch]">
+					This will make the window <span class="text-[#ec598b]">maximize</span> or return to its normal state.
+				</p>
+			</div>
+			<div class=" p-4 flex flex-col h-full ">
+				<h3 class=" text-xl text-slate-800">Minimize</h3>
+				<p class="text-slate-600 lg:max-w-[28ch]">
+					This will <span class="text-[#ec598b]">minimize</span> the program.
+				</p>
+			</div>
+		</section>
 
-	<section class=" flex flex-col p-8 border-2 rounded-lg m-auto text-center w-fit ">
-		<h1 class=" text-5xl text-slate-800 font-semibold ">
-			Window Control Buttons
-		</h1>
-		<p class=" pt-3.5 text-xl text-slate-600 mb-3.5 ">
-			In the top left or right corner of any program there will likely be three icons
-		</p>
-		<section role="contentinfo" class=" flex flex-wrap justify-center items-center ">
-			<div class=" w-[150px] h-[150px] p-4 border rounded-lg m-auto flex flex-col justify-center items-center">
-				<X size="64"/>
-				<h3 class=" text-slate-600 text-3xl">Close</h3>
+	</section>
+	<hr>
+	<section class="flex flex-row p-8 m-auto">
+		<section class="lg:max-w-[45ch] mr-8 pr-8"role="contentinfo"> 
+			<h1 class=" text-3xl text-slate-800 font-semibold ">
+				Cursors
+			</h1>
+			<p class=" pt-2 text-base text-slate-600 mb-3.5 ">
+				The cursor is the icon that moves around the screen with your mouse or trackpad. It has many different icons that each mean something different.
+			</p>
+		</section>
+
+		<section role="contentinfo" class="grid grid-cols-3">
+			<div class="px-4 pb-4 flex flex-col h-full border-r border-b">
+				<!-- <X size={70} enable-background={false}/> -->
+				<h3 class=" text-xl text-slate-800">Cursor Arrow</h3>
+				<p class="text-slate-600">
+					This is the default cursor icon
+				</p>
 			</div>
-			<div class=" w-[150px] h-[150px] p-4 border rounded-lg m-auto flex flex-col justify-center items-center">
-				<Maximize size="64" class="responsive" />
-				<h3 class=" text-slate-600 text-3xl">Maximize</h3>
+			<div class="px-4 pb-4 flex flex-col border-r border-b h-full">
+				<h3 class=" text-xl text-slate-800">Pointer</h3>
+				<p class="text-slate-600 lg:max-w-[28ch]">
+					This looks like a little hand pointing its finger and usually denotes an option to select
+				</p>
 			</div>
-			<div class=" w-[150px] h-[150px] p-4 border rounded-lg m-auto flex flex-col justify-center items-center">
-				<Minimize size="64" class="responsive" />
-				<h3 class=" text-slate-600 text-3xl">Minimize</h3>
+			<div class="px-4 pb-4 flex flex-col h-full border-b">
+				<h3 class=" text-xl text-slate-800">Type</h3>
+				<p class="text-slate-600 lg:max-w-[28ch]">
+					This icon means this space is for typing
+				</p>
+			</div>
+			<div class=" p-4 flex flex-col h-full border-r">
+				<h3 class=" text-xl text-slate-800">Hand / Grab</h3>
+				<p class="text-slate-600 lg:max-w-[28ch]">
+					This allows you to grab by clicking and move things around
+				</p>
+			</div>
+			<div class=" p-4 flex flex-col h-full border-r">
+				<h3 class=" text-xl text-slate-800">Resize</h3>
+				<p class="text-slate-600 lg:max-w-[28ch]">
+					Arrows going in both directions in any orientation will allow you to resize an object like a window or image
+				</p>
+			</div>
+			<div class=" p-4 flex flex-col h-full ">
+				<h3 class=" text-xl text-slate-800">Move</h3>
+				<p class="text-slate-600 lg:max-w-[28ch]">
+					This allows you to move things around on a page
+				</p>
 			</div>
 		</section>
 	</section>
