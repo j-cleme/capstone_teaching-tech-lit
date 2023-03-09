@@ -18,16 +18,8 @@
 </svelte:head>
 
 <main>
-<<<<<<< HEAD
 	<section class="flex flex-wrap justify-center items-center gap-x-10 p-8 w-fit
 	m-auto" role="banner">
-=======
-	<section
-		class="flex flex-wrap justify-center items-center gap-x-10 p-8 border-2 rounded-lg w-fit
-	m-auto"
-		role="banner"
-	>
->>>>>>> aa8c660e07b42b8788de36a2fb34d5a524f2baed
 		<section class="rounded p-8">
 			<h1 class="text-6xl text-slate-800 font-semibold">
 				Lesson 2 <span class="text-[#3549A6]">-</span> Icons
@@ -73,7 +65,6 @@
 			</div>
 		</section>
 
-<<<<<<< HEAD
 	</section>
 	<hr>
 	<section class="flex flex-row p-8 m-auto">
@@ -123,31 +114,6 @@
 				<p class="text-slate-600 lg:max-w-[28ch]">
 					This allows you to move things around on a page
 				</p>
-=======
-	<section class=" flex flex-col p-8 border-2 rounded-lg m-auto text-center w-fit ">
-		<h1 class=" text-5xl text-slate-800 font-semibold ">Window Control Buttons</h1>
-		<p class=" pt-3.5 text-xl text-slate-600 mb-3.5 ">
-			In the top left or right corner of any program there will likely be three icons
-		</p>
-		<section role="contentinfo" class=" flex flex-wrap justify-center items-center ">
-			<div
-				class=" w-[150px] h-[150px] p-4 border rounded-lg m-auto flex flex-col justify-center items-center"
-			>
-				<X size="64" />
-				<h3 class=" text-slate-600 text-3xl">Close</h3>
-			</div>
-			<div
-				class=" w-[150px] h-[150px] p-4 border rounded-lg m-auto flex flex-col justify-center items-center"
-			>
-				<Maximize size="64" class="responsive" />
-				<h3 class=" text-slate-600 text-3xl">Maximize</h3>
-			</div>
-			<div
-				class=" w-[150px] h-[150px] p-4 border rounded-lg m-auto flex flex-col justify-center items-center"
-			>
-				<Minimize size="64" class="responsive" />
-				<h3 class=" text-slate-600 text-3xl">Minimize</h3>
->>>>>>> aa8c660e07b42b8788de36a2fb34d5a524f2baed
 			</div>
 		</section>
 	</section>
