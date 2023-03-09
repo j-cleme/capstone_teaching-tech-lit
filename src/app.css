@@ -19,10 +19,4 @@
     @apply selection:bg-[#3549A6] selection:text-white
   }
 
-  .svelte-lightbox-thumbnai{
-    max-width: none;
-    width: 100%;
-    height: 100%;
-  }
-
 }
