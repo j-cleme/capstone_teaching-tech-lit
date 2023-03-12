@@ -28,21 +28,13 @@
 			/>
 		</h1>
 	</a>
-	<a
-		class="group px-2 py-2 min-w-max border rounded-3xl bg-[#3549A6] text-white {navVisibleState
-			? ''
-			: 'hidden md:inline'}"
-		href="/"
+	<a class="group px-2 py-2 min-w-max {navVisibleState ? '' : 'hidden md:inline'}" href="/"
 		>Home
 		<span
 			class="block bg-[#3549A6] max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5"
 		/>
 	</a>
-	<a
-		class="group px-2 py-2 min-w-max border rounded-3xl bg-[#3549A6] text-white flex flex-row justify-center items-center {navVisibleState
-			? ''
-			: 'hidden md:inline'}"
-		href="/devices"
+	<a class="group px-2 py-2 min-w-max {navVisibleState ? '' : 'hidden md:inline'}" href="/devices"
 		>Lesson 1 <span class="inline-block stroke-red-600"
 			><XCircle size={indicatorIconSize} color="stroke-red-600" />
 			<!-- <CheckCircle2 size={14} color="stroke-emerald-800"  /> -->
