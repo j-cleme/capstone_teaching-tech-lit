@@ -1,10 +1,16 @@
 <script lang="ts">
 	import '../app.css';
 	import { CheckCircle2, Menu, XCircle } from 'lucide-svelte';
+	import { Page } from '@sveltejs/kit';
+	import { page } from '$app/stores';
 
 	const indicatorIconSize = 20;
 
 	let navVisibleState: Boolean = false;
+
+	function currentPage(): void {
+		$page.route;
+	}
 
 	function toggleMobileNav(): void {
 		navVisibleState = navVisibleState ? false : true;
