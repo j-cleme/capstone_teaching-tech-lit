@@ -73,6 +73,31 @@
 			</p>
 		</div>
 	</section>
+	<hr class=" w-4/5 m-auto " />
+	<section class=" p-8 flex flex-row items-center">
+		<section class=" mr-12">
+			<h2 class="text-4xl text-slate-800 font-semibold">File Explorers</h2>
+			<p class="text-base text-slate-600 w-[50ch] pt-2 ">
+				The file explorer is based on folders and files. Folders can hold your files to keep them organized and find them easily. There are some default folders such as pictures, documents, and downloads as well as folders you can make yourself. 
+			</p>
+		</section>
+		<section class="border-r flex flex-col pr-8 items-center justify-center">
+			<Lightbox>
+				<img src="assets/devices/Finder.png" alt="MacOS Finder" class=" m-auto mb-4" />
+			</Lightbox>
+			<p class="text-base text-slate-600 w-[55ch] text-center">
+				MacOS users have a File Explorer called Finder.
+			</p>
+		</section>
+		<section class="ml-8 flex flex-col items-center">
+			<Lightbox>
+				<img src="assets/devices/File_Explorer.png" alt="Windows desktop" class=" m-auto mb-4 border" />
+			</Lightbox>
+			<p class="text-base text-slate-600 w-[55ch] text-center">
+				Windows users have a File Explorer called Windows File Explorer.
+			</p>
+		</section>
+	</section>
 	<section class="flex items-center justify-center my-5">
 		<a
 			href="/icons"

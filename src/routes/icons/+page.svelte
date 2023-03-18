@@ -78,36 +78,52 @@
 		</section>
 
 		<section role="contentinfo" class="grid grid-cols-3">
-			<div class="px-4 pb-4 flex flex-col h-full border-r border-b">
+			<div class="px-4 pb-4 flex flex-wrap h-full border-r border-b items-center">
 				<!-- <X size={70} enable-background={false}/> -->
-				<h3 class=" text-xl text-slate-800">Cursor Arrow</h3>
+				<MousePointer size={70}/>
+				<div class="flex flex-col">
+					<h3 class=" text-xl text-slate-800">Cursor Arrow</h3>
 				<p class="text-slate-600">
 					This is the default cursor icon
 				</p>
+				</div>
 			</div>
-			<div class="px-4 pb-4 flex flex-col border-r border-b h-full">
+			<div class="px-4 pb-4 flex flex-wrap items-center border-r border-b h-full">
+				<Pointer size={70}/>
+				<div class="flex flex-col">
 				<h3 class=" text-xl text-slate-800">Pointer</h3>
 				<p class="text-slate-600 lg:max-w-[28ch]">
 					This looks like a little hand pointing its finger and usually denotes an option to select
 				</p>
+				</div>
 			</div>
-			<div class="px-4 pb-4 flex flex-col h-full border-b">
-				<h3 class=" text-xl text-slate-800">Type</h3>
+			<div class="px-4 pb-4 flex flex-wrap items-center h-full border-b">
+				<TextCursor size={70}/>
+				<div class="flex flex-col">
+					<h3 class=" text-xl text-slate-800">Type</h3>
 				<p class="text-slate-600 lg:max-w-[28ch]">
 					This icon means this space is for typing
 				</p>
+				</div>
 			</div>
-			<div class=" p-4 flex flex-col h-full border-r">
-				<h3 class=" text-xl text-slate-800">Hand / Grab</h3>
+			<div class=" p-4 flex flex-wrap items-center h-full border-r">
+				<Grab size={70}/>
+				<div class="flex flex-col">
+					<h3 class=" text-xl text-slate-800">Hand / Grab</h3>
 				<p class="text-slate-600 lg:max-w-[28ch]">
 					This allows you to grab by clicking and move things around
 				</p>
+				</div>
 			</div>
-			<div class=" p-4 flex flex-col h-full border-r">
-				<h3 class=" text-xl text-slate-800">Resize</h3>
-				<p class="text-slate-600 lg:max-w-[28ch]">
-					Arrows going in both directions in any orientation will allow you to resize an object like a window or image
-				</p>
+			<div class=" p-4 flex flex-wrap items-center h-full border-r">
+				<MoveHorizontal size={70}/>
+				
+				<div class="flex flex-col">
+					<h3 class=" text-xl text-slate-800">Resize</h3>
+					<p class="text-slate-600 lg:max-w-[28ch]">
+						Arrows going in both directions in any orientation will allow you to resize an object
+					</p>
+				</div>
 			</div>
 			<div class=" p-4 flex flex-col h-full ">
 				<h3 class=" text-xl text-slate-800">Move</h3>
