@@ -21,9 +21,10 @@
 			</p>
 			<a
 				href="/devices"
-				class="group inline-flex whitespace-nowrap bg-[#ec598b] text-xl font-semibold text-white py-2 pr-2 pl-2.5 items-center justify-center rounded border-b-4 border-[#d76289] transition duration-100 border-r-2 border-l-2 hover:border-b-2 hover:border-r-2"
+				class="group inline-flex whitespace-nowrap rounded-md bg-[#ec598a] text-xl font-semibold text-white py-2 px-3 -translate-x-1 -translate-y-1 hover:translate-x-0 hover:translate-y-0 items-center justify-center transition duration-100"
 			>
-				Get Started <Arrow />
+				Get Started <span class="px-2"><Arrow /></span>
+				<!-- <span class="absolute -z-10 w-full h-full bg-black" /> -->
 			</a>
 		</section>
 		<aside>
