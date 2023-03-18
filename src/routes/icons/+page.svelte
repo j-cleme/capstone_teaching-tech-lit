@@ -68,8 +68,8 @@
 
 	</section>
 	<hr>
-	<section class="flex flex-row p-8 items-center justify-center">
-		<section class="lg:max-w-[45ch] mr-8 pr-8"role="contentinfo"> 
+	<section class="flex flex-row p-8 items-center">
+		<section class="lg:max-w-[45ch] mr-8 p-4"role="contentinfo"> 
 			<h1 class=" text-3xl text-slate-800 font-semibold ">
 				Cursors
 			</h1>
@@ -136,6 +136,48 @@
 				</div>
 			</div>
 		</section>
+	</section>
+	<hr>
+	<section class=" flex flex-row p-8 m-auto">
+		<section class="lg:max-w-[45ch] p-4 mr-8 pr-8">
+			<h1 class=" text-3xl text-slate-800 font-semibold ">
+				Additonal Icons
+			</h1>
+			<p class=" pt-2 text-base text-slate-600 mb-3.5 ">
+				These are some addtional icons that you may encounter across devices.
+			</p>
+		</section>
+		<section role="contentinfo" class="flex flex-wrap justify-center items-center ">
+			<div class=" p-4 flex flex-wrap items-center h-full border-r">
+				<Settings size={70}/>
+				<div class="flex flex-col ml-3">
+					<h3 class=" text-xl text-slate-800">Gear</h3>
+				<p class="text-slate-600 lg:max-w-[28ch]">
+					Gear icons are used to denote settings in programs and devices
+				</p>
+				</div>
+			</div>
+			<div class=" p-4 flex flex-wrap items-center h-full w-fit border-r">
+				<img src="assets/icons/Edge_logo.png" alt="Edge Logo" class="max-w-[80px] h-auto">
+				<div class="flex flex-col ml-3">
+					<h3 class=" text-xl text-slate-800">App Icons</h3>
+				<p class="text-slate-600 lg:max-w-[28ch]">
+					App icons are unique to each app and are used to start the program
+				</p>
+				</div>
+			</div>
+			<div class=" p-4 flex flex-wrap items-center h-full w-fit">
+				<img src="assets/icons/logo.png" alt="Edge Logo" class="max-w-[100px] h-auto">
+				<div class="flex flex-col ml-3">
+					<h3 class=" text-xl text-slate-800">Site Logo</h3>
+				<p class="text-slate-600 lg:max-w-[28ch]">
+					Clicking on the logo for a website will take you to the home page
+				</p>
+				</div>
+			</div>
+			
+		</section>
+
 	</section>
 </main>
 <section class="flex items-center justify-center my-5">
