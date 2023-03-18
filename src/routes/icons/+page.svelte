@@ -9,7 +9,8 @@
 		Maximize,
 		Minimize,
 		X,
-		Mouse
+		Mouse,
+		Move
 	} from 'lucide-svelte';
 </script>
 
@@ -67,7 +68,7 @@
 
 	</section>
 	<hr>
-	<section class="flex flex-row p-8 m-auto">
+	<section class="flex flex-row p-8 items-center justify-center">
 		<section class="lg:max-w-[45ch] mr-8 pr-8"role="contentinfo"> 
 			<h1 class=" text-3xl text-slate-800 font-semibold ">
 				Cursors
@@ -81,7 +82,7 @@
 			<div class="px-4 pb-4 flex flex-wrap h-full border-r border-b items-center">
 				<!-- <X size={70} enable-background={false}/> -->
 				<MousePointer size={70}/>
-				<div class="flex flex-col">
+				<div class="flex flex-col ml-3">
 					<h3 class=" text-xl text-slate-800">Cursor Arrow</h3>
 				<p class="text-slate-600">
 					This is the default cursor icon
@@ -90,7 +91,7 @@
 			</div>
 			<div class="px-4 pb-4 flex flex-wrap items-center border-r border-b h-full">
 				<Pointer size={70}/>
-				<div class="flex flex-col">
+				<div class="flex flex-col ml-3">
 				<h3 class=" text-xl text-slate-800">Pointer</h3>
 				<p class="text-slate-600 lg:max-w-[28ch]">
 					This looks like a little hand pointing its finger and usually denotes an option to select
@@ -99,7 +100,7 @@
 			</div>
 			<div class="px-4 pb-4 flex flex-wrap items-center h-full border-b">
 				<TextCursor size={70}/>
-				<div class="flex flex-col">
+				<div class="flex flex-col ml-3">
 					<h3 class=" text-xl text-slate-800">Type</h3>
 				<p class="text-slate-600 lg:max-w-[28ch]">
 					This icon means this space is for typing
@@ -108,7 +109,7 @@
 			</div>
 			<div class=" p-4 flex flex-wrap items-center h-full border-r">
 				<Grab size={70}/>
-				<div class="flex flex-col">
+				<div class="flex flex-col ml-3">
 					<h3 class=" text-xl text-slate-800">Hand / Grab</h3>
 				<p class="text-slate-600 lg:max-w-[28ch]">
 					This allows you to grab by clicking and move things around
@@ -118,18 +119,21 @@
 			<div class=" p-4 flex flex-wrap items-center h-full border-r">
 				<MoveHorizontal size={70}/>
 				
-				<div class="flex flex-col">
+				<div class="flex flex-col ml-3">
 					<h3 class=" text-xl text-slate-800">Resize</h3>
 					<p class="text-slate-600 lg:max-w-[28ch]">
 						Arrows going in both directions in any orientation will allow you to resize an object
 					</p>
 				</div>
 			</div>
-			<div class=" p-4 flex flex-col h-full ">
-				<h3 class=" text-xl text-slate-800">Move</h3>
+			<div class=" p-4 flex flex-wrap items-center h-full ">
+				<Move size={70}/>
+				<div class="flex flex-col ml-3">
+					<h3 class=" text-xl text-slate-800">Move</h3>
 				<p class="text-slate-600 lg:max-w-[28ch]">
 					This allows you to move things around on a page
 				</p>
+				</div>
 			</div>
 		</section>
 	</section>
