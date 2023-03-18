@@ -18,7 +18,7 @@
 	<title>Lesson 2 - Icons</title>
 </svelte:head>
 
-<main>
+<main class="w-[95%]">
 	<section class="flex flex-wrap justify-center items-center gap-x-10 p-8 w-fit
 	m-auto" role="banner">
 		<section class="rounded p-8">
@@ -139,7 +139,7 @@
 	</section>
 	<hr>
 	<section class=" flex flex-row p-8 m-auto">
-		<section class="lg:max-w-[45ch] p-4 mr-8 pr-8">
+		<section class="lg:max-w-[45ch] p-4">
 			<h1 class=" text-3xl text-slate-800 font-semibold ">
 				Additonal Icons
 			</h1>
@@ -147,10 +147,10 @@
 				These are some addtional icons that you may encounter across devices.
 			</p>
 		</section>
-		<section role="contentinfo" class="flex flex-wrap justify-center items-center ">
+		<section role="contentinfo" class="flex flex-wrap items-center ">
 			<div class=" p-4 flex flex-wrap items-center h-full border-r">
 				<Settings size={70}/>
-				<div class="flex flex-col ml-3">
+				<div class="flex flex-col">
 					<h3 class=" text-xl text-slate-800">Gear</h3>
 				<p class="text-slate-600 lg:max-w-[28ch]">
 					Gear icons are used to denote settings in programs and devices
