@@ -66,7 +66,7 @@
 					<Maximize size={45} enable-background={false}/>
 					<div class="flex flex-col ml-2">
 						<h3 class=" text-xl text-slate-800">Maximize</h3>
-						<p class="text-slate-600 md:max-w-[20ch]">
+						<p class="text-slate-600 md:max-w-[45ch]">
 							This will make the window <span class="text-[#ec598b]">maximize</span> or return to its normal state.
 						</p>
 					</div>
@@ -76,7 +76,7 @@
 					<Minimize size={45} enable-background={false}/>
 					<div class="flex flex-col ml-2">
 						<h3 class=" text-xl text-slate-800">Minimize</h3>
-						<p class="text-slate-600 md:max-w-[20ch]">
+						<p class="text-slate-600 md:max-w-[45ch]">
 							This will <span class="text-[#ec598b]">minimize</span> the program.
 						</p>
 					</div>
@@ -153,6 +153,7 @@
 				</div>
 			</div>
 		</div>
+		<!-- End of Cursors -->
 	</div>
 </main>
 	<!-- <section class=" flex flex-row p-8 m-auto">
