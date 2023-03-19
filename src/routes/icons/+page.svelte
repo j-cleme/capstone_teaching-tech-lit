@@ -19,10 +19,10 @@
 	<title>Lesson 2 - Icons</title>
 </svelte:head>
 
-<main class="flex flex-col justify-center justify-items-center m-auto">
-	<div class="h-screen flex flex-col items-center justify-items-center justify-center">
-		<div class="flex flex-wrap items-center mb-20">
-			<section class="">
+<main class="flex flex-col justify-center m-auto">
+	<div class="h-[91vh] flex flex-col items-center justify-items-center justify-center w-full">
+		<div class="flex flex-col md:flex-row md:items-center mb-20">
+			<div class="">
 				<p class=" tracking-wide text-[#ec598b] text-2xl">Lesson 2</p>
 				<h1 class="text-6xl text-slate-800 font-semibold">
 					Icons<span class="text-[#3549A6]">.</span>
@@ -31,14 +31,57 @@
 					A lesson about the most common icons you'll encounter. Some of these appeared in your
 					pamphlet and will be reviewed.
 				</p>
-			</section>
+			</div>
 			<img src="assets/icons/icons.svg" alt="Icon Hero Image" class="max-w-[30rem] max-h-[30rem]"/>
 		</div>
+		<div class="flex flex-col items-center">
 		<p class=" tracking-widest text-2xl text-slate-600 font-light mt-10">GET STARTED</p>
 		<ChevronDown size={50} style="color:rgb(71, 85, 105);"/>
+		</div>
 	</div>
-	<div class="border-t w-full">
-		Hello
+	<div class="border-t w-full flex flex-col">
+		<div class="flex md:flex-row flex-col mt-8">
+			<section class="lg:max-w-[35ch]">
+				<h1 class=" text-3xl text-slate-800 font-semibold ">
+					Window <span class="text-[#ec598b]">Action</span> Buttons
+				</h1>
+				<p class=" pt-2 text-base text-slate-600 mb-3.5 ">
+					In the top left or right corner of any program there will likely be three icons.
+				</p>
+			</section>
+
+			<div class="flex md:flex-row flex-col m-auto">
+				<div class="flex flex-row md:items-center md:border-r px-4">
+					<X size={45} enable-background={false}/>
+					<div class="flex flex-col ml-2">
+						<h3 class=" text-xl text-slate-800">Close</h3>
+					<p class="text-slate-600">
+						This will <span class="text-[#ec598b]">close</span> the program.
+					</p>
+					</div>
+				</div>
+	
+				<div class="flex flex-row md:items-center md:border-r px-4">
+					<Maximize size={45} enable-background={false}/>
+					<div class="flex flex-col ml-2">
+						<h3 class=" text-xl text-slate-800">Maximize</h3>
+						<p class="text-slate-600 md:max-w-[20ch]">
+							This will make the window <span class="text-[#ec598b]">maximize</span> or return to its normal state.
+						</p>
+					</div>
+				</div>
+	
+				<div class="flex flex-row md:items-center px-4">
+					<Minimize size={45} enable-background={false}/>
+					<div class="flex flex-col ml-2">
+						<h3 class=" text-xl text-slate-800">Minimize</h3>
+						<p class="text-slate-600 md:max-w-[20ch]">
+							This will <span class="text-[#ec598b]">minimize</span> the program.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 </main>
 	<!-- <section class=" flex flex-row p-8 m-auto">
