@@ -86,7 +86,7 @@
 		</div>
 		<!-- End of Windows Action Buttons -->
 
-		<div class="flex md:flex-row flex-col mt-8 items-center">
+		<div class="flex lg:flex-row flex-col mt-8 items-center">
 			<section class="md:max-w-[40ch] md:mr-14"role="contentinfo"> 
 				<h1 class=" text-3xl text-slate-800 font-semibold ">
 					Cursors
@@ -96,9 +96,9 @@
 				</p>
 			</section>
 			
-			<div class="md:grid md:grid-cols-3 m-auto">
-				<div class="px-4 pb-4 flex flex-row h-full border-r border-b items-center">
-					<MousePointer size={25}/>
+			<div class="lg:grid lg:grid-cols-3 m-auto">
+				<div class="px-4 pb-4 flex flex-row h-full lg:border-r lg:border-b items-center">
+					<MousePointer size={50}/>
 					<div class="flex flex-col ml-3">
 						<h3 class=" text-xl text-slate-800">Cursor Arrow</h3>
 					<p class="text-slate-600 md:max-w-[45ch]">
@@ -106,7 +106,7 @@
 					</p>
 					</div>
 				</div>
-				<div class="px-4 pb-4 flex flex-row items-center border-r border-b h-full">
+				<div class="px-4 pb-4 flex flex-row items-center lg:border-r lg:border-b h-full">
 					<Pointer size={50}/>
 					<div class="flex flex-col ml-3">
 					<h3 class=" text-xl text-slate-800">Pointer</h3>
@@ -115,8 +115,8 @@
 					</p>
 					</div>
 				</div>
-				<div class="px-4 pb-4 flex flex-row items-center h-full border-b">
-					<TextCursor size={25}/>
+				<div class="px-4 pb-4 flex flex-row items-center h-full lg:border-b">
+					<TextCursor size={50}/>
 					<div class="flex flex-col ml-3">
 						<h3 class=" text-xl text-slate-800">Type</h3>
 					<p class="text-slate-600 md:max-w-[45ch]">
@@ -124,7 +124,7 @@
 					</p>
 					</div>
 				</div>
-				<div class=" p-4 flex flex-row items-center h-full border-r">
+				<div class=" p-4 flex flex-row items-center h-full lg:border-r">
 					<Grab size={50}/>
 					<div class="flex flex-col ml-3">
 						<h3 class=" text-xl text-slate-800">Hand / Grab</h3>
@@ -133,7 +133,7 @@
 					</p>
 					</div>
 				</div>
-				<div class=" p-4 flex flex-row items-center h-full border-r">
+				<div class=" p-4 flex flex-row items-center h-full lg:border-r">
 					<MoveHorizontal size={50}/>	
 					<div class="flex flex-col ml-3">
 						<h3 class=" text-xl text-slate-800">Resize</h3>
