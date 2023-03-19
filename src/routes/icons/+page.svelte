@@ -40,8 +40,9 @@
 		</div>
 	</div>
 	<div class="border-t w-full flex flex-col">
+
 		<div class="flex md:flex-row flex-col mt-8">
-			<section class="lg:max-w-[35ch]">
+			<section class="md:max-w-[40ch]">
 				<h1 class=" text-3xl text-slate-800 font-semibold ">
 					Window <span class="text-[#ec598b]">Action</span> Buttons
 				</h1>
@@ -50,8 +51,8 @@
 				</p>
 			</section>
 
-			<div class="flex md:flex-row flex-col m-auto">
-				<div class="flex flex-row md:items-center md:border-r px-4">
+			<div class="flex md:flex-row flex-col m-auto ">
+				<div class="flex flex-row md:items-center md:border-r md:py-0 py-4 md:px-4">
 					<X size={45} enable-background={false}/>
 					<div class="flex flex-col ml-2">
 						<h3 class=" text-xl text-slate-800">Close</h3>
@@ -61,7 +62,7 @@
 					</div>
 				</div>
 	
-				<div class="flex flex-row md:items-center md:border-r px-4">
+				<div class="flex flex-row md:items-center md:border-r md:px-4 md:py-0 py-4">
 					<Maximize size={45} enable-background={false}/>
 					<div class="flex flex-col ml-2">
 						<h3 class=" text-xl text-slate-800">Maximize</h3>
@@ -71,13 +72,84 @@
 					</div>
 				</div>
 	
-				<div class="flex flex-row md:items-center px-4">
+				<div class="flex flex-row md:items-center md:px-4 md:py-0 py-4">
 					<Minimize size={45} enable-background={false}/>
 					<div class="flex flex-col ml-2">
 						<h3 class=" text-xl text-slate-800">Minimize</h3>
 						<p class="text-slate-600 md:max-w-[20ch]">
 							This will <span class="text-[#ec598b]">minimize</span> the program.
 						</p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<!-- End of Windows Action Buttons -->
+
+		<div class="flex md:flex-row flex-col mt-8">
+			<section class="md:max-w-[40ch]"role="contentinfo"> 
+				<h1 class=" text-3xl text-slate-800 font-semibold ">
+					Cursors
+				</h1>
+				<p class=" pt-2 text-base text-slate-600 mb-3.5 ">
+					The cursor is the icon that moves around the screen with your mouse or trackpad. It has many different icons that each mean something different.
+				</p>
+			</section>
+			
+			<div class="md:grid md:grid-cols-3 m-auto">
+				<div class="px-4 pb-4 flex flex-wrap h-full border-r border-b items-center">
+					<MousePointer size={70}/>
+					<div class="flex flex-col ml-3">
+						<h3 class=" text-xl text-slate-800">Cursor Arrow</h3>
+					<p class="text-slate-600">
+						This is the default cursor icon
+					</p>
+					</div>
+				</div>
+				<div class="px-4 pb-4 flex flex-wrap items-center border-r border-b h-full">
+					<Pointer size={70}/>
+					<div class="flex flex-col ml-3">
+					<h3 class=" text-xl text-slate-800">Pointer</h3>
+					<p class="text-slate-600 lg:max-w-[28ch]">
+						This looks like a little hand pointing its finger and usually denotes an option to select
+					</p>
+					</div>
+				</div>
+				<div class="px-4 pb-4 flex flex-wrap items-center h-full border-b">
+					<TextCursor size={70}/>
+					<div class="flex flex-col ml-3">
+						<h3 class=" text-xl text-slate-800">Type</h3>
+					<p class="text-slate-600 lg:max-w-[28ch]">
+						This icon means this space is for typing
+					</p>
+					</div>
+				</div>
+				<div class=" p-4 flex flex-wrap items-center h-full border-r">
+					<Grab size={70}/>
+					<div class="flex flex-col ml-3">
+						<h3 class=" text-xl text-slate-800">Hand / Grab</h3>
+					<p class="text-slate-600 lg:max-w-[28ch]">
+						This allows you to grab by clicking and move things around
+					</p>
+					</div>
+				</div>
+				<div class=" p-4 flex flex-wrap items-center h-full border-r">
+					<MoveHorizontal size={70}/>
+					
+					<div class="flex flex-col ml-3">
+						<h3 class=" text-xl text-slate-800">Resize</h3>
+						<p class="text-slate-600 lg:max-w-[28ch]">
+							Arrows going in both directions in any orientation will allow you to resize an object
+						</p>
+					</div>
+				</div>
+				<div class=" p-4 flex flex-wrap items-center h-full ">
+					<Move size={70}/>
+					<div class="flex flex-col ml-3">
+						<h3 class=" text-xl text-slate-800">Move</h3>
+					<p class="text-slate-600 lg:max-w-[28ch]">
+						This allows you to move things around on a page
+					</p>
 					</div>
 				</div>
 			</div>
