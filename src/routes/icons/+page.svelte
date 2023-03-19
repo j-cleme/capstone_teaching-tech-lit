@@ -10,7 +10,8 @@
 		Minimize,
 		X,
 		Mouse,
-		Move
+		Move,
+		ChevronDown
 	} from 'lucide-svelte';
 </script>
 
@@ -18,24 +19,29 @@
 	<title>Lesson 2 - Icons</title>
 </svelte:head>
 
-<main class="w-[95%]">
-	<section class="flex flex-wrap justify-center items-center gap-x-10 p-8 w-fit
-	m-auto" role="banner">
-		<section class="rounded p-8">
-			<h1 class="text-6xl text-slate-800 font-semibold">
-				Lesson 2 <span class="text-[#3549A6]">-</span> Icons
-			</h1>
-			<p class="pt-3.5 lg:max-w-[47ch] text-xl text-slate-600 mb-3.5">
-				A lesson about the most common icons you'll encounter. Some of these appeared in your
-				pamphlet and will be reviewed.
-			</p>
-		</section>
-		<aside>
-			<img src="assets/icons/icons.svg" alt="Icon Hero Image" />
-		</aside>
-	</section>
-	<hr>
-	<section class=" flex flex-row p-8 m-auto">
+<main class="flex flex-col justify-center justify-items-center m-auto">
+	<div class="h-screen flex flex-col items-center justify-items-center justify-center">
+		<div class="flex flex-wrap items-center mb-20">
+			<section class="">
+				<p class=" tracking-wide text-[#ec598b] text-2xl">Lesson 2</p>
+				<h1 class="text-6xl text-slate-800 font-semibold">
+					Icons<span class="text-[#3549A6]">.</span>
+				</h1>
+				<p class="pt-3.5 lg:max-w-[47ch] text-xl text-slate-600 mb-3.5">
+					A lesson about the most common icons you'll encounter. Some of these appeared in your
+					pamphlet and will be reviewed.
+				</p>
+			</section>
+			<img src="assets/icons/icons.svg" alt="Icon Hero Image" class="max-w-[30rem] max-h-[30rem]"/>
+		</div>
+		<p class=" tracking-widest text-2xl text-slate-600 font-light mt-10">GET STARTED</p>
+		<ChevronDown size={50} style="color:rgb(71, 85, 105);"/>
+	</div>
+	<div class="border-t w-full">
+		Hello
+	</div>
+</main>
+	<!-- <section class=" flex flex-row p-8 m-auto">
 		<section class="lg:max-w-[45ch] p-4 mr-8 pr-8">
 			<h1 class=" text-3xl text-slate-800 font-semibold ">
 				Window <span class="text-[#ec598b]">Action</span> Buttons
@@ -46,7 +52,7 @@
 		</section>
 		<section role="contentinfo" class="flex flex-wrap justify-center items-center ">
 			<div class=" p-4 flex flex-col h-full border-r">
-				<!-- <X size={70} enable-background={false}/> -->
+				<X size={70} enable-background={false}/>
 				<h3 class=" text-xl text-slate-800">Close</h3>
 				<p class="text-slate-600">
 					This will <span class="text-[#ec598b]">close</span> the program.
@@ -80,7 +86,7 @@
 
 		<section role="contentinfo" class="grid grid-cols-3">
 			<div class="px-4 pb-4 flex flex-wrap h-full border-r border-b items-center">
-				<!-- <X size={70} enable-background={false}/> -->
+				<X size={70} enable-background={false}/>
 				<MousePointer size={70}/>
 				<div class="flex flex-col ml-3">
 					<h3 class=" text-xl text-slate-800">Cursor Arrow</h3>
@@ -178,8 +184,8 @@
 			
 		</section>
 
-	</section>
-</main>
+	</section> -->
+
 <section class="flex items-center justify-center my-5">
 	<a
 		href="/accessibility"
