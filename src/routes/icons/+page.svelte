@@ -154,6 +154,48 @@
 			</div>
 		</div>
 		<!-- End of Cursors -->
+
+		<div class="flex md:flex-row flex-col mt-8">
+			<section class="md:max-w-[40ch]">
+				<h1 class=" text-3xl text-slate-800 font-semibold ">
+					Additonal Icons
+				</h1>
+				<p class=" pt-2 text-base text-slate-600 mb-3.5 ">
+					These are some addtional icons that you may encounter across devices.
+				</p>
+			</section>
+
+			<div class="flex md:flex-row flex-col m-auto ">
+				<div class="flex flex-row md:items-center md:border-r md:py-0 py-4 md:px-4">
+					<Settings size={45}/>
+				<div class="flex flex-col ml-2">
+					<h3 class=" text-xl text-slate-800">Gear</h3>
+				<p class="text-slate-600 lg:max-w-[45ch]">
+					Gear icons are used to denote settings in programs and devices.
+				</p>
+					</div>
+				</div>
+	
+				<div class="flex flex-row items-center md:border-r md:px-4 md:py-0 py-4">
+					<img src="assets/icons/Edge_logo.png" alt="Edge Logo" class="max-w-[50px] h-auto">
+				<div class="flex flex-col ml-2">
+					<h3 class=" text-xl text-slate-800">App Icons</h3>
+				<p class="text-slate-600 lg:max-w-[45ch]">
+					App icons are unique to each app and are used to start the program.
+				</p>
+				</div>
+				</div>
+				<div class="flex flex-row items-center md:px-4 md:py-0 py-4">
+					<img src="assets/icons/logo.png" alt="Edge Logo" class="max-w-[50px] h-auto">
+				<div class="flex flex-col ml-2">
+					<h3 class=" text-xl text-slate-800">Site Logo</h3>
+				<p class="text-slate-600 lg:max-w-[45ch]">
+					Clicking on the logo for a website will take you to the home page.
+				</p>
+				</div>
+				</div>
+			</div>
+		
 	</div>
 </main>
 	<!-- <section class=" flex flex-row p-8 m-auto">
@@ -270,7 +312,7 @@
 		</section>
 		<section role="contentinfo" class="flex flex-wrap items-center ">
 			<div class=" p-4 flex flex-wrap items-center h-full border-r">
-				<Settings size={70}/>
+				<Settings size={50}/>
 				<div class="flex flex-col">
 					<h3 class=" text-xl text-slate-800">Gear</h3>
 				<p class="text-slate-600 lg:max-w-[28ch]">
