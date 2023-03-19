@@ -20,7 +20,7 @@
   }
 
   main{
-    @apply w-[90%] flex flex-col justify-items-center justify-center items-center
+    @apply w-[95%] flex flex-col justify-items-center justify-center items-center
   }
 
 }

@@ -86,8 +86,8 @@
 		</div>
 		<!-- End of Windows Action Buttons -->
 
-		<div class="flex md:flex-row flex-col mt-8">
-			<section class="md:max-w-[40ch]"role="contentinfo"> 
+		<div class="flex md:flex-row flex-col mt-8 items-center">
+			<section class="md:max-w-[40ch] md:mr-14"role="contentinfo"> 
 				<h1 class=" text-3xl text-slate-800 font-semibold ">
 					Cursors
 				</h1>
@@ -97,58 +97,57 @@
 			</section>
 			
 			<div class="md:grid md:grid-cols-3 m-auto">
-				<div class="px-4 pb-4 flex flex-wrap h-full border-r border-b items-center">
-					<MousePointer size={70}/>
+				<div class="px-4 pb-4 flex flex-row h-full border-r border-b items-center">
+					<MousePointer size={25}/>
 					<div class="flex flex-col ml-3">
 						<h3 class=" text-xl text-slate-800">Cursor Arrow</h3>
-					<p class="text-slate-600">
-						This is the default cursor icon
+					<p class="text-slate-600 md:max-w-[45ch]">
+						This is the default cursor icon.
 					</p>
 					</div>
 				</div>
-				<div class="px-4 pb-4 flex flex-wrap items-center border-r border-b h-full">
-					<Pointer size={70}/>
+				<div class="px-4 pb-4 flex flex-row items-center border-r border-b h-full">
+					<Pointer size={50}/>
 					<div class="flex flex-col ml-3">
 					<h3 class=" text-xl text-slate-800">Pointer</h3>
-					<p class="text-slate-600 lg:max-w-[28ch]">
-						This looks like a little hand pointing its finger and usually denotes an option to select
+					<p class="text-slate-600 md:max-w-[45ch]">
+						This looks like a little hand pointing its finger and usually denotes an option to select.
 					</p>
 					</div>
 				</div>
-				<div class="px-4 pb-4 flex flex-wrap items-center h-full border-b">
-					<TextCursor size={70}/>
+				<div class="px-4 pb-4 flex flex-row items-center h-full border-b">
+					<TextCursor size={25}/>
 					<div class="flex flex-col ml-3">
 						<h3 class=" text-xl text-slate-800">Type</h3>
-					<p class="text-slate-600 lg:max-w-[28ch]">
-						This icon means this space is for typing
+					<p class="text-slate-600 md:max-w-[45ch]">
+						This icon means this space is for typing.
 					</p>
 					</div>
 				</div>
-				<div class=" p-4 flex flex-wrap items-center h-full border-r">
-					<Grab size={70}/>
+				<div class=" p-4 flex flex-row items-center h-full border-r">
+					<Grab size={50}/>
 					<div class="flex flex-col ml-3">
 						<h3 class=" text-xl text-slate-800">Hand / Grab</h3>
-					<p class="text-slate-600 lg:max-w-[28ch]">
-						This allows you to grab by clicking and move things around
+					<p class="text-slate-600 md:max-w-[45ch]">
+						This allows you to grab by clicking and move things.
 					</p>
 					</div>
 				</div>
-				<div class=" p-4 flex flex-wrap items-center h-full border-r">
-					<MoveHorizontal size={70}/>
-					
+				<div class=" p-4 flex flex-row items-center h-full border-r">
+					<MoveHorizontal size={50}/>	
 					<div class="flex flex-col ml-3">
 						<h3 class=" text-xl text-slate-800">Resize</h3>
-						<p class="text-slate-600 lg:max-w-[28ch]">
-							Arrows going in both directions in any orientation will allow you to resize an object
+						<p class="text-slate-600 md:max-w-[45ch]">
+							Arrows going in both directions will allow you to resize an object.
 						</p>
 					</div>
 				</div>
-				<div class=" p-4 flex flex-wrap items-center h-full ">
-					<Move size={70}/>
+				<div class=" p-4 flex flex-row items-center h-full ">
+					<Move size={50}/>
 					<div class="flex flex-col ml-3">
 						<h3 class=" text-xl text-slate-800">Move</h3>
-					<p class="text-slate-600 lg:max-w-[28ch]">
-						This allows you to move things around on a page
+					<p class="text-slate-600 md:max-w-[45ch]">
+						This allows you to move things around on a page.
 					</p>
 					</div>
 				</div>
