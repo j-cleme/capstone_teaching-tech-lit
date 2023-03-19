@@ -156,7 +156,7 @@
 		<!-- End of Cursors -->
 
 		<div class="flex md:flex-row flex-col mt-8">
-			<section class="md:max-w-[40ch]">
+			<section class="md:max-w-[40ch] md:mr-14">
 				<h1 class=" text-3xl text-slate-800 font-semibold ">
 					Additonal Icons
 				</h1>
