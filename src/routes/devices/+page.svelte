@@ -9,7 +9,7 @@
 </svelte:head>
 <main class="flex flex-col justify-center m-auto">
 	<div class="h-[91vh] flex flex-col items-center justify-items-center justify-center w-full">
-		<div class="flex flex-col md:flex-row md:items-center mb-20">
+		<div class="flex flex-col lg:flex-row md:items-center mb-20">
 			<div class="mr-16">
 				<p class=" tracking-wide text-[#ec598b] text-2xl">Lesson 1</p>
 				<h1 class="text-6xl text-slate-800 font-semibold">
@@ -20,7 +20,7 @@
 				</p>
 			</div>
 			<!-- svelte-ignore a11y-img-redundant-alt -->
-			<img src="assets/devices/devices.svg" alt="Devices Hero Image" class="max-w-[30rem] max-h-[30rem]"/>
+			<img src="assets/devices/devices.svg" alt="Devices Hero Image" class="max-w-[35rem] max-h-[35rem]"/>
 		</div>
 		<div class="flex flex-col items-center">
 		<p class=" tracking-widest text-2xl text-slate-600 font-light mt-10">GET STARTED</p>

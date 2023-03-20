@@ -1,12 +1,30 @@
 <svelte:head>
 	<title>Lesson 3 - Accessibility</title>
 </svelte:head>
-<div class="bg-[#3549A6]">
-	<div class="content-area">
-		<h1 class="text-white" id="Icons">Lesson 3 - Accessibility</h1>
+<script>
+	import {ChevronDown} from 'lucide-svelte';
+</script>
+
+<main class="flex flex-col justify-center m-auto">
+	<div class="h-[91vh] flex flex-col items-center justify-items-center justify-center w-full">
+		<div class="flex flex-col lg:flex-row md:items-center">
+			<div class="mr-16">
+				<p class=" tracking-wide text-[#ec598b] text-2xl">Lesson 3</p>
+				<h1 class="text-6xl text-slate-800 font-semibold">
+					Accessibility<span class="text-[#3549A6]">.</span>
+				</h1>
+				<p class="pt-3.5 lg:max-w-[47ch] text-xl text-slate-600 mb-3.5">
+					Blurb about Accessibility
+				</p>
+			</div>
+			<!-- svelte-ignore a11y-img-redundant-alt -->
+			<img src="assets/accessibility/accessibility.svg" alt="Accessibility Hero Image" class="max-w-[35rem] max-h-[35rem]"/>
+		</div>
+		<div class="flex flex-col items-center">
+		<p class=" tracking-widest text-2xl text-slate-600 font-light mt-10">GET STARTED</p>
+		<ChevronDown size={50} style="color:rgb(71, 85, 105);"/>
+		</div>
 	</div>
-</div>
-<main>
 	<p>
 		Blurb about the options with accessibility and what it is called(ease of access in settings on
 		windows)
