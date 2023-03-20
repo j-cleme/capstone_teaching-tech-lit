@@ -1,5 +1,5 @@
 <script>
-	import {ChevronDown, ArrowLeftRight, Bookmark, RotateCw} from 'lucide-svelte';
+	import {ChevronDown, ArrowLeftRight, Bookmark, RotateCw, Menu} from 'lucide-svelte';
 </script>
 <svelte:head>
 	<title>Lesson 4 - Broswers</title>
@@ -25,6 +25,45 @@
 		<ChevronDown size={50} style="color:rgb(71, 85, 105);"/>
 		</div>
 	</div>
+	<div class="md:flex md:flex-row w-full content-center items-center">
+		<div class="w-2/6 p-4">
+			<h1 class=" text-3xl text-slate-800 font-semibold ">
+				Navigation Menu
+			</h1>
+			<p class="text-slate-600 max-w-[40ch]" >
+				A menu is a collection of buttons that can have various appearences.
+			</p>
+		</div>
+		<div class="w-4/6 md:grid md:grid-cols-3 items-center">
+			<div class="p-4">
+				<div class=" bg-gray-900 flex flex-row justify-around p-2 rounded-sm">
+					<a href="#" onclick="return false;" class="text-white py-1 px-2 mx-1 bg-blue-600 rounded hover:bg-blue-500">Example</a>
+					<a href="#" onclick="return false;"class="text-white py-1 px-2 mx-1 hover:bg-blue-600 hover:rounded">Example</a>
+					<a href="#" onclick="return false;" class="text-white py-1 px-2 mx-1 hover:bg-blue-600 hover:rounded">Example</a>
+				</div>
+				<h1 class=" text-2xl text-slate-800 font-semibold ">
+					Top Nav
+				</h1>
+			</div>
+			<div class="p-4">
+				<div class=" bg-gray-900 flex flex-col justify-around rounded-sm">
+					<a href="#" onclick="return false;" class="text-white py-1 px-2 bg-blue-600 hover:bg-blue-500 rounded-t-sm">Example</a>
+					<a href="#" onclick="return false;"class="text-white py-1 px-2 hover:bg-blue-600">Example</a>
+					<a href="#" onclick="return false;" class="text-white py-1 px-2 hover:bg-blue-600 hover:rounded-b-sm">Example</a>
+				</div>
+				<h1 class=" text-2xl text-slate-800 font-semibold ">
+					Side Nav
+				</h1>
+			</div>
+			<div class="p-4">
+				<Menu size={45}/>
+				<h1 class=" text-2xl text-slate-800 font-semibold ">
+					Collapsed Nav
+				</h1>
+			</div>
+		</div>
+	</div>
+
 	<div class="md:grid md:grid-cols-3 w-full justify-center justify-items-center">
 		<div class="flex flex-col p-4">
 			<ArrowLeftRight size={65}/>
