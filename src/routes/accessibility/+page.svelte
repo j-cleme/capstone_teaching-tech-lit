@@ -25,6 +25,20 @@
 		<ChevronDown size={50} style="color:rgb(71, 85, 105);"/>
 		</div>
 	</div>
+
+	<div class="md:grid md:grid-cols-3">
+		<div>
+			Arrows
+		</div>
+
+		<div>
+			Refresh
+		</div>
+
+		<div>
+			Bookmarks
+		</div>
+	</div>
 	<p>
 		Blurb about the options with accessibility and what it is called(ease of access in settings on
 		windows)

@@ -1,5 +1,5 @@
 <script>
-	import {ChevronDown} from 'lucide-svelte';
+	import {ChevronDown, ArrowLeftRight, Bookmark, RotateCw} from 'lucide-svelte';
 </script>
 <svelte:head>
 	<title>Lesson 4 - Broswers</title>
@@ -23,6 +23,37 @@
 		<div class="flex flex-col items-center">
 		<p class=" tracking-widest text-2xl text-slate-600 font-light mt-10">GET STARTED</p>
 		<ChevronDown size={50} style="color:rgb(71, 85, 105);"/>
+		</div>
+	</div>
+	<div class="md:grid md:grid-cols-3 w-full justify-center justify-items-center">
+		<div class="flex flex-col p-4">
+			<ArrowLeftRight size={65}/>
+			<h1 class=" text-3xl text-slate-800 font-semibold ">
+				Arrows
+			</h1>
+			<p class="text-slate-600 max-w-[40ch]" >
+				These are the <span class="text-[#ec598b]">navigation arrows</span>. The back arrow will take you back to the previous webpage you were on if possible. The forward arrow will return you to the page you were on before.
+			</p>
+		</div>
+
+		<div class="flex flex-col p-4">
+			<Bookmark size={65}/>
+			<h1 class=" text-3xl text-slate-800 font-semibold ">
+				Bookmarks
+			</h1>
+			<p class="text-slate-600">
+				<span class="text-[#ec598b]">Bookmarks</span> are a very useful feature of browsers that allow you to remember web pages you like to go to often.
+			</p>
+		</div>
+
+		<div class="flex flex-col p-4">
+			<RotateCw size={65}/>
+			<h1 class=" text-3xl text-slate-800 font-semibold ">
+				Refresh
+			</h1>
+			<p class="text-slate-600">
+				This is a <span class="text-[#ec598b]">refresh</span> button, it can be found on most browsers, and it is usually shown by an arrow circling back on itself. 
+			</p>
 		</div>
 	</div>
 	<p>Search bar</p>
@@ -49,23 +80,6 @@
 		Menu - A menu is a collection of buttons that can look like this(across the top) or this(along
 		the side) or this(hamburger/collapsed). Here you can find the next parts of a website we will
 		talk about.
-	</p>
-	<p>
-		Refresh - This is a refresh button, it can be found on most browsers, and it is usually shown by
-		an arrow circling back on itself. While a page is loading this arrow turns into an X you can
-		click this while the page is loading to stop the page from loading.
-	</p>
-	<p>
-		Arrows - These are the navigation arrows, there is a back (left pointing) arrow and a forward
-		(right) facing arrow. The back arrow will take you back to the previous webpage you were on if
-		possible. The forward arrow will return you to the page you were on before you pressed the back
-		arrow if you haven’t navigated to any other webpages.
-	</p>
-	<p>
-		Bookmarks - Bookmarks are a very useful feature of browsers that allow you to remember web pages
-		you like to go to often. Like a normal bookmark, they can save your place so you can go back and
-		read the page. Typically in the top right corner of the browser there is a star to bookmark a
-		page, letting you go back to the page at a later time.
 	</p>
 	<p>
 		Top left corner down arrow - this allows you to search in your tabs, it is a feature on safari
