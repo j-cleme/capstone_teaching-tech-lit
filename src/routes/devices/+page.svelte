@@ -1,27 +1,45 @@
 <script>
-	import { Lightbox, LightboxGallery, GalleryThumbnail, GalleryImage } from 'svelte-lightbox';
-
+	import { Lightbox} from 'svelte-lightbox';
+	import {ChevronDown} from 'lucide-svelte';
 	let lightboxProgrammaticController;
 </script>
 
 <svelte:head>
 	<title>Lesson 1 - Devices</title>
 </svelte:head>
-<main class="flex flex-col px-16 m-auto">
-	<section class="flex items-center gap-x-10 p-8 my-10" role="banner">
-		<section class="">
-			<h1 class="text-6xl text-slate-800 font-semibold">
-				Lesson 1 <span class="text-[#3549A6]">-</span> Devices
-			</h1>
-			<p class="pt-3.5 lg:max-w-[47ch] text-xl text-slate-600 mb-3.5">
-				All devices are different, but some functions are seen across all platforms. Let's explore
-				them.
-			</p>
-		</section>
-		<img src="assets/devices/devices.svg" alt="Devices Hero" class="" />
-	</section>
-	<hr class=" w-4/5 m-auto " />
-	<section class=" p-8 flex flex-row items-center">
+<main class="flex flex-col justify-center m-auto">
+	<div class="h-[91vh] flex flex-col items-center justify-items-center justify-center w-full">
+		<div class="flex flex-col md:flex-row md:items-center mb-20">
+			<div class="mr-16">
+				<p class=" tracking-wide text-[#ec598b] text-2xl">Lesson 1</p>
+				<h1 class="text-6xl text-slate-800 font-semibold">
+					Devices<span class="text-[#3549A6]">.</span>
+				</h1>
+				<p class="pt-3.5 lg:max-w-[47ch] text-xl text-slate-600 mb-3.5">
+					All devices are different, but some functions are seen across all platforms. Let's explore them.
+				</p>
+			</div>
+			<!-- svelte-ignore a11y-img-redundant-alt -->
+			<img src="assets/devices/devices.svg" alt="Devices Hero Image" class="max-w-[30rem] max-h-[30rem]"/>
+		</div>
+		<div class="flex flex-col items-center">
+		<p class=" tracking-widest text-2xl text-slate-600 font-light mt-10">GET STARTED</p>
+		<ChevronDown size={50} style="color:rgb(71, 85, 105);"/>
+		</div>
+	</div>
+	<div class="border-t flex flex-col w-full">
+		<div class="flex md:flex-row flex-col mt-8 items-center h-full">
+			<section class="md:max-w-[40ch]">
+				<h1 class=" text-3xl text-slate-800 font-semibold ">
+					Taskbars
+				</h1>
+				<p class=" pt-2 text-base text-slate-600 mb-3.5 ">
+					Almost all devices have a top and/or bottom bar, these allow you to access things you need often quickly and easily.
+				</p>
+			</section>
+		</div>
+	</div>
+	<!-- <section class=" p-8 flex flex-row items-center">
 		<section class=" mr-12">
 			<h2 class="text-4xl text-slate-800 font-semibold">Taskbars</h2>
 			<p class="text-base text-slate-600 w-[50ch] pt-2 ">
@@ -97,7 +115,7 @@
 				Windows users have a File Explorer called Windows File Explorer.
 			</p>
 		</section>
-	</section>
+	</section> -->
 	<section class="flex items-center justify-center my-5">
 		<a
 			href="/icons"

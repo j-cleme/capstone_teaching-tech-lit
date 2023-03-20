@@ -22,7 +22,7 @@
 <main class="flex flex-col justify-center m-auto">
 	<div class="h-[91vh] flex flex-col items-center justify-items-center justify-center w-full">
 		<div class="flex flex-col md:flex-row md:items-center mb-20">
-			<div class="">
+			<div class="mr-16">
 				<p class=" tracking-wide text-[#ec598b] text-2xl">Lesson 2</p>
 				<h1 class="text-6xl text-slate-800 font-semibold">
 					Icons<span class="text-[#3549A6]">.</span>
