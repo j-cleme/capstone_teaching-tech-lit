@@ -1,5 +1,5 @@
 <script>
-	import {ChevronDown, ArrowLeftRight, Bookmark, RotateCw, Menu} from 'lucide-svelte';
+	import {ChevronDown, ArrowLeftRight, Bookmark, RotateCw, Menu , Search} from 'lucide-svelte';
 </script>
 <svelte:head>
 	<title>Lesson 4 - Broswers</title>
@@ -63,8 +63,44 @@
 			</div>
 		</div>
 	</div>
+	<div class="md:grid md:grid-cols-3 w-full ">
+		<div class="flex flex-col p-4">
+			<div class="p-2 w-3/6 border border-gray-800 rounded-sm flex flex-row">
+				<Search size={25}/>
+				<p class="text-slate-600 text-lg mx-2">Search</p>
+			</div>
+			<h1 class=" text-3xl text-slate-800 font-semibold ">
+				Search Bar
+			</h1>
+			<p class="text-slate-600 max-w-[40ch]" >
+				The <span class="text-[#ec598b]">search bar</span> is a text box that lets you search a website or the internet for information. Typically the textbox will have a magnifying glass as an icon for you to click and begin typing anything you want to look for.
+			</p>
+		</div>
 
-	<div class="md:grid md:grid-cols-3 w-full justify-center justify-items-center">
+		<div class="flex flex-col p-4">
+			<div class="overflow-x-scroll w-[400px] h-[46px] border">
+				<p class="whitespace-nowrap text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi lobortis a odio in sodales.</p>
+			</div>
+			<h1 class=" text-3xl text-slate-800 font-semibold ">
+				Bookmarks
+			</h1>
+			<p class="text-slate-600 max-w-[40ch]">
+				<span class="text-[#ec598b]">Bookmarks</span> are a very useful feature of browsers that allow you to remember web pages you like to go to often.
+			</p>
+		</div>
+
+		<div class="flex flex-col p-4">
+			<RotateCw size={65}/>
+			<h1 class=" text-3xl text-slate-800 font-semibold ">
+				Refresh
+			</h1>
+			<p class="text-slate-600 max-w-[40ch]">
+				This is a <span class="text-[#ec598b]">refresh</span> button, it can be found on most browsers, and it is usually shown by an arrow circling back on itself. 
+			</p>
+		</div>
+	</div>
+
+	<div class="md:grid md:grid-cols-3 w-full ">
 		<div class="flex flex-col p-4">
 			<ArrowLeftRight size={65}/>
 			<h1 class=" text-3xl text-slate-800 font-semibold ">
@@ -80,7 +116,7 @@
 			<h1 class=" text-3xl text-slate-800 font-semibold ">
 				Bookmarks
 			</h1>
-			<p class="text-slate-600">
+			<p class="text-slate-600 max-w-[40ch]">
 				<span class="text-[#ec598b]">Bookmarks</span> are a very useful feature of browsers that allow you to remember web pages you like to go to often.
 			</p>
 		</div>
@@ -90,7 +126,7 @@
 			<h1 class=" text-3xl text-slate-800 font-semibold ">
 				Refresh
 			</h1>
-			<p class="text-slate-600">
+			<p class="text-slate-600 max-w-[40ch]">
 				This is a <span class="text-[#ec598b]">refresh</span> button, it can be found on most browsers, and it is usually shown by an arrow circling back on itself. 
 			</p>
 		</div>
