@@ -27,7 +27,7 @@
 	</div>
 	<h2 class="text-slate-800 text-4xl font-semibold">Navigation Menus<span class="text-[#3549A6]">.</span></h2>
 	<p class="text-slate-600 my-4 text-lg" >
-		A menu is a collection of buttons that can have various appearences.
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. In magna leo, vestibulum a condimentum posuere, mattis id magna.
 	</p>
 	<div class="md:grid md:grid-cols-3 w-full content-center items-center my-6">
 			<div class="p-4 m-auto h-full grid">
