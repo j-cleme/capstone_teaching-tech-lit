@@ -23,6 +23,7 @@
 	"type": "module",
 	"dependencies": {
 		"lucide-svelte": "^0.104.0",
+		"tw-elements": "^1.0.0-beta1",
 		"vite-plugin-remove-console": "^2.1.0"
 	}
 }

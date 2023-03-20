@@ -5,10 +5,10 @@
 	<title>Lesson 4 - Broswers</title>
 </svelte:head>
 
-<main class="flex flex-col justify-center m-auto">
-	<div class="h-[91vh] flex flex-col items-center justify-items-center justify-center w-full">
+<main class="flex flex-col justify-center items-center m-auto">
+	<div class="h-[91vh] flex flex-col items-center justify-items-center justify-center w-full border-b mb-4">
 		<div class="flex flex-col lg:flex-row md:items-center">
-			<div class="mr-16">
+			<div class="md:mr-16">
 				<p class=" tracking-wide text-[#ec598b] text-2xl">Lesson 4</p>
 				<h1 class="text-6xl text-slate-800 font-semibold">
 					Browsers<span class="text-[#3549A6]">.</span>
@@ -18,35 +18,35 @@
 				</p>
 			</div>
 			<!-- svelte-ignore a11y-img-redundant-alt -->
-			<img src="assets/browsers/browser.svg" alt="Browser Hero Image" class="max-w-[35rem] max-h-[35rem]"/>
+			<img src="assets/browsers/browser.svg" alt="Browser Hero Image" class="md:max-w-[35rem] md:max-h-[35rem]"/>
 		</div>
 		<div class="flex flex-col items-center">
 		<p class=" tracking-widest text-2xl text-slate-600 font-light mt-10">GET STARTED</p>
 		<ChevronDown size={50} style="color:rgb(71, 85, 105);"/>
 		</div>
 	</div>
-	<div class="md:flex md:flex-row w-full content-center items-center">
-		<div class="w-2/6 p-4">
-			<h1 class=" text-3xl text-slate-800 font-semibold ">
-				Navigation Menu
-			</h1>
-			<p class="text-slate-600 max-w-[40ch]" >
-				A menu is a collection of buttons that can have various appearences.
-			</p>
-		</div>
-		<div class="w-4/6 md:grid md:grid-cols-3 items-center">
-			<div class="p-4">
-				<div class=" bg-gray-900 flex flex-row justify-around p-2 rounded-sm">
-					<a href="#" onclick="return false;" class="text-white py-1 px-2 mx-1 bg-blue-600 rounded hover:bg-blue-500">Example</a>
-					<a href="#" onclick="return false;"class="text-white py-1 px-2 mx-1 hover:bg-blue-600 hover:rounded">Example</a>
-					<a href="#" onclick="return false;" class="text-white py-1 px-2 mx-1 hover:bg-blue-600 hover:rounded">Example</a>
+	<h2 class="text-slate-800 text-4xl font-semibold">Navigation Menus<span class="text-[#3549A6]">.</span></h2>
+	<p class="text-slate-600 my-4" >
+		A menu is a collection of buttons that can have various appearences.
+	</p>
+	<div class="md:grid md:grid-cols-3 w-full content-center items-center my-6">
+			<div class="p-4 m-auto h-full grid">
+				<div class="place-self-center">
+					<div class=" bg-gray-900 flex flex-row justify-around p-2 rounded-sm">
+						<a href="#" onclick="return false;" class="text-white py-1 px-2 mx-1 bg-blue-600 rounded hover:bg-blue-500">Example</a>
+						<a href="#" onclick="return false;"class="text-white py-1 px-2 mx-1 hover:bg-blue-600 hover:rounded">Example</a>
+						<a href="#" onclick="return false;" class="text-white py-1 px-2 mx-1 hover:bg-blue-600 hover:rounded">Example</a>
+					</div>
+					<h1 class=" text-2xl text-slate-800 font-semibold ">
+						Top Nav
+					</h1>
+					<p class="text-slate-600 max-w-[45ch]" >
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. In magna leo, vestibulum a condimentum posuere, mattis id magna. Mauris pretium id eros in imperdiet. 
+					</p>
 				</div>
-				<h1 class=" text-2xl text-slate-800 font-semibold ">
-					Top Nav
-				</h1>
 			</div>
-			<div class="p-4">
-				<div class=" bg-gray-900 flex flex-col justify-around rounded-sm">
+			<div class="p-4 m-auto h-full">
+				<div class=" bg-gray-900 flex flex-col justify-around rounded-sm w-[300px]">
 					<a href="#" onclick="return false;" class="text-white py-1 px-2 bg-blue-600 hover:bg-blue-500 rounded-t-sm">Example</a>
 					<a href="#" onclick="return false;"class="text-white py-1 px-2 hover:bg-blue-600">Example</a>
 					<a href="#" onclick="return false;" class="text-white py-1 px-2 hover:bg-blue-600 hover:rounded-b-sm">Example</a>
@@ -54,112 +54,98 @@
 				<h1 class=" text-2xl text-slate-800 font-semibold ">
 					Side Nav
 				</h1>
+				<p class="text-slate-600 max-w-[45ch]" >
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. In magna leo, vestibulum a condimentum posuere, mattis id magna. Mauris pretium id eros in imperdiet.
+				</p> 
 			</div>
-			<div class="p-4">
-				<Menu size={45}/>
+			<div class="p-4 m-auto h-full grid">
+				<div class="place-self-center">
+					<Menu size={50}/>
 				<h1 class=" text-2xl text-slate-800 font-semibold ">
 					Collapsed Nav
 				</h1>
+				<p class="text-slate-600 max-w-[45ch]" >
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. In magna leo, vestibulum a condimentum posuere, mattis id magna. Mauris pretium id eros in imperdiet. 
+				</p>
+				</div>
 			</div>
-		</div>
 	</div>
-	<div class="md:grid md:grid-cols-3 w-full ">
-		<div class="flex flex-col p-4">
-			<div class="p-2 w-3/6 border border-gray-800 rounded-sm flex flex-row">
+	<h2 class="text-slate-800 text-4xl font-semibold">Common Browser <span class="text-[#ec598b]">Elements</span></h2>
+	<p class="text-slate-600 my-4" >
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. In magna leo, vestibulum a condimentum posuere, mattis id magna.
+	</p>
+	<div class="md:grid md:grid-cols-3 w-full my-6">
+		<div class="flex flex-col p-4 m-auto h-full">
+			<div class="p-2 w-[300px] border border-gray-800 rounded-sm flex flex-row">
 				<Search size={25}/>
 				<p class="text-slate-600 text-lg mx-2">Search</p>
 			</div>
 			<h1 class=" text-3xl text-slate-800 font-semibold ">
 				Search Bar
 			</h1>
-			<p class="text-slate-600 max-w-[40ch]" >
-				The <span class="text-[#ec598b]">search bar</span> is a text box that lets you search a website or the internet for information. Typically the textbox will have a magnifying glass as an icon for you to click and begin typing anything you want to look for.
+			<p class="text-slate-600 max-w-[45ch]" >
+				The <span class="text-[#ec598b]">search bar</span> is a text box that lets you search a website or the internet for information. Typically the textbox will have a magnifying glass as an icon.
 			</p>
 		</div>
 
-		<div class="flex flex-col p-4">
-			<div class="overflow-x-scroll w-[400px] h-[46px] border">
-				<p class="whitespace-nowrap text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi lobortis a odio in sodales.</p>
+		<div class="flex flex-col p-4 m-auto h-full">
+			<div class="overflow-x-scroll w-[300px] h-[46px] border border-gray-800 rounded-sm">
+				<p class="whitespace-nowrap text-white w-full cursor-default">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac risus ut neque laoreet consequat vitae eget justo.</p>
 			</div>
 			<h1 class=" text-3xl text-slate-800 font-semibold ">
-				Bookmarks
+				Scroll Bar
 			</h1>
-			<p class="text-slate-600 max-w-[40ch]">
-				<span class="text-[#ec598b]">Bookmarks</span> are a very useful feature of browsers that allow you to remember web pages you like to go to often.
+			<p class="text-slate-600 max-w-[45ch]">
+				A <span class="text-[#ec598b]">scroll bar</span> is a visual representation of how far down a webpage you are. They are typically shown as a thin dark colored bar.
 			</p>
 		</div>
 
-		<div class="flex flex-col p-4">
-			<RotateCw size={65}/>
+		<div class="flex flex-col p-4 m-auto h-full">
+			<div class="h-[46px] w-[300px] bg-gray-600 text-white flex flex-row justify-around items-center rounded-sm border-b-4 border-gray-800">
+				<a href="#" onclick="return false;" class=" bg-gray-800 w-full text-center align-middle leading-[42px] rounded-tr-lg drop-shadow-md">Example</a>
+				<a href="#" onclick="return false;"class="w-full text-center hover:leading-[42px] hover:rounded-t-lg hover:bg-gray-700">Example</a>
+				<a href="#" onclick="return false;" class="w-full text-center hover:leading-[42px] hover:rounded-tl-lg hover:bg-gray-700">Example</a>
+			</div>
 			<h1 class=" text-3xl text-slate-800 font-semibold ">
-				Refresh
+				Tabs
 			</h1>
-			<p class="text-slate-600 max-w-[40ch]">
-				This is a <span class="text-[#ec598b]">refresh</span> button, it can be found on most browsers, and it is usually shown by an arrow circling back on itself. 
+			<p class="text-slate-600 max-w-[45ch]">
+				Many browsers use <span class="text-[#ec598b]">tabs</span> to help moving back and forth between multiple webpages quick and easy.
 			</p>
 		</div>
 	</div>
 
-	<div class="md:grid md:grid-cols-3 w-full ">
-		<div class="flex flex-col p-4">
+	<div class="md:grid md:grid-cols-3 w-full justify-center items-center my-6">
+		<div class="flex flex-col p-4 m-auto h-full">
 			<ArrowLeftRight size={65}/>
 			<h1 class=" text-3xl text-slate-800 font-semibold ">
 				Arrows
 			</h1>
-			<p class="text-slate-600 max-w-[40ch]" >
+			<p class="text-slate-600 max-w-[45ch]" >
 				These are the <span class="text-[#ec598b]">navigation arrows</span>. The back arrow will take you back to the previous webpage you were on if possible. The forward arrow will return you to the page you were on before.
 			</p>
 		</div>
 
-		<div class="flex flex-col p-4">
+		<div class="flex flex-col p-4 m-auto h-full">
 			<Bookmark size={65}/>
 			<h1 class=" text-3xl text-slate-800 font-semibold ">
 				Bookmarks
 			</h1>
-			<p class="text-slate-600 max-w-[40ch]">
+			<p class="text-slate-600 max-w-[45ch]">
 				<span class="text-[#ec598b]">Bookmarks</span> are a very useful feature of browsers that allow you to remember web pages you like to go to often.
 			</p>
 		</div>
 
-		<div class="flex flex-col p-4">
+		<div class="flex flex-col p-4 m-auto h-full">
 			<RotateCw size={65}/>
 			<h1 class=" text-3xl text-slate-800 font-semibold ">
 				Refresh
 			</h1>
-			<p class="text-slate-600 max-w-[40ch]">
+			<p class="text-slate-600 max-w-[45ch]">
 				This is a <span class="text-[#ec598b]">refresh</span> button, it can be found on most browsers, and it is usually shown by an arrow circling back on itself. 
 			</p>
 		</div>
 	</div>
-	<p>Search bar</p>
-	<p>
-		The search bar is a text box that lets you search a website or the internet for information.
-		Typically the textbox will have a magnifying glass as an icon for you to click and begin typing
-		anything you want to look for. An example of this is the text box on the google homepage.
-	</p>
-
-	<p>
-		Tabs - Many browsers use tabs to help moving back and forth between multiple webpages quick and
-		easy. They usually look like this. You can open a new tab yourself by right clicking on a link
-		and selecting “open in new tab.”
-	</p>
-
-	<p>Scroll bar</p>
-	<p>
-		A scroll bar is a visual representation of how far down a webpage you are. They are typically
-		shown as a thin dark colored bar on the right of the browser that allows you to scroll up and
-		down the page by dragging it. As you scroll down, the bar follows to keep track of how far
-		you’ve scrolled.
-	</p>
-	<p>
-		Menu - A menu is a collection of buttons that can look like this(across the top) or this(along
-		the side) or this(hamburger/collapsed). Here you can find the next parts of a website we will
-		talk about.
-	</p>
-	<p>
-		Top left corner down arrow - this allows you to search in your tabs, it is a feature on safari
-		and chrome
-	</p>
 </main>
 <section class="flex items-center justify-center my-5">
 	<a
