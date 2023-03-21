@@ -1,16 +1,11 @@
 <script lang="ts">
 	import '../app.css';
 	import { CheckCircle2, Menu, XCircle } from 'lucide-svelte';
-	import { Page } from '@sveltejs/kit';
 	import { page } from '$app/stores';
 
 	const indicatorIconSize = 20;
 
 	let navVisibleState: Boolean = false;
-
-	function currentPage(): void {
-		$page.route;
-	}
 
 	function toggleMobileNav(): void {
 		navVisibleState = navVisibleState ? false : true;
@@ -18,7 +13,8 @@
 </script>
 
 <nav
-	class="w-11/12 m-auto mb-0 flex justify-between items-center py-8 h-18 md:h-12 text-sm font-semibold border-b"
+	class="w-11/12 m-auto mb-0 flex justify-between items-center py-8 h-18 md:h-12 text-sm
+	font-semibold border-b"
 >
 	<div on:click={toggleMobileNav} on:keypress={toggleMobileNav} class="md:hidden">
 		<Menu
@@ -37,7 +33,9 @@
 	<a class="group px-2 py-2 min-w-max {navVisibleState ? '' : 'hidden md:inline'}" href="/"
 		>Home
 		<span
-			class="block bg-[#3549A6] max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5"
+			class="block bg-[#3549A6] max-w-0 group-hover:max-w-full {$page.route.id == '/'
+				? 'max-w-full bg-[#ec598a]'
+				: ''} transition-all duration-300 h-0.5"
 		/>
 	</a>
 	<a class="group px-2 py-2 min-w-max {navVisibleState ? '' : 'hidden md:inline'}" href="/devices"
@@ -46,7 +44,9 @@
 			<!-- <CheckCircle2 size={14} color="stroke-emerald-800"  /> -->
 		</span>
 		<span
-			class="block bg-[#3549A6] max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5"
+			class="block bg-[#3549A6] max-w-0 group-hover:max-w-full {$page.route.id == '/devices'
+				? 'max-w-full bg-[#ec598a]'
+				: ''} transition-all duration-300 h-0.5"
 		/>
 	</a>
 	<a class="group px-2 py-2 min-w-max {navVisibleState ? '' : 'hidden md:inline'}" href="/icons"
@@ -55,7 +55,9 @@
 			<CheckCircle2 size={indicatorIconSize} color="stroke-emerald-500" />
 		</span>
 		<span
-			class="block bg-[#3549A6] max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5"
+			class="block bg-[#3549A6] max-w-0 group-hover:max-w-full {$page.route.id == '/icons'
+				? 'max-w-full bg-[#ec598a]'
+				: ''} transition-all duration-300 h-0.5"
 		/>
 	</a>
 	<a
@@ -63,19 +65,25 @@
 		href="/accessibility"
 		>Lesson 3
 		<span
-			class="block bg-[#3549A6] max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5"
+			class="block bg-[#3549A6] max-w-0 group-hover:max-w-full {$page.route.id == '/accessibility'
+				? 'max-w-full bg-[#ec598a]'
+				: ''} transition-all duration-300 h-0.5"
 		/>
 	</a>
 	<a class="group px-2 py-2 min-w-max {navVisibleState ? '' : 'hidden md:inline'}" href="/browsers"
 		>Lesson 4
 		<span
-			class="block bg-[#3549A6] max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5"
+			class="block bg-[#3549A6] max-w-0 group-hover:max-w-full {$page.route.id == '/browsers'
+				? 'max-w-full bg-[#ec598a]'
+				: ''} transition-all duration-300 h-0.5"
 		/>
 	</a>
 	<a class="group px-2 py-2 min-w-max {navVisibleState ? '' : 'hidden md:inline'}" href="/safety"
 		>Lesson 5
 		<span
-			class="block bg-[#3549A6] max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5"
+			class="block bg-[#3549A6] max-w-0 group-hover:max-w-full {$page.route.id == '/safety'
+				? 'max-w-full bg-[#ec598a]'
+				: ''} transition-all duration-300 h-0.5"
 		/>
 	</a>
 </nav>
