@@ -1,6 +1,7 @@
-<script>
-	import { Lightbox} from 'svelte-lightbox';
-	import {ChevronDown} from 'lucide-svelte';
+<script lang="ts">
+	import { Lightbox } from 'svelte-lightbox';
+	import { ChevronDown } from 'lucide-svelte';
+	import NextLesson from '../NextLesson.svelte';
 	let lightboxProgrammaticController;
 </script>
 
@@ -16,25 +17,29 @@
 					Devices<span class="text-[#3549A6]">.</span>
 				</h1>
 				<p class="pt-3.5 lg:max-w-[47ch] text-xl text-slate-600 mb-3.5">
-					All devices are different, but some functions are seen across all platforms. Let's explore them.
+					All devices are different, but some functions are seen across all platforms. Let's explore
+					them.
 				</p>
 			</div>
 			<!-- svelte-ignore a11y-img-redundant-alt -->
-			<img src="assets/devices/devices.svg" alt="Devices Hero Image" class="max-w-[35rem] max-h-[35rem]"/>
+			<img
+				src="assets/devices/devices.svg"
+				alt="Devices Hero Image"
+				class="max-w-[35rem] max-h-[35rem]"
+			/>
 		</div>
 		<div class="flex flex-col items-center">
-		<p class=" tracking-widest text-2xl text-slate-600 font-light mt-10">GET STARTED</p>
-		<ChevronDown size={50} style="color:rgb(71, 85, 105);"/>
+			<p class=" tracking-widest text-2xl text-slate-600 font-light mt-10">GET STARTED</p>
+			<ChevronDown size={50} style="color:rgb(71, 85, 105);" />
 		</div>
 	</div>
 	<div class="border-t flex flex-col w-full">
 		<div class="flex md:flex-row flex-col mt-8 items-center h-full">
 			<section class="md:max-w-[40ch]">
-				<h1 class=" text-3xl text-slate-800 font-semibold ">
-					Taskbars
-				</h1>
+				<h1 class=" text-3xl text-slate-800 font-semibold ">Taskbars</h1>
 				<p class=" pt-2 text-base text-slate-600 mb-3.5 ">
-					Almost all devices have a top and/or bottom bar, these allow you to access things you need often quickly and easily.
+					Almost all devices have a top and/or bottom bar, these allow you to access things you need
+					often quickly and easily.
 				</p>
 			</section>
 		</div>
@@ -117,12 +122,7 @@
 		</section>
 	</section> -->
 	<section class="flex items-center justify-center my-5">
-		<a
-			href="/icons"
-			class="bg-[#3549A6] text-xl font-semibold text-white py-2 px-4 rounded border-b-4 border-blue-900 border-r-4"
-		>
-			Lesson 2 <span>&#10148;</span>
-		</a>
+		<NextLesson lessonNumber={'1'} nextPageLink="/icons" />
 	</section>
 </main>
 

@@ -3,6 +3,8 @@
 	import { Menu } from 'lucide-svelte';
 	import { page } from '$app/stores';
 	import NavItem from './NavItem.svelte';
+	import { browser } from '$app/environment';
+	import { lessonTracking } from '$lib/lessonTracking';
 
 	const indicatorIconSize: number = 20;
 
@@ -11,6 +13,54 @@
 	function toggleMobileNav(): void {
 		navVisibleState = navVisibleState ? false : true;
 	}
+
+	import { setContext } from 'svelte';
+	import { writable } from 'svelte/store';
+	/** @type {import('./$types').LayoutData} */ export let data;
+	// Create a store and update it when necessary...  const user = writable();
+	$: lessonTracking.set(data.user);
+	// ...and add it to the context for child components to access  setContext('user', user);
+
+	let completeLessons: string = '';
+	if (browser) {
+		if (localStorage.getItem('completeLessons') !== null) {
+			completeLessons = localStorage.getItem('completeLessons');
+		}
+	}
+
+	export const lessonComplete = (lessonNumber: string): void => {
+		console.log('called lessonComplete');
+		if (browser) {
+			if (localStorage.getItem('completeLessons') === null) {
+				completeLessons = '';
+				localStorage.setItem('completeLessons', completeLessons);
+			} else {
+				completeLessons = localStorage.getItem('completeLessons');
+				return;
+			}
+			if (completeLessons.includes(lessonNumber)) {
+				return;
+			}
+			completeLessons = completeLessons.concat(this, lessonNumber);
+			localStorage.setItem('completeLessons', completeLessons);
+		}
+	};
+
+	const checkLessonCompletion = (lessonNumber: string): boolean => {
+		if (browser) {
+			if (localStorage.getItem('completeLessons') === null) {
+				completeLessons = '';
+				localStorage.setItem('completeLessons', completeLessons);
+			} else {
+				completeLessons = localStorage.getItem('completeLessons');
+				return;
+			}
+		}
+		if (completeLessons.includes(lessonNumber)) {
+			return true;
+		}
+		return false;
+	};
 </script>
 
 <nav
