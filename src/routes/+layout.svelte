@@ -90,7 +90,7 @@
 		/>
 	</a>
 	<a class="group px-2 py-2 min-w-max {navVisibleState ? '' : 'hidden md:inline'}" href="/devices"
-		>Lesson 1
+		><NavItem {indicatorIconSize} lessonCompleted={checkLessonCompletion('1')}>Lesson 1</NavItem>
 		<span
 			class="block bg-[#3549A6] max-w-0 group-hover:max-w-full {$page.route.id == '/devices'
 				? 'max-w-full bg-[#ec598a]'
@@ -98,7 +98,7 @@
 		/>
 	</a>
 	<a class="group px-2 py-2 min-w-max {navVisibleState ? '' : 'hidden md:inline'}" href="/icons"
-		>Lesson 2
+		><NavItem {indicatorIconSize} lessonCompleted={checkLessonCompletion('2')}>Lesson 2</NavItem>
 		<span
 			class="block bg-[#3549A6] max-w-0 group-hover:max-w-full {$page.route.id == '/icons'
 				? 'max-w-full bg-[#ec598a]'
@@ -108,7 +108,7 @@
 	<a
 		class="group px-2 py-2 min-w-max {navVisibleState ? '' : 'hidden md:inline'}"
 		href="/accessibility"
-		>Lesson 3
+		><NavItem {indicatorIconSize} lessonCompleted={checkLessonCompletion('3')}>Lesson 3</NavItem>
 		<span
 			class="block bg-[#3549A6] max-w-0 group-hover:max-w-full {$page.route.id == '/accessibility'
 				? 'max-w-full bg-[#ec598a]'
@@ -116,7 +116,7 @@
 		/>
 	</a>
 	<a class="group px-2 py-2 min-w-max {navVisibleState ? '' : 'hidden md:inline'}" href="/browsers"
-		>Lesson 4
+		><NavItem {indicatorIconSize} lessonCompleted={checkLessonCompletion('4')}>Lesson 4</NavItem>
 		<span
 			class="block bg-[#3549A6] max-w-0 group-hover:max-w-full {$page.route.id == '/browsers'
 				? 'max-w-full bg-[#ec598a]'
@@ -124,7 +124,7 @@
 		/>
 	</a>
 	<a class="group px-2 py-2 min-w-max {navVisibleState ? '' : 'hidden md:inline'}" href="/safety"
-		>Lesson 5
+		><NavItem {indicatorIconSize} lessonCompleted={checkLessonCompletion('5')}>Lesson 5</NavItem>
 		<span
 			class="block bg-[#3549A6] max-w-0 group-hover:max-w-full {$page.route.id == '/safety'
 				? 'max-w-full bg-[#ec598a]'
