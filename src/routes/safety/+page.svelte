@@ -9,7 +9,7 @@
 </svelte:head>
 
 <main class="flex flex-col justify-center m-auto">
-	<div class="h-[91vh] flex flex-col items-center justify-items-center justify-center w-full">
+	<div class="h-[91vh] flex flex-col items-center justify-items-center justify-center w-full border-b mb-4">
 		<div class="flex flex-col md:flex-row lg:items-center">
 			<div class="mr-16">
 				<p class=" tracking-wide text-[#ec598b] text-2xl">Lesson 5</p>
@@ -30,7 +30,15 @@
 			<ChevronDown size={50} style="color:rgb(71, 85, 105);" />
 		</div>
 	</div>
-	<div class="flex flex-row jusify-center w-full items-center justify-center my-4">
+	<h2 class="text-slate-800 text-4xl font-semibold">
+		Practicing Internet Safety<span class="text-[#3549A6]">.</span>
+	</h2>
+	<p class="text-slate-600 my-4 text-lg">
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. In magna leo, vestibulum a condimentum
+		posuere, mattis id magna.
+	</p>
+	<div class="flex flex-row jusify-center w-full items-center justify-center my-6">
+		
 			<div class="flex flex-col p-4">
 				<div class="p-2 w-[300px] border-2 border-gray-800 rounded-sm flex flex-row items-center">
 					<Lock size={40} />
@@ -56,7 +64,7 @@
 				</p>
 			</div>
 	</div>
-	<div class="flex flex-row jusify-center w-full items-center justify-center my-4">
+	<div class="flex flex-row jusify-center w-full items-center justify-center my-6">
 		<div class="flex flex-col p-4">
 			<img src="assets/safety/horn.png" alt="" class="w-[59px] h-[59px]">
 			<h1 class=" text-3xl text-slate-800 font-semibold ">Ads</h1>
@@ -86,7 +94,7 @@
 		</div>
 	</div>
 
-	<div class="flex flex-row jusify-center w-full items-center justify-center my-4">
+	<div class="flex flex-row jusify-center w-full items-center justify-center my-6">
 		<div class="flex flex-col p-4">
 			<Cookie size={59} />
 			<h1 class=" text-3xl text-slate-800 font-semibold ">Cookies</h1>
