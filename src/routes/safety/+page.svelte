@@ -1,6 +1,7 @@
 <script>
-	import { ChevronDown, User, Lock } from 'lucide-svelte';
+	import { ChevronDown, User, Lock, Cookie, AlertTriangle } from 'lucide-svelte';
 	import NextLesson from '../NextLesson.svelte';
+	import { Modal, Content, Trigger } from "sv-popup";
 </script>
 
 <svelte:head>
@@ -29,9 +30,9 @@
 			<ChevronDown size={50} style="color:rgb(71, 85, 105);" />
 		</div>
 	</div>
-	<div class="flex flex-row jusify-center w-full items-center justify-center">
+	<div class="flex flex-row jusify-center w-full items-center justify-center my-4">
 			<div class="flex flex-col p-4">
-				<div class="p-2 w-[300px] border border-gray-800 rounded-sm flex flex-row items-center">
+				<div class="p-2 w-[300px] border-2 border-gray-800 rounded-sm flex flex-row items-center">
 					<Lock size={40} />
 					<p class="text-slate-600 text-lg mx-2">Password</p>
 				</div>
@@ -55,49 +56,57 @@
 				</p>
 			</div>
 	</div>
-	<p>
-		Personal Info - Unless you are on a website you trust, it's safer not to submit your personal
-		information, also it's important to know that personal information can be faked by others.
-		Remember, what you put on the internet is always available on the internet.
-	</p>
-	<p>
-		Passwords - It is important to create strong passwords on websites that have your personal
-		information. Most websites have requirements for passwords including numbers capitalization and
-		symbols. Don't use the same password for multiple websites, because if one is compromised they
-		all are! The easiest way to keep your passwords safe is to write them down, you can't hack
-		paper. Also there are online services called password managers that can make the creation and
-		storage of passwords much easier for you. When it comes to passwords, longer is better.
-	</p>
-	<p>
-		Lock icon - This is a lock icon, when seen on the search bar in most browsers it means that the
-		webpage you are on is a secure connection, and you're not being monitored by a third party..
-	</p>
-	<p>
-		Ads - internet ads are on every webpage, most are on the sides of the pages, or snuck into the
-		middle of a webpage. You can usually tell it's an ad, because it is trying to sell you something
-		unrelated to what you are currently doing, or trying to make you click on it. Ads very often
-		have malware attached to them, if you see something you want to buy or investigate it is safer
-		to google search it.
-	</p>
-	<p>
-		Cookies - Cookies are internet files that track what you do on the internet. THESE ARE NOT BAD
-		THINGS. Cookies are typically used to keep you logged into websites without you having to
-		re-login on every page. They can be used by certain websites and advertisers to give you ads and
-		information based on your personal browsing history, many sites require your consent for this.
-	</p>
-	<p>
-		Pop ups - A pop up is usually an ad on a webpage used to trick you into clicking it so it can
-		put malware on your computer. It is OK to click the X button on the browser window it appears
-		on.
-	</p>
-	<p>
-		Phishing - Phishing is one of the most common internet scams, usually in an email or some other
-		form of internet communication, you might receive a message claiming to be your boss, friend or
-		family member. They then either ask for money, gift cards, passwords, or other sensitive
-		information. It is always good to double check through other means of communication if you
-		expect a message might be a phishing attempt.
-	</p>
-	<p>Uninstalling extensions browser</p>
+	<div class="flex flex-row jusify-center w-full items-center justify-center my-4">
+		<div class="flex flex-col p-4">
+			<img src="assets/safety/horn.png" alt="" class="w-[59px] h-[59px]">
+			<h1 class=" text-3xl text-slate-800 font-semibold ">Ads</h1>
+			<p class="text-slate-600 max-w-[60ch]">
+				Internet ads are on most webpages, most are on the sides of the pages, or the
+				middle of a webpage. Ads very often
+				have malware attached to them, if you see something you want to buy or investigate, <span class="text-[#ec598b]">it is safer to google search it</span>.
+			</p>
+		</div>
+
+		
+		<div class="flex flex-col p-4">
+			<Modal basic>
+				<Content>
+				  <h2>This is a pop up! Popups can appear like this or as an entirely different window!</h2>
+				</Content>
+				<Trigger>
+				  <button class="btn text-xl text-white py-2 px-4 bg-[#3549A6] rounded-sm"> Click Me!</button>
+				</Trigger>
+			  </Modal>
+			<h1 class=" text-3xl text-slate-800 font-semibold ">Pop Ups</h1>
+			<p class="text-slate-600 max-w-[60ch]">
+				A pop up is usually an ad on a webpage used to trick you into clicking it so it can
+				put malware on your computer. <span class="text-[#ec598b]">It is OK to click the X button</span> on the browser window it appears
+				on.
+			</p>
+		</div>
+	</div>
+
+	<div class="flex flex-row jusify-center w-full items-center justify-center my-4">
+		<div class="flex flex-col p-4">
+			<Cookie size={59} />
+			<h1 class=" text-3xl text-slate-800 font-semibold ">Cookies</h1>
+			<p class="text-slate-600 max-w-[60ch]">
+				Cookies are internet files that track what you do on the internet. <span class="text-[#ec598b]">THESE ARE NOT BAD THINGS</span>. Cookies are typically used to keep you logged into websites without you having to re-login on every page. They can be used by certain websites and advertisers to give you ads and information based on your personal browsing history, many sites require your consent for this. 
+			</p>
+		</div>
+
+		
+		<div class="flex flex-col p-4">
+			<AlertTriangle size={59} />
+			<h1 class=" text-3xl text-slate-800 font-semibold ">Phishing</h1>
+			<p class="text-slate-600 max-w-[60ch]">
+				Phishing is one of the most common internet scams, usually in an email or some other
+				form of internet communication. They then either ask for money, gift cards, passwords, or other sensitive
+				information. It is always good to <span class="text-[#ec598b]">double check</span> through other means of communication if you
+				expect a message might be a phishing attempt.
+			</p>
+		</div>
+	</div>
 </main>
 <section class="flex items-center justify-center my-5">
 	<NextLesson lessonNumber={'5'} nextPageLink="/" />
