@@ -8,8 +8,6 @@
 
 	function complete() {
 		lessonTracking.update((value: string) => value + lessonNumber);
-		console.log('function to update value sucessfully called');
-		console.log('store value:' + $lessonTracking);
 	}
 </script>
 

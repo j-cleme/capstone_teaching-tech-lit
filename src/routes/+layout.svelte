@@ -13,11 +13,6 @@
 		navVisibleState = navVisibleState ? false : true;
 	}
 
-	// TODO remove debug function
-	const resetStore = () => {
-		lessonTracking.set('');
-	};
-
 	// if (browser) {
 	// 	if (localStorage.getItem('completeLessons') !== null) {
 	// 		completeLessons = localStorage.getItem('completeLessons');
@@ -70,12 +65,7 @@
 		/>
 	</div>
 	<a href="/" class="flex flex-row w-full m-0 md:justify-start items-center">
-		<img
-			src="/assets/logo.png"
-			alt="Teaching Tech Lit logo"
-			class="group h-6 w-6"
-			on:click={resetStore}
-		/>
+		<img src="/assets/logo.png" alt="Teaching Tech Lit logo" class="group h-6 w-6" />
 		<h1 class="group mx-1 md:px-2 py-2 text-lg font-semibold text-neutral-900">
 			Teaching Tech Lit<span
 				class="block bg-[#3549A6] max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5"

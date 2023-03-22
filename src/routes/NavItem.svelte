@@ -8,10 +8,8 @@
 
 	const checkLessonCompletion = (): void => {
 		if (completeLessons.includes(lessonNumber)) {
-			// console.log('this should be returning true and updating the color');
 			complete = true;
 		} else {
-			// console.log('if returning false, why is it not behaving that way?');
 			complete = false;
 		}
 	};
@@ -19,9 +17,6 @@
 	let completeLessons: string;
 	lessonTracking.subscribe((value: string) => {
 		completeLessons = value;
-		// console.log('subscription sucessfully updated');
-		// console.log('completeLessons: ' + completeLessons);
-		// console.log('value: ' + value);
 		checkLessonCompletion();
 	});
 </script>
