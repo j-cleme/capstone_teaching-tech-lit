@@ -1,5 +1,5 @@
 <script>
-	import { ChevronDown } from 'lucide-svelte';
+	import { ChevronDown, User, Lock } from 'lucide-svelte';
 	import NextLesson from '../NextLesson.svelte';
 </script>
 
@@ -28,6 +28,32 @@
 			<p class=" tracking-widest text-2xl text-slate-600 font-light mt-10">GET STARTED</p>
 			<ChevronDown size={50} style="color:rgb(71, 85, 105);" />
 		</div>
+	</div>
+	<div class="flex flex-row jusify-center w-full items-center justify-center">
+			<div class="flex flex-col mx-10">
+				<div class="p-2 w-[300px] border border-gray-800 rounded-sm flex flex-row items-center">
+					<Lock size={40} />
+					<p class="text-slate-600 text-lg mx-2">Password</p>
+				</div>
+				<h1 class=" text-3xl text-slate-800 font-semibold ">Passwords</h1>
+				<p class="text-slate-600 max-w-[60ch]">
+					It is important to create strong passwords on websites that have your personal
+					information. Don't use the same password for multiple websites, because if one is compromised they
+					all are! The easiest way to keep your passwords safe is to write them down, you can't hack
+					paper!
+				</p>
+			</div>
+
+			
+			<div class="flex flex-col mx-10">
+				<User size={58} class=""/>
+				<h1 class=" text-3xl text-slate-800 font-semibold ">Personal Info</h1>
+				<p class="text-slate-600 max-w-[60ch]">
+					Unless you are on a website you trust, it's safer not to submit your personal
+					information, also it's important to know that personal information can be faked by others.
+					Remember, what you put on the internet is always available on the internet.
+				</p>
+			</div>
 	</div>
 	<p>
 		Personal Info - Unless you are on a website you trust, it's safer not to submit your personal
