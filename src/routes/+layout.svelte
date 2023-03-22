@@ -12,46 +12,6 @@
 	function toggleMobileNav(): void {
 		navVisibleState = navVisibleState ? false : true;
 	}
-
-	// if (browser) {
-	// 	if (localStorage.getItem('completeLessons') !== null) {
-	// 		completeLessons = localStorage.getItem('completeLessons');
-	// 	}
-	// }
-
-	// export const lessonComplete = (lessonNumber: string): void => {
-	// 	console.log('called lessonComplete');
-	// 	if (browser) {
-	// 		if (localStorage.getItem('completeLessons') === null) {
-	// 			completeLessons = '';
-	// 			localStorage.setItem('completeLessons', completeLessons);
-	// 		} else {
-	// 			completeLessons = localStorage.getItem('completeLessons');
-	// 			return;
-	// 		}
-	// 		if (completeLessons.includes(lessonNumber)) {
-	// 			return;
-	// 		}
-	// 		completeLessons = completeLessons.concat(this, lessonNumber);
-	// 		localStorage.setItem('completeLessons', completeLessons);
-	// 	}
-	// };
-
-	// const checkLessonCompletion = (lessonNumber: string): boolean => {
-	// 	if (browser) {
-	// 		if (localStorage.getItem('completeLessons') === null) {
-	// 			completeLessons = '';
-	// 			localStorage.setItem('completeLessons', completeLessons);
-	// 		} else {
-	// 			completeLessons = localStorage.getItem('completeLessons');
-	// 			return;
-	// 		}
-	// 	}
-	// 	if (completeLessons.includes(lessonNumber)) {
-	// 		return true;
-	// 	}
-	// 	return false;
-	// };
 </script>
 
 <nav
