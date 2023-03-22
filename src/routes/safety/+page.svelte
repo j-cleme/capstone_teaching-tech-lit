@@ -1,9 +1,11 @@
+<script>
+	import { ChevronDown } from 'lucide-svelte';
+	import NextLesson from '../NextLesson.svelte';
+</script>
+
 <svelte:head>
 	<title>Lesson 5 - Safety</title>
 </svelte:head>
-<script>
-	import {ChevronDown} from 'lucide-svelte';
-</script>
 
 <main class="flex flex-col justify-center m-auto">
 	<div class="h-[91vh] flex flex-col items-center justify-items-center justify-center w-full">
@@ -13,16 +15,18 @@
 				<h1 class="text-6xl text-slate-800 font-semibold">
 					Safety<span class="text-[#3549A6]">.</span>
 				</h1>
-				<p class="pt-3.5 lg:max-w-[47ch] text-xl text-slate-600 mb-3.5">
-					Blurb about Safety
-				</p>
+				<p class="pt-3.5 lg:max-w-[47ch] text-xl text-slate-600 mb-3.5">Blurb about Safety</p>
 			</div>
 			<!-- svelte-ignore a11y-img-redundant-alt -->
-			<img src="assets/safety/safety.svg" alt="Safety Hero Image" class="max-w-[28rem] max-h-[28rem]"/>
+			<img
+				src="assets/safety/safety.svg"
+				alt="Safety Hero Image"
+				class="max-w-[28rem] max-h-[28rem]"
+			/>
 		</div>
 		<div class="flex flex-col items-center">
-		<p class=" tracking-widest text-2xl text-slate-600 font-light mt-10">GET STARTED</p>
-		<ChevronDown size={50} style="color:rgb(71, 85, 105);"/>
+			<p class=" tracking-widest text-2xl text-slate-600 font-light mt-10">GET STARTED</p>
+			<ChevronDown size={50} style="color:rgb(71, 85, 105);" />
 		</div>
 	</div>
 	<p>
@@ -70,10 +74,5 @@
 	<p>Uninstalling extensions browser</p>
 </main>
 <section class="flex items-center justify-center my-5">
-	<a
-		href="/"
-		class="bg-[#3549A6] text-xl font-semibold text-white py-2 px-4 rounded border-b-4 border-blue-900 border-r-4"
-	>
-		<span>✄</span>
-	</a>
+	<NextLesson lessonNumber={'5'} nextPageLink="/" />
 </section>

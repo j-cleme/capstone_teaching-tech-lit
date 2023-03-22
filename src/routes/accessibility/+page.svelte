@@ -1,9 +1,11 @@
+<script>
+	import { ChevronDown } from 'lucide-svelte';
+	import NextLesson from '../NextLesson.svelte';
+</script>
+
 <svelte:head>
 	<title>Lesson 3 - Accessibility</title>
 </svelte:head>
-<script>
-	import {ChevronDown} from 'lucide-svelte';
-</script>
 
 <main class="flex flex-col justify-center m-auto">
 	<div class="h-[91vh] flex flex-col items-center justify-items-center justify-center w-full">
@@ -18,26 +20,24 @@
 				</p>
 			</div>
 			<!-- svelte-ignore a11y-img-redundant-alt -->
-			<img src="assets/accessibility/accessibility.svg" alt="Accessibility Hero Image" class="max-w-[35rem] max-h-[35rem]"/>
+			<img
+				src="assets/accessibility/accessibility.svg"
+				alt="Accessibility Hero Image"
+				class="max-w-[35rem] max-h-[35rem]"
+			/>
 		</div>
 		<div class="flex flex-col items-center">
-		<p class=" tracking-widest text-2xl text-slate-600 font-light mt-10">GET STARTED</p>
-		<ChevronDown size={50} style="color:rgb(71, 85, 105);"/>
+			<p class=" tracking-widest text-2xl text-slate-600 font-light mt-10">GET STARTED</p>
+			<ChevronDown size={50} style="color:rgb(71, 85, 105);" />
 		</div>
 	</div>
 
 	<div class="md:grid md:grid-cols-3">
-		<div>
-			Arrows
-		</div>
+		<div>Arrows</div>
 
-		<div>
-			Refresh
-		</div>
+		<div>Refresh</div>
 
-		<div>
-			Bookmarks
-		</div>
+		<div>Bookmarks</div>
 	</div>
 	<p>
 		Blurb about the options with accessibility and what it is called(ease of access in settings on
@@ -58,10 +58,5 @@
 	<p>Sticky keys</p>
 </main>
 <section class="flex items-center justify-center my-5">
-	<a
-		href="/browsers"
-		class="bg-[#3549A6] text-xl font-semibold text-white py-2 px-4 rounded border-b-4 border-blue-900 border-r-4"
-	>
-		Lesson 4 <span>&#10148;</span>
-	</a>
+	<NextLesson lessonNumber={'3'} nextPageLink="/browsers" />
 </section>
