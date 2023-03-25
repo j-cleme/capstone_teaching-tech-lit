@@ -12,7 +12,9 @@ const config = {
       strict: true
     }),
     paths: {
+      assets: '',
       base: '/teaching-tech-lit',
+      relative: false
     }
   },
   preprocess: vitePreprocess()
