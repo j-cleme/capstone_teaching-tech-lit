@@ -10,7 +10,10 @@ const config = {
       fallback: null,
       precompress: false,
       strict: true
-    })
+    }),
+    paths: {
+      base: dev ? '' : '/teaching-tech-lit',
+    }
   },
   preprocess: vitePreprocess()
 };
