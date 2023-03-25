@@ -2,6 +2,7 @@
 	import '../app.css';
 	import { Menu } from 'lucide-svelte';
 	import { page } from '$app/stores';
+	import { base } from '$app/paths';
 	import NavItem from './NavItem.svelte';
 	import { lessonTracking } from '../lib/stores';
 
@@ -24,7 +25,7 @@
 			class="mx-2 my-2 duration-75 text-neutral-600 {navVisibleState ? 'rotate-90' : ''} "
 		/>
 	</div>
-	<a href="/" class="flex flex-row w-full m-0 md:justify-start items-center">
+	<a href="{base}/" class="flex flex-row w-full m-0 md:justify-start items-center">
 		<img src="/assets/logo.png" alt="Teaching Tech Lit logo" class="group h-6 w-6" />
 		<h1 class="group mx-1 md:px-2 py-2 text-lg font-semibold text-neutral-900">
 			Teaching Tech Lit<span
@@ -32,7 +33,7 @@
 			/>
 		</h1>
 	</a>
-	<a class="group px-2 py-2 min-w-max {navVisibleState ? '' : 'hidden md:inline'}" href="/"
+	<a class="group px-2 py-2 min-w-max {navVisibleState ? '' : 'hidden md:inline'}" href="{base}/"
 		>Home
 		<span
 			class="block bg-[#3549A6] max-w-0 group-hover:max-w-full {$page.route.id == '/'
@@ -40,7 +41,9 @@
 				: ''} transition-all duration-300 h-0.5"
 		/>
 	</a>
-	<a class="group px-2 py-2 min-w-max {navVisibleState ? '' : 'hidden md:inline'}" href="/devices"
+	<a
+		class="group px-2 py-2 min-w-max {navVisibleState ? '' : 'hidden md:inline'}"
+		href="{base}/devices"
 		><NavItem {indicatorIconSize} lessonNumber={'1'}>Lesson 1</NavItem>
 		<span
 			class="block bg-[#3549A6] max-w-0 group-hover:max-w-full {$page.route.id == '/devices'
@@ -48,7 +51,9 @@
 				: ''} transition-all duration-300 h-0.5"
 		/>
 	</a>
-	<a class="group px-2 py-2 min-w-max {navVisibleState ? '' : 'hidden md:inline'}" href="/icons"
+	<a
+		class="group px-2 py-2 min-w-max {navVisibleState ? '' : 'hidden md:inline'}"
+		href="{base}/icons"
 		><NavItem {indicatorIconSize} lessonNumber={'2'}>Lesson 2</NavItem>
 		<span
 			class="block bg-[#3549A6] max-w-0 group-hover:max-w-full {$page.route.id == '/icons'
@@ -58,7 +63,7 @@
 	</a>
 	<a
 		class="group px-2 py-2 min-w-max {navVisibleState ? '' : 'hidden md:inline'}"
-		href="/accessibility"
+		href="{base}/accessibility"
 		><NavItem {indicatorIconSize} lessonNumber={'3'}>Lesson 3</NavItem>
 		<span
 			class="block bg-[#3549A6] max-w-0 group-hover:max-w-full {$page.route.id == '/accessibility'
@@ -66,7 +71,9 @@
 				: ''} transition-all duration-300 h-0.5"
 		/>
 	</a>
-	<a class="group px-2 py-2 min-w-max {navVisibleState ? '' : 'hidden md:inline'}" href="/browsers"
+	<a
+		class="group px-2 py-2 min-w-max {navVisibleState ? '' : 'hidden md:inline'}"
+		href="{base}/browsers"
 		><NavItem {indicatorIconSize} lessonNumber={'4'}>Lesson 4</NavItem>
 		<span
 			class="block bg-[#3549A6] max-w-0 group-hover:max-w-full {$page.route.id == '/browsers'
@@ -74,7 +81,9 @@
 				: ''} transition-all duration-300 h-0.5"
 		/>
 	</a>
-	<a class="group px-2 py-2 min-w-max {navVisibleState ? '' : 'hidden md:inline'}" href="/safety"
+	<a
+		class="group px-2 py-2 min-w-max {navVisibleState ? '' : 'hidden md:inline'}"
+		href="{base}/safety"
 		><NavItem {indicatorIconSize} lessonNumber={'5'}>Lesson 5</NavItem>
 		<span
 			class="block bg-[#3549A6] max-w-0 group-hover:max-w-full {$page.route.id == '/safety'
