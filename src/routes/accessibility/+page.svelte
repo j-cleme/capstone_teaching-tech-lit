@@ -1,6 +1,7 @@
 <script>
 	import { ChevronDown } from 'lucide-svelte';
 	import NextLesson from '../NextLesson.svelte';
+	import { base } from '$app/paths';
 </script>
 
 <svelte:head>
@@ -21,7 +22,7 @@
 			</div>
 			<!-- svelte-ignore a11y-img-redundant-alt -->
 			<img
-				src="assets/accessibility/accessibility.svg"
+				src="{base}/assets/accessibility/accessibility.svg"
 				alt="Accessibility Hero Image"
 				class="max-w-[35rem] max-h-[35rem]"
 			/>

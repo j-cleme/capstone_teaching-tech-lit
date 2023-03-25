@@ -14,6 +14,7 @@
 		ChevronDown
 	} from 'lucide-svelte';
 	import NextLesson from '../NextLesson.svelte';
+	import { base } from '$app/paths';
 </script>
 
 <svelte:head>
@@ -33,7 +34,12 @@
 					pamphlet and will be reviewed.
 				</p>
 			</div>
-			<img src="assets/icons/icons.svg" alt="Icon Hero Image" class="max-w-[35rem] max-h-[35rem]" />
+			<!-- svelte-ignore a11y-img-redundant-alt -->
+			<img
+				src="{base}/assets/icons/icons.svg"
+				alt="Icon Hero Image"
+				class="max-w-[35rem] max-h-[35rem]"
+			/>
 		</div>
 		<div class="flex flex-col items-center">
 			<p class=" tracking-widest text-2xl text-slate-600 font-light mt-10">GET STARTED</p>
@@ -171,7 +177,11 @@
 				</div>
 
 				<div class="flex flex-row items-center md:border-r md:px-4 md:py-0 py-4">
-					<img src="assets/icons/Edge_logo.png" alt="Edge Logo" class="max-w-[50px] h-auto" />
+					<img
+						src="{base}/assets/icons/Edge_logo.png"
+						alt="Edge Logo"
+						class="max-w-[50px] h-auto"
+					/>
 					<div class="flex flex-col ml-2">
 						<h3 class=" text-xl text-slate-800">App Icons</h3>
 						<p class="text-slate-600 lg:max-w-[45ch]">
@@ -180,7 +190,7 @@
 					</div>
 				</div>
 				<div class="flex flex-row items-center md:px-4 md:py-0 py-4">
-					<img src="assets/icons/logo.png" alt="Edge Logo" class="max-w-[50px] h-auto" />
+					<img src="{base}/assets/icons/logo.png" alt="Edge Logo" class="max-w-[50px] h-auto" />
 					<div class="flex flex-col ml-2">
 						<h3 class=" text-xl text-slate-800">Site Logo</h3>
 						<p class="text-slate-600 lg:max-w-[45ch]">

@@ -26,7 +26,7 @@
 		/>
 	</div>
 	<a href="{base}/" class="flex flex-row w-full m-0 md:justify-start items-center">
-		<img src="/assets/logo.png" alt="Teaching Tech Lit logo" class="group h-6 w-6" />
+		<img src="{base}/assets/logo.png" alt="Teaching Tech Lit logo" class="group h-6 w-6" />
 		<h1 class="group mx-1 md:px-2 py-2 text-lg font-semibold text-neutral-900">
 			Teaching Tech Lit<span
 				class="block bg-[#3549A6] max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5"
@@ -97,5 +97,5 @@
 <footer class="w-full mt-10 bg-[#3549A6] text-white p-8 flex flex-col">
 	<p>this is a beautiful, well crafted footer.</p>
 
-	<a href="/" class="underline max-w-fit">back to home <span>&#10148;</span></a>
+	<a href="{base}/" class="underline max-w-fit">back to home <span>&#10148;</span></a>
 </footer>

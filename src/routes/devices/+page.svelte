@@ -2,6 +2,7 @@
 	import { Lightbox } from 'svelte-lightbox';
 	import { ChevronDown } from 'lucide-svelte';
 	import NextLesson from '../NextLesson.svelte';
+	import { base } from '$app/paths';
 	let lightboxProgrammaticController;
 </script>
 
@@ -23,7 +24,7 @@
 			</div>
 			<!-- svelte-ignore a11y-img-redundant-alt -->
 			<img
-				src="assets/devices/devices.svg"
+				src="{base}/assets/devices/devices.svg"
 				alt="Devices Hero Image"
 				class="max-w-[35rem] max-h-[35rem]"
 			/>

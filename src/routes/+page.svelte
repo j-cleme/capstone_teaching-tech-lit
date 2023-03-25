@@ -1,5 +1,6 @@
 <script>
 	import Arrow from './Arrow.svelte';
+	import { base } from '$app/paths';
 </script>
 
 <svelte:head>
@@ -20,7 +21,7 @@
 				literacy.
 			</p>
 			<a
-				href="/devices"
+				href="{base}/devices"
 				class="group inline-flex whitespace-nowrap rounded-md bg-[#ec598a] text-xl font-semibold text-white py-2 px-3 -translate-x-1 -translate-y-1 hover:translate-x-0 hover:translate-y-0 items-center justify-center transition duration-100"
 			>
 				Get Started <span class="px-2"><Arrow /></span>
@@ -28,14 +29,14 @@
 			</a>
 		</section>
 		<aside>
-			<img src="assets/educator.svg" alt="Educators svg" />
+			<img src="{base}/assets/educator.svg" alt="Educators svg" />
 		</aside>
 	</section>
 	<section
 		class="flex flex-wrap justify-center items-center m-auto p-6 gap-x-2 rounded-lg border-2 mb-8"
 	>
 		<aside>
-			<img src="assets/attention.svg" alt="Attention SVG" />
+			<img src="{base}/assets/attention.svg" alt="Attention SVG" />
 		</aside>
 		<section class="p-8">
 			<h3 class="text-3xl text-slate-800 font-semibold">
