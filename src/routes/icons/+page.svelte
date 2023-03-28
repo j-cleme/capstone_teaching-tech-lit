@@ -92,8 +92,8 @@
 		</div>
 		<!-- End of Windows Action Buttons -->
 
-		<div class="flex lg:flex-row flex-col mt-8 items-center">
-			<section class="md:max-w-[40ch] md:mr-14" role="contentinfo">
+		<div class="flex lg:flex-row flex-col my-14 items-center">
+			<section class="md:max-w-[35ch] md:mr-14" role="contentinfo">
 				<h1 class=" text-3xl text-slate-800 font-semibold ">Cursors</h1>
 				<p class=" pt-2 text-base text-slate-600 mb-3.5 ">
 					The cursor is the icon that moves around the screen with your mouse or trackpad. It has
