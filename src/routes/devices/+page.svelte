@@ -1,12 +1,58 @@
 <script lang="ts">
 	import { ChevronDown } from 'lucide-svelte';
 	import NextLesson from '$lib/NextLesson.svelte';
+	import { Modals, closeModal } from 'svelte-modals';
 	import { base } from '$app/paths';
+
+	import { openModal } from 'svelte-modals';
+	import ImageModal from '$lib/ImageModal.svelte';
+
+	function handleClick(index: number) {
+		switch (index) {
+			case 1:
+				openModal(ImageModal, {
+					image: '/devices/MacOS_desktop.jpg',
+					caption: 'This is a nice caption'
+				});
+				break;
+			case 2:
+				openModal(ImageModal, {
+					image: '/devices/windows_desktop.png',
+					caption: 'This is a nice caption'
+				});
+				break;
+			case 3:
+				openModal(ImageModal, {
+					image: '/devices/Finder.png',
+					caption: 'This is a nice caption'
+				});
+				break;
+			case 4:
+				openModal(ImageModal, {
+					image: '/devices/File_Explorer.png',
+					caption: 'This is a nice caption'
+				});
+				break;
+
+			default:
+				break;
+		}
+	}
 </script>
 
 <svelte:head>
 	<title>Lesson 1 - Devices</title>
 </svelte:head>
+
+<Modals>
+	<div
+		slot="backdrop"
+		class="fixed top-0 left-0 right-0 bottom-0 bg-black/50"
+		on:click={closeModal}
+		on:keypress={closeModal}
+	/>
+</Modals>
+
 <main class="flex flex-col justify-center m-auto">
 	<div class="h-[91vh] flex flex-col items-center justify-items-center justify-center w-full">
 		<div class="flex flex-col lg:flex-row md:items-center mb-20">
@@ -53,7 +99,13 @@
 		</section>
 		<section class="border-r flex flex-col pr-8 items-center">
 			<!-- <Lightbox> -->
-			<img src="assets/devices/MacOS_desktop.jpg" alt="MacOS desktop" class=" m-auto mb-4" />
+			<img
+				on:click={() => handleClick(1)}
+				on:keypress={() => handleClick(1)}
+				src="assets/devices/MacOS_desktop.jpg"
+				alt="MacOS desktop"
+				class=" m-auto mb-4"
+			/>
 			<!-- </Lightbox> -->
 			<p class="text-base text-slate-600 w-[55ch] text-center">
 				For MacOS there is both a top and bottom bar, the top bar is a menu and the bottom bar is
@@ -62,7 +114,13 @@
 		</section>
 		<section class="ml-8 flex flex-col items-center">
 			<!-- <Lightbox> -->
-			<img src="assets/devices/windows_desktop.png" alt="Windows desktop" class=" m-auto mb-4" />
+			<img
+				on:click={() => handleClick(2)}
+				on:keypress={() => handleClick(2)}
+				src="assets/devices/windows_desktop.png"
+				alt="Windows desktop"
+				class=" m-auto mb-4"
+			/>
 			<!-- </Lightbox> -->
 			<p class="text-base text-slate-600 w-[55ch] text-center">
 				Windows only has a bottom bar that holds your open and most used apps as well as the start
@@ -107,7 +165,13 @@
 		</section>
 		<section class="border-r flex flex-col pr-8 items-center justify-center">
 			<!-- <Lightbox> -->
-			<img src="assets/devices/Finder.png" alt="MacOS Finder" class=" m-auto mb-4" />
+			<img
+				on:click={() => handleClick(3)}
+				on:keypress={() => handleClick(3)}
+				src="assets/devices/Finder.png"
+				alt="MacOS Finder"
+				class=" m-auto mb-4"
+			/>
 			<!-- </Lightbox> -->
 			<p class="text-base text-slate-600 w-[55ch] text-center">
 				MacOS users have a File Explorer called Finder.
@@ -116,6 +180,8 @@
 		<section class="ml-8 flex flex-col items-center">
 			<!-- <Lightbox> -->
 			<img
+				on:click={() => handleClick(4)}
+				on:keypress={() => handleClick(4)}
 				src="assets/devices/File_Explorer.png"
 				alt="Windows desktop"
 				class=" m-auto mb-4 border"
