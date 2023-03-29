@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { ChevronDown } from 'lucide-svelte';
-	import NextLesson from '../NextLesson.svelte';
+	import NextLesson from '$lib/NextLesson.svelte';
 	import { base } from '$app/paths';
 </script>
 
@@ -43,7 +43,7 @@
 			</section>
 		</div>
 	</div>
-	<!-- <section class=" p-8 flex flex-row items-center">
+	<section class=" p-8 flex flex-row items-center">
 		<section class=" mr-12">
 			<h2 class="text-4xl text-slate-800 font-semibold">Taskbars</h2>
 			<p class="text-base text-slate-600 w-[50ch] pt-2 ">

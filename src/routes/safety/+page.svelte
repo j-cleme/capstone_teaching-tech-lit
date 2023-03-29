@@ -1,6 +1,6 @@
 <script>
 	import { ChevronDown, User, Lock, Cookie, AlertTriangle } from 'lucide-svelte';
-	import NextLesson from '../NextLesson.svelte';
+	import NextLesson from '$lib/NextLesson.svelte';
 	import { Modal, Content, Trigger } from 'sv-popup';
 	import { base } from '$app/paths';
 </script>

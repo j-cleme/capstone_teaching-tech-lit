@@ -1,5 +1,5 @@
 <script>
-	import Arrow from './Arrow.svelte';
+	import Arrow from '$lib/Arrow.svelte';
 	import { base } from '$app/paths';
 </script>
 
