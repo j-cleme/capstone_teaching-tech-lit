@@ -1,43 +1,46 @@
 <script>
 	import Arrow from '$lib/Arrow.svelte';
 	import { base } from '$app/paths';
+	import {ChevronDown} from 'lucide-svelte';
 </script>
 
 <svelte:head>
 	<title>Teaching Tech Lit</title>
 </svelte:head>
-
-<main class="flex flex-col">
-	<section
-		class="flex flex-wrap justify-center items-center gap-x-10 m-auto p-8 min-h-[50vh] max-h-screen border-2 rounded-lg
-	my-8 shadow"
-	>
-		<section class="rounded-lg p-8">
-			<h1 class="text-6xl text-slate-800 font-semibold">
-				Teaching Tech Lit<span class="text-[#3549A6]">.</span>
-			</h1>
-			<p class="pt-3.5 lg:max-w-[47ch] text-xl text-slate-600 mb-3.5">
-				A guided introduction to the internet for adults looking to learn tech intuition and
-				literacy.
-			</p>
-			<a
+<main class="flex flex-col justify-center m-auto">
+	<div class="h-[91vh] flex flex-col items-center justify-items-center justify-center w-full border-b">
+		<div class="flex flex-col md:flex-row lg:items-center mb-20">
+			<div class="mr-16">
+				<p class=" tracking-wide text-[#ec598b] text-2xl">Home</p>
+				<h1 class="text-6xl text-slate-800 font-semibold">
+					Teaching Tech Lit<span class="text-[#3549A6]">.</span>
+				</h1>
+				<p class="pt-3.5 lg:max-w-[47ch] text-xl text-slate-600 mb-3.5">
+					A guided introduction to the internet for adults looking to learn tech intuition and
+					literacy.
+				</p>
+				<a
 				href="{base}/devices"
 				class="group inline-flex whitespace-nowrap rounded-md bg-[#ec598a] text-xl font-semibold text-white py-2 px-3 -translate-x-1 -translate-y-1 hover:translate-x-0 hover:translate-y-0 items-center justify-center transition duration-100"
-			>
-				Get Started <span class="px-2"><Arrow /></span>
-				<!-- <span class="absolute -z-10 w-full h-full bg-black" /> -->
-			</a>
-		</section>
-		<aside>
-			<img src="{base}/assets/educator.svg" alt="Educators svg" />
-		</aside>
-	</section>
+				>
+					Get Started <span class="px-2"><Arrow /></span>
+					<!-- <span class="absolute -z-10 w-full h-full bg-black" /> -->
+				</a>
+			</div>
+			<!-- svelte-ignore a11y-img-redundant-alt -->
+			<img src="{base}/assets/educator.svg" alt="Educators svg" class="max-w-[35rem] max-h-[35rem]" />
+		</div>
+		<div class="flex flex-col items-center">
+			<p class=" tracking-widest text-2xl text-slate-600 font-light mt-10">GET STARTED</p>
+			<ChevronDown size={50} style="color:rgb(71, 85, 105);" />
+		</div>
+	</div>
 	<section
-		class="flex flex-wrap justify-center items-center m-auto p-6 gap-x-2 rounded-lg border-2 mb-8"
+		class="flex flex-row justify-center items-center my-8"
 	>
-		<aside>
+		<picture>
 			<img src="{base}/assets/attention.svg" alt="Attention SVG" />
-		</aside>
+		</picture>
 		<section class="p-8">
 			<h3 class="text-3xl text-slate-800 font-semibold">
 				What Is Teaching Tech Lit<span class="text-[#3549A6]">?</span>
