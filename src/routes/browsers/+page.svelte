@@ -1,6 +1,6 @@
 <script>
 	import { ChevronDown, ArrowLeftRight, Bookmark, RotateCw, Menu, Search } from 'lucide-svelte';
-	import NextLesson from '../NextLesson.svelte';
+	import NextLesson from '$lib/NextLesson.svelte';
 	import { base } from '$app/paths';
 </script>
 
@@ -47,21 +47,12 @@
 					<a
 						href="#"
 						aria-hidden="true"
-						onclick="return false;"
 						class="text-white py-1 px-2 mx-1 bg-blue-600 rounded hover:bg-blue-500">Example</a
 					>
 					<!-- svelte-ignore a11y-invalid-attribute -->
-					<a
-						href="#"
-						onclick="return false;"
-						class="text-white py-1 px-2 mx-1 hover:bg-blue-600 hover:rounded">Example</a
-					>
+					<a href="#" class="text-white py-1 px-2 mx-1 hover:bg-blue-600 hover:rounded">Example</a>
 					<!-- svelte-ignore a11y-invalid-attribute -->
-					<a
-						href="#"
-						onclick="return false;"
-						class="text-white py-1 px-2 mx-1 hover:bg-blue-600 hover:rounded">Example</a
-					>
+					<a href="#" class="text-white py-1 px-2 mx-1 hover:bg-blue-600 hover:rounded">Example</a>
 				</div>
 				<h1 class=" text-2xl text-slate-800 font-semibold ">Top Nav</h1>
 				<p class="text-slate-600 max-w-[45ch]">
@@ -73,21 +64,13 @@
 		<div class="p-4 m-auto h-full">
 			<div class=" bg-gray-900 flex flex-col justify-around rounded-sm w-[300px]">
 				<!-- svelte-ignore a11y-invalid-attribute -->
-				<a
-					href="#"
-					onclick="return false;"
-					class="text-white py-1 px-2 bg-blue-600 hover:bg-blue-500 rounded-t-sm">Example</a
-				>
-				<!-- svelte-ignore a11y-invalid-attribute -->
-				<a href="#" onclick="return false;" class="text-white py-1 px-2 hover:bg-blue-600"
+				<a href="#" class="text-white py-1 px-2 bg-blue-600 hover:bg-blue-500 rounded-t-sm"
 					>Example</a
 				>
 				<!-- svelte-ignore a11y-invalid-attribute -->
-				<a
-					href="#"
-					onclick="return false;"
-					class="text-white py-1 px-2 hover:bg-blue-600 hover:rounded-b-sm">Example</a
-				>
+				<a href="#" class="text-white py-1 px-2 hover:bg-blue-600">Example</a>
+				<!-- svelte-ignore a11y-invalid-attribute -->
+				<a href="#" class="text-white py-1 px-2 hover:bg-blue-600 hover:rounded-b-sm">Example</a>
 			</div>
 			<h1 class=" text-2xl text-slate-800 font-semibold ">Side Nav</h1>
 			<p class="text-slate-600 max-w-[45ch]">
@@ -148,21 +131,18 @@
 				<!-- svelte-ignore a11y-invalid-attribute -->
 				<a
 					href="#"
-					onclick="return false;"
 					class=" bg-gray-800 w-full text-center align-middle leading-[42px] rounded-tr-lg drop-shadow-md"
 					>Example</a
 				>
 				<!-- svelte-ignore a11y-invalid-attribute -->
 				<a
 					href="#"
-					onclick="return false;"
 					class="w-full text-center hover:leading-[42px] hover:rounded-t-lg hover:bg-gray-700"
 					>Example</a
 				>
 				<!-- svelte-ignore a11y-invalid-attribute -->
 				<a
 					href="#"
-					onclick="return false;"
 					class="w-full text-center hover:leading-[42px] hover:rounded-tl-lg hover:bg-gray-700"
 					>Example</a
 				>

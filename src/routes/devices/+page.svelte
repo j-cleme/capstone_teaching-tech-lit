@@ -1,9 +1,7 @@
 <script lang="ts">
-	import { Lightbox } from 'svelte-lightbox';
 	import { ChevronDown } from 'lucide-svelte';
-	import NextLesson from '../NextLesson.svelte';
+	import NextLesson from '$lib/NextLesson.svelte';
 	import { base } from '$app/paths';
-	let lightboxProgrammaticController;
 </script>
 
 <svelte:head>
@@ -45,7 +43,7 @@
 			</section>
 		</div>
 	</div>
-	<!-- <section class=" p-8 flex flex-row items-center">
+	<section class=" p-8 flex flex-row items-center">
 		<section class=" mr-12">
 			<h2 class="text-4xl text-slate-800 font-semibold">Taskbars</h2>
 			<p class="text-base text-slate-600 w-[50ch] pt-2 ">
@@ -54,18 +52,18 @@
 			</p>
 		</section>
 		<section class="border-r flex flex-col pr-8 items-center">
-			<Lightbox>
-				<img src="assets/devices/MacOS_desktop.jpg" alt="MacOS desktop" class=" m-auto mb-4" />
-			</Lightbox>
+			<!-- <Lightbox> -->
+			<img src="assets/devices/MacOS_desktop.jpg" alt="MacOS desktop" class=" m-auto mb-4" />
+			<!-- </Lightbox> -->
 			<p class="text-base text-slate-600 w-[55ch] text-center">
 				For MacOS there is both a top and bottom bar, the top bar is a menu and the bottom bar is
 				used to hold your computer's apps.
 			</p>
 		</section>
 		<section class="ml-8 flex flex-col items-center">
-			<Lightbox>
-				<img src="assets/devices/windows_desktop.png" alt="Windows desktop" class=" m-auto mb-4" />
-			</Lightbox>
+			<!-- <Lightbox> -->
+			<img src="assets/devices/windows_desktop.png" alt="Windows desktop" class=" m-auto mb-4" />
+			<!-- </Lightbox> -->
 			<p class="text-base text-slate-600 w-[55ch] text-center">
 				Windows only has a bottom bar that holds your open and most used apps as well as the start
 				button.
@@ -102,26 +100,32 @@
 		<section class=" mr-12">
 			<h2 class="text-4xl text-slate-800 font-semibold">File Explorers</h2>
 			<p class="text-base text-slate-600 w-[50ch] pt-2 ">
-				The file explorer is based on folders and files. Folders can hold your files to keep them organized and find them easily. There are some default folders such as pictures, documents, and downloads as well as folders you can make yourself. 
+				The file explorer is based on folders and files. Folders can hold your files to keep them
+				organized and find them easily. There are some default folders such as pictures, documents,
+				and downloads as well as folders you can make yourself.
 			</p>
 		</section>
 		<section class="border-r flex flex-col pr-8 items-center justify-center">
-			<Lightbox>
-				<img src="assets/devices/Finder.png" alt="MacOS Finder" class=" m-auto mb-4" />
-			</Lightbox>
+			<!-- <Lightbox> -->
+			<img src="assets/devices/Finder.png" alt="MacOS Finder" class=" m-auto mb-4" />
+			<!-- </Lightbox> -->
 			<p class="text-base text-slate-600 w-[55ch] text-center">
 				MacOS users have a File Explorer called Finder.
 			</p>
 		</section>
 		<section class="ml-8 flex flex-col items-center">
-			<Lightbox>
-				<img src="assets/devices/File_Explorer.png" alt="Windows desktop" class=" m-auto mb-4 border" />
-			</Lightbox>
+			<!-- <Lightbox> -->
+			<img
+				src="assets/devices/File_Explorer.png"
+				alt="Windows desktop"
+				class=" m-auto mb-4 border"
+			/>
+			<!-- </Lightbox> -->
 			<p class="text-base text-slate-600 w-[55ch] text-center">
 				Windows users have a File Explorer called Windows File Explorer.
 			</p>
 		</section>
-	</section> -->
+	</section>
 	<section class="flex items-center justify-center my-5">
 		<NextLesson lessonNumber={'1'} nextPageLink="/icons" />
 	</section>

@@ -3,8 +3,7 @@
 	import { Menu } from 'lucide-svelte';
 	import { page } from '$app/stores';
 	import { base } from '$app/paths';
-	import NavItem from './NavItem.svelte';
-	import { lessonTracking } from '../lib/stores';
+	import NavItem from '$lib/NavItem.svelte';
 
 	const indicatorIconSize: number = 20;
 

@@ -1,6 +1,6 @@
 <script>
 	import { ChevronDown } from 'lucide-svelte';
-	import NextLesson from '../NextLesson.svelte';
+	import NextLesson from '$lib/NextLesson.svelte';
 	import { base } from '$app/paths';
 </script>
 

@@ -13,7 +13,7 @@
 		Move,
 		ChevronDown
 	} from 'lucide-svelte';
-	import NextLesson from '../NextLesson.svelte';
+	import NextLesson from '$lib/NextLesson.svelte';
 	import { base } from '$app/paths';
 </script>
 
@@ -59,7 +59,7 @@
 
 			<div class="flex md:flex-row flex-col m-auto ">
 				<div class="flex flex-row md:items-center md:border-r md:py-0 py-4 md:px-4">
-					<X size={45} enable-background={false} />
+					<X size={45} enable-background={'false'} />
 					<div class="flex flex-col ml-2">
 						<h3 class=" text-xl text-slate-800">Close</h3>
 						<p class="text-slate-600">
@@ -69,7 +69,7 @@
 				</div>
 
 				<div class="flex flex-row md:items-center md:border-r md:px-4 md:py-0 py-4">
-					<Maximize size={45} enable-background={false} />
+					<Maximize size={45} enable-background={'false'} />
 					<div class="flex flex-col ml-2">
 						<h3 class=" text-xl text-slate-800">Maximize</h3>
 						<p class="text-slate-600 md:max-w-[30ch]">
@@ -80,7 +80,7 @@
 				</div>
 
 				<div class="flex flex-row md:items-center md:px-4 md:py-0 py-4">
-					<Minimize size={45} enable-background={false} />
+					<Minimize size={45} enable-background={'false'} />
 					<div class="flex flex-col ml-2">
 						<h3 class=" text-xl text-slate-800">Minimize</h3>
 						<p class="text-slate-600 md:max-w-[45ch]">
