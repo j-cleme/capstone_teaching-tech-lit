@@ -4,7 +4,6 @@
 	import { page } from '$app/stores';
 	import { base } from '$app/paths';
 	import NavItem from './NavItem.svelte';
-	import { lessonTracking } from '../lib/stores';
 
 	const indicatorIconSize: number = 20;
 
