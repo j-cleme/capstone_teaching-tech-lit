@@ -108,7 +108,7 @@
 				</picture>
 			</section>
 		</div>
-		<section class=" flex flex-row items-center my-14">
+		<section class=" flex flex-row items-center my-14 w-full">
 			<section class="mr-12">
 				<h2 class="text-4xl text-slate-800 font-semibold">Start Buttons</h2>
 				<p class="text-base text-slate-600 w-[40ch] pt-2 ">
@@ -118,15 +118,15 @@
 					differ depending on device.
 				</p>
 			</section>
-			<div class="flex flex-col justify-center items-center ">
-				<img src="assets/devices/apple_logo.png" alt="Apple logo" class="max-w-[50%] h-auto mb-4" />
-				<p class="text-base text-slate-600 w-[55ch] text-center">
+			<div class="flex flex-col justify-center items-center w-full">
+				<img src="assets/devices/apple_logo.png" alt="Apple logo" class="max-w-[10rem] h-auto mb-4" />
+				<p class="text-base text-slate-600 text-center">
 					Located - <span class="text-[#ec598b]">Top Left</span>
 				</p>
 			</div>
-			<div class="flex flex-col justify-center items-center">
-				<img src="assets/devices/windows_logo.png" alt="" class="max-w-[50%] h-auto mb-4" />
-				<p class="text-base text-slate-600 w-[55ch] text-center">
+			<div class="flex flex-col justify-center items-center w-full">
+				<img src="assets/devices/windows_logo.png" alt="" class="max-w-[10rem] h-auto mb-4" />
+				<p class="text-base text-slate-600 text-center">
 					Located - <span class="text-[#ec598b]">Bottom Left</span> or
 					<span class="text-[#ec598b]"> Center</span>
 				</p>
