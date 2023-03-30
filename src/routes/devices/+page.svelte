@@ -110,7 +110,7 @@
 		</div>
 		<section class=" flex flex-row items-center my-14 w-full">
 			<section class="mr-12">
-				<h2 class="text-4xl text-slate-800 font-semibold">Start Buttons</h2>
+				<h2 class="text-2xl text-slate-800 font-semibold">Start Buttons</h2>
 				<p class="text-base text-slate-600 w-[40ch] pt-2 ">
 					A start button can be used to search a device for programs or files, its look and <span
 						class="text-[#ec598b]">location</span
@@ -134,7 +134,7 @@
 		</section>
 		<section class="flex flex-row items-center">
 			<section class=" mr-12">
-				<h2 class="text-4xl text-slate-800 font-semibold">File Explorers</h2>
+				<h2 class="text-2xl text-slate-800 font-semibold">File Explorers</h2>
 				<p class="text-base text-slate-600 w-[40ch] pt-2 ">
 					The file explorer is comprised of folders and files. Folders can hold your files to keep them
 					organized. There are some default folders such as pictures, documents,
