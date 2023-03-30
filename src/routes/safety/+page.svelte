@@ -19,7 +19,9 @@
 				<h1 class="text-6xl text-slate-800 font-semibold">
 					Safety<span class="text-[#3549A6]">.</span>
 				</h1>
-				<p class="pt-3.5 lg:max-w-[47ch] text-xl text-slate-600 mb-3.5">Blurb about Safety</p>
+				<p class="pt-3.5 lg:max-w-[47ch] text-xl text-slate-600 mb-3.5">
+					It’s important to be safe when using the internet, though, especially with your personal information. By learning and taking precautions, you can help protect yourself while enjoying the benefits of the internet.
+				</p>
 			</div>
 			<!-- svelte-ignore a11y-img-redundant-alt -->
 			<img

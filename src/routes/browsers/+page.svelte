@@ -18,7 +18,9 @@
 				<h1 class="text-6xl text-slate-800 font-semibold">
 					Browsers<span class="text-[#3549A6]">.</span>
 				</h1>
-				<p class="pt-3.5 lg:max-w-[47ch] text-xl text-slate-600 mb-3.5">Blurb about browsers</p>
+				<p class="pt-3.5 lg:max-w-[47ch] text-xl text-slate-600 mb-3.5">
+					A web browser is an application that lets you navigate the internet. This is how you will access websites and online services. By using a browser, you can search for information, shop online, connect with others, and countless other things.
+				</p>
 			</div>
 			<!-- svelte-ignore a11y-img-redundant-alt -->
 			<img
