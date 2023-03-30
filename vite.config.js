@@ -4,7 +4,7 @@ import { sveltekit } from '@sveltejs/kit/vite';
 const config = {
 	build: {
 		rollupOptions: {
-			external: './node_modules/svelte-modals/Modals.svelte'
+			external: 'svelte-modals'
 		}
 	},
 	plugins: [sveltekit()]
