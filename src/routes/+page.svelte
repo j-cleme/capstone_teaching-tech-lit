@@ -1,14 +1,16 @@
 <script>
 	import Arrow from '$lib/Arrow.svelte';
 	import { base } from '$app/paths';
-	import {ChevronDown} from 'lucide-svelte';
+	import { ChevronDown } from 'lucide-svelte';
 </script>
 
 <svelte:head>
 	<title>Teaching Tech Lit</title>
 </svelte:head>
 <main class="flex flex-col justify-center m-auto">
-	<div class="h-[91vh] flex flex-col items-center justify-items-center justify-center w-full border-b">
+	<div
+		class="h-[91vh] max-h-screen flex flex-col items-center justify-items-center justify-center w-full border-b"
+	>
 		<div class="flex flex-col md:flex-row lg:items-center mb-20">
 			<div class="mr-16">
 				<p class=" tracking-wide text-[#ec598b] text-2xl">Home</p>
@@ -20,24 +22,26 @@
 					literacy.
 				</p>
 				<a
-				href="{base}/devices"
-				class="group inline-flex whitespace-nowrap rounded-md bg-[#ec598a] text-xl font-semibold text-white py-2 px-3 -translate-x-1 -translate-y-1 hover:translate-x-0 hover:translate-y-0 items-center justify-center transition duration-100"
+					href="{base}/devices"
+					class="group inline-flex whitespace-nowrap rounded-md bg-[#ec598a] text-xl font-semibold text-white py-2 px-3 -translate-x-1 -translate-y-1 hover:translate-x-0 hover:translate-y-0 items-center justify-center transition duration-100"
 				>
 					Get Started <span class="px-2"><Arrow /></span>
 					<!-- <span class="absolute -z-10 w-full h-full bg-black" /> -->
 				</a>
 			</div>
 			<!-- svelte-ignore a11y-img-redundant-alt -->
-			<img src="{base}/assets/educator.svg" alt="Educators svg" class="max-w-[35rem] max-h-[35rem]" />
+			<img
+				src="{base}/assets/educator.svg"
+				alt="Educators svg"
+				class="max-w-[35rem] max-h-[35rem]"
+			/>
 		</div>
 		<div class="flex flex-col items-center">
 			<p class=" tracking-widest text-2xl text-slate-600 font-light mt-10">GET STARTED</p>
 			<ChevronDown size={50} style="color:rgb(71, 85, 105);" />
 		</div>
 	</div>
-	<section
-		class="flex flex-row justify-center items-center my-8"
-	>
+	<section class="flex flex-row justify-center items-center my-8">
 		<picture>
 			<img src="{base}/assets/attention.svg" alt="Attention SVG" />
 		</picture>
