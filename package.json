@@ -10,7 +10,7 @@
 		"format": "prettier --plugin-search-dir . --write ."
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-node": "^1.2.3",
+		"@sveltejs/adapter-static": "^2.0.1",
 		"@sveltejs/kit": "^1.11.0",
 		"autoprefixer": "^10.4.13",
 		"postcss": "^8.4.20",
@@ -23,7 +23,6 @@
 	"type": "module",
 	"dependencies": {
 		"lucide-svelte": "^0.104.0",
-		"svelte-modals": "^1.2.1",
 		"tw-elements": "^1.0.0-beta1",
 		"vite-plugin-remove-console": "^2.1.0"
 	}
