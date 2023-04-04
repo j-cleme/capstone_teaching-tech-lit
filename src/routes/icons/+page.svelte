@@ -45,7 +45,7 @@
 		<GetStarted />
 	</div>
 	<div class="border-t w-full flex flex-col">
-		<div class="flex md:flex-row flex-col mt-8">
+		<div class="flex md:flex-row flex-col my-8">
 			<section class="md:max-w-[40ch]">
 				<h1 class=" text-3xl text-slate-800 font-semibold ">
 					Window <span class="text-[#ec598b]">Action</span> Buttons
@@ -89,7 +89,7 @@
 			</div>
 		</div>
 		<!-- End of Windows Action Buttons -->
-
+		<hr class="w-4/6 m-auto my-8" />
 		<div class="flex lg:flex-row flex-col my-14 items-center">
 			<section class="md:max-w-[35ch] md:mr-14" role="contentinfo">
 				<h1 class=" text-3xl text-slate-800 font-semibold ">Cursors</h1>
@@ -158,7 +158,7 @@
 			</div>
 		</div>
 		<!-- End of Cursors -->
-
+		<hr class="w-4/6 m-auto my-8" />
 		<div class="flex md:flex-row flex-col mt-8">
 			<section class="md:max-w-[40ch] md:mr-14">
 				<h1 class=" text-3xl text-slate-800 font-semibold ">Additonal Icons</h1>
