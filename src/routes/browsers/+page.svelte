@@ -2,6 +2,7 @@
 	import { ChevronDown, ArrowLeftRight, Bookmark, RotateCw, Menu, Search } from 'lucide-svelte';
 	import NextLesson from '$lib/NextLesson.svelte';
 	import { base } from '$app/paths';
+	import GetStarted from '$lib/GetStarted.svelte';
 </script>
 
 <svelte:head>
@@ -19,7 +20,9 @@
 					Browsers<span class="text-[#3549A6]">.</span>
 				</h1>
 				<p class="pt-3.5 lg:max-w-[47ch] text-xl text-slate-600 mb-3.5">
-					A web browser is an application that lets you navigate the internet. This is how you will access websites and online services. By using a browser, you can search for information, shop online, connect with others, and countless other things.
+					A web browser is an application that lets you navigate the internet. This is how you will
+					access websites and online services. By using a browser, you can search for information,
+					shop online, connect with others, and countless other things.
 				</p>
 			</div>
 			<!-- svelte-ignore a11y-img-redundant-alt -->
@@ -29,10 +32,7 @@
 				class="md:max-w-[35rem] md:max-h-[35rem]"
 			/>
 		</div>
-		<div class="flex flex-col items-center">
-			<p class=" tracking-widest text-2xl text-slate-600 font-light mt-10">GET STARTED</p>
-			<ChevronDown size={50} style="color:rgb(71, 85, 105);" />
-		</div>
+		<GetStarted />
 	</div>
 	<h2 class="text-slate-800 text-4xl font-semibold">
 		Navigation Menus<span class="text-[#3549A6]">.</span>

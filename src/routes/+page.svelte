@@ -2,6 +2,7 @@
 	import Arrow from '$lib/Arrow.svelte';
 	import { base } from '$app/paths';
 	import { ChevronDown } from 'lucide-svelte';
+	import GetStarted from '$lib/GetStarted.svelte';
 </script>
 
 <svelte:head>
@@ -29,10 +30,7 @@
 				class="max-w-[35rem] max-h-[35rem]"
 			/>
 		</div>
-		<div class="flex flex-col items-center">
-			<p class=" tracking-widest text-2xl text-slate-600 font-light mt-10">GET STARTED</p>
-			<ChevronDown size={50} style="color:rgb(71, 85, 105);" />
-		</div>
+		<GetStarted />
 	</div>
 	<section
 		class="flex flex-row lg:max-w-[47ch] text-xl w-screen gap-4 justify-around items-center mt-4"

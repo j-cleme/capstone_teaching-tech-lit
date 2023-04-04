@@ -15,6 +15,7 @@
 	} from 'lucide-svelte';
 	import NextLesson from '$lib/NextLesson.svelte';
 	import { base } from '$app/paths';
+	import GetStarted from '$lib/GetStarted.svelte';
 </script>
 
 <svelte:head>
@@ -41,10 +42,7 @@
 				class="max-w-[35rem] max-h-[35rem]"
 			/>
 		</div>
-		<div class="flex flex-col items-center">
-			<p class=" tracking-widest text-2xl text-slate-600 font-light mt-10">GET STARTED</p>
-			<ChevronDown size={50} style="color:rgb(71, 85, 105);" />
-		</div>
+		<GetStarted />
 	</div>
 	<div class="border-t w-full flex flex-col">
 		<div class="flex md:flex-row flex-col mt-8">
@@ -102,14 +100,18 @@
 			</section>
 
 			<div class="lg:grid lg:grid-cols-3 m-auto">
-				<div class="px-4 pb-4 flex flex-row h-full lg:border-r lg:border-b items-center">
+				<div
+					class="px-4 pb-4 flex flex-row h-full lg:border-r lg:border-b items-center cursor-default"
+				>
 					<MousePointer size={50} />
 					<div class="flex flex-col ml-3">
 						<h3 class=" text-xl text-slate-800">Cursor Arrow</h3>
 						<p class="text-slate-600 md:max-w-[45ch]">This is the default cursor icon.</p>
 					</div>
 				</div>
-				<div class="px-4 pb-4 flex flex-row items-center lg:border-r lg:border-b h-full">
+				<div
+					class="px-4 pb-4 flex flex-row items-center lg:border-r lg:border-b h-full cursor-pointer"
+				>
 					<Pointer size={50} />
 					<div class="flex flex-col ml-3">
 						<h3 class=" text-xl text-slate-800">Pointer</h3>
@@ -119,14 +121,14 @@
 						</p>
 					</div>
 				</div>
-				<div class="px-4 pb-4 flex flex-row items-center h-full lg:border-b">
+				<div class="px-4 pb-4 flex flex-row items-center h-full lg:border-b cursor-text">
 					<TextCursor size={50} />
 					<div class="flex flex-col ml-3">
 						<h3 class=" text-xl text-slate-800">Type</h3>
 						<p class="text-slate-600 md:max-w-[45ch]">This icon means this space is for typing.</p>
 					</div>
 				</div>
-				<div class=" p-4 flex flex-row items-center h-full lg:border-r">
+				<div class=" p-4 flex flex-row items-center h-full lg:border-r cursor-grab">
 					<Grab size={50} />
 					<div class="flex flex-col ml-3">
 						<h3 class=" text-xl text-slate-800">Hand / Grab</h3>
@@ -135,7 +137,7 @@
 						</p>
 					</div>
 				</div>
-				<div class=" p-4 flex flex-row items-center h-full lg:border-r">
+				<div class=" p-4 flex flex-row items-center h-full lg:border-r cursor-e-resize">
 					<MoveHorizontal size={50} />
 					<div class="flex flex-col ml-3">
 						<h3 class=" text-xl text-slate-800">Resize</h3>
@@ -144,7 +146,7 @@
 						</p>
 					</div>
 				</div>
-				<div class=" p-4 flex flex-row items-center h-full ">
+				<div class=" p-4 flex flex-row items-center h-full cursor-move">
 					<Move size={50} />
 					<div class="flex flex-col ml-3">
 						<h3 class=" text-xl text-slate-800">Move</h3>

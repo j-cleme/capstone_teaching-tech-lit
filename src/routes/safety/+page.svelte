@@ -3,6 +3,7 @@
 	import NextLesson from '$lib/NextLesson.svelte';
 	import { Modal, Content, Trigger } from 'sv-popup';
 	import { base } from '$app/paths';
+	import GetStarted from '$lib/GetStarted.svelte';
 </script>
 
 <svelte:head>
@@ -20,7 +21,9 @@
 					Safety<span class="text-[#3549A6]">.</span>
 				</h1>
 				<p class="pt-3.5 lg:max-w-[47ch] text-xl text-slate-600 mb-3.5">
-					It’s important to be safe when using the internet, though, especially with your personal information. By learning and taking precautions, you can help protect yourself while enjoying the benefits of the internet.
+					It’s important to be safe when using the internet, though, especially with your personal
+					information. By learning and taking precautions, you can help protect yourself while
+					enjoying the benefits of the internet.
 				</p>
 			</div>
 			<!-- svelte-ignore a11y-img-redundant-alt -->
@@ -30,10 +33,7 @@
 				class="max-w-[28rem] max-h-[28rem]"
 			/>
 		</div>
-		<div class="flex flex-col items-center">
-			<p class=" tracking-widest text-2xl text-slate-600 font-light mt-10">GET STARTED</p>
-			<ChevronDown size={50} style="color:rgb(71, 85, 105);" />
-		</div>
+		<GetStarted />
 	</div>
 	<h2 class="text-slate-800 text-4xl font-semibold">
 		Practicing Internet Safety<span class="text-[#3549A6]">.</span>

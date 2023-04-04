@@ -6,6 +6,7 @@
 
 	import { openModal } from 'svelte-modals';
 	import ImageModal from '$lib/ImageModal.svelte';
+	import GetStarted from '$lib/GetStarted.svelte';
 
 	function handleClick(index: number) {
 		switch (index) {
@@ -54,7 +55,9 @@
 </Modals>
 
 <main class="flex flex-col justify-center m-auto">
-	<div class="h-[91vh] flex flex-col items-center justify-items-center justify-center w-full border-b">
+	<div
+		class="h-[91vh] flex flex-col items-center justify-items-center justify-center w-full border-b"
+	>
 		<div class="flex flex-col lg:flex-row md:items-center mb-20">
 			<div class="mr-16">
 				<p class=" tracking-wide text-[#ec598b] text-2xl">Lesson 1</p>
@@ -73,10 +76,7 @@
 				class="max-w-[35rem] max-h-[35rem]"
 			/>
 		</div>
-		<div class="flex flex-col items-center">
-			<p class=" tracking-widest text-2xl text-slate-600 font-light mt-10">GET STARTED</p>
-			<ChevronDown size={50} style="color:rgb(71, 85, 105);" />
-		</div>
+		<GetStarted />
 	</div>
 	<div class="flex flex-col w-full">
 		<div class="flex md:flex-row flex-col mt-8 items-center h-full mr-4">
@@ -90,20 +90,20 @@
 			<section class="md:grid md:grid-cols-2 flex flex-col justify-items-center w-full">
 				<picture>
 					<img
-					on:click={() => handleClick(1)}
-					on:keypress={() => handleClick(1)}
-					src="assets/devices/MacOS_desktop.jpg"
-					alt="MacOS desktop"
-					class=" m-auto mb-4 max-w-md"
+						on:click={() => handleClick(1)}
+						on:keypress={() => handleClick(1)}
+						src="assets/devices/MacOS_desktop.jpg"
+						alt="MacOS desktop"
+						class=" m-auto mb-4 max-w-md"
 					/>
 				</picture>
 				<picture>
 					<img
-					on:click={() => handleClick(2)}
-					on:keypress={() => handleClick(2)}
-					src="assets/devices/windows_desktop.png"
-					alt="Windows desktop"
-					class=" m-auto mb-4 max-w-md"
+						on:click={() => handleClick(2)}
+						on:keypress={() => handleClick(2)}
+						src="assets/devices/windows_desktop.png"
+						alt="Windows desktop"
+						class=" m-auto mb-4 max-w-md"
 					/>
 				</picture>
 			</section>
@@ -119,7 +119,11 @@
 				</p>
 			</section>
 			<div class="flex flex-col justify-center items-center w-full">
-				<img src="assets/devices/apple_logo.png" alt="Apple logo" class="max-w-[10rem] h-auto mb-4" />
+				<img
+					src="assets/devices/apple_logo.png"
+					alt="Apple logo"
+					class="max-w-[10rem] h-auto mb-4"
+				/>
 				<p class="text-base text-slate-600 text-center">
 					Located - <span class="text-[#ec598b]">Top Left</span>
 				</p>
@@ -136,29 +140,29 @@
 			<section class=" mr-12">
 				<h2 class="text-3xl text-slate-800 font-semibold">File Explorers</h2>
 				<p class="text-base text-slate-600 w-[40ch] pt-2 ">
-					The file explorer is comprised of folders and files. Folders can hold your files to keep them
-					organized. There are some default folders such as pictures, documents,
-					and downloads as well as folders you can make yourself.
+					The file explorer is comprised of folders and files. Folders can hold your files to keep
+					them organized. There are some default folders such as pictures, documents, and downloads
+					as well as folders you can make yourself.
 				</p>
 			</section>
 			<section class="md:grid md:grid-cols-2 flex flex-col justify-items-center w-full">
 				<picture class="flex items-center h-full">
 					<img
-					on:click={() => handleClick(3)} 
-					on:keypress={() => handleClick(3)}
-					src="assets/devices/Finder.png"
-					alt="MacOS Finder"
-					class=" m-auto mb-4 max-w-md"
-				/>
+						on:click={() => handleClick(3)}
+						on:keypress={() => handleClick(3)}
+						src="assets/devices/Finder.png"
+						alt="MacOS Finder"
+						class=" m-auto mb-4 max-w-md"
+					/>
 				</picture>
 				<picture class="flex flex-col items-center">
 					<img
-					on:click={() => handleClick(4)}
-					on:keypress={() => handleClick(4)}
-					src="assets/devices/File_Explorer.png"
-					alt="Windows desktop"
-					class=" m-auto mb-4 border max-w-md"
-				/>
+						on:click={() => handleClick(4)}
+						on:keypress={() => handleClick(4)}
+						src="assets/devices/File_Explorer.png"
+						alt="Windows desktop"
+						class=" m-auto mb-4 border max-w-md"
+					/>
 				</picture>
 			</section>
 		</section>
