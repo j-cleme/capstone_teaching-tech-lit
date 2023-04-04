@@ -89,7 +89,7 @@
 			</div>
 		</div>
 		<!-- End of Windows Action Buttons -->
-		<hr class="w-4/6 m-auto my-8" />
+		<hr class="w-3/6 m-auto my-8" />
 		<div class="flex lg:flex-row flex-col my-14 items-center">
 			<section class="md:max-w-[35ch] md:mr-14" role="contentinfo">
 				<h1 class=" text-3xl text-slate-800 font-semibold ">Cursors</h1>
@@ -158,7 +158,7 @@
 			</div>
 		</div>
 		<!-- End of Cursors -->
-		<hr class="w-4/6 m-auto my-8" />
+		<hr class="w-3/6 m-auto my-8" />
 		<div class="flex md:flex-row flex-col mt-8">
 			<section class="md:max-w-[40ch] md:mr-14">
 				<h1 class=" text-3xl text-slate-800 font-semibold ">Additonal Icons</h1>
@@ -192,7 +192,7 @@
 					</div>
 				</div>
 				<div class="flex flex-row items-center md:px-4 md:py-0 py-4">
-					<img src="{base}/assets/icons/logo.png" alt="Edge Logo" class="max-w-[50px] h-auto" />
+					<img src="{base}/assets/icons/logo.png" alt="Tech Lit Logo" class="max-w-[50px] h-auto" />
 					<div class="flex flex-col ml-2">
 						<h3 class=" text-xl text-slate-800">Site Logo</h3>
 						<p class="text-slate-600 lg:max-w-[45ch]">

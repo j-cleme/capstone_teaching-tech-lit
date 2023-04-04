@@ -35,6 +35,55 @@
 		<GetStarted />
 	</div>
 	<h2 class="text-slate-800 text-4xl font-semibold">
+		Common Internet Browsers<span class="text-[#3549A6]">.</span>
+	</h2>
+	<p class="text-slate-600 my-4 text-lg">
+		Below are some of the most commonly used Internet Browsers today.
+	</p>
+	<div class="md:grid md:grid-cols-4 w-full content-center items-center my-6">
+		<div class="p-4 m-auto h-full grid">
+			<div class="place-self-center">
+				<img
+					src="{base}/assets/browsers/Chrome_logo.svg"
+					alt="Chrome Logo"
+					class="max-w-[150px] h-auto m-auto"
+				/>
+				<h1 class=" text-center text-2xl text-slate-800 font-semibold my-4">Google Chrome</h1>
+			</div>
+		</div>
+		<div class="p-4 m-auto h-full grid">
+			<div class="place-self-center">
+				<img
+					src="{base}/assets/icons/Edge_logo.png"
+					alt="Edge Logo"
+					class="max-w-[150px] h-auto m-auto"
+				/>
+				<h1 class=" text-center text-2xl text-slate-800 font-semibold my-4 ">Microsoft Edge</h1>
+			</div>
+		</div>
+		<div class="p-4 m-auto h-full grid">
+			<div class="place-self-center">
+				<img
+					src="{base}/assets/browsers/Firefox_logo.png"
+					alt="Firefox Logo"
+					class="max-w-[150px] max-h-[150px] m-auto"
+				/>
+				<h1 class=" text-center text-2xl text-slate-800 font-semibold my-4">Firefox</h1>
+			</div>
+		</div>
+		<div class="p-4 m-auto h-full grid">
+			<div class="place-self-center">
+				<img
+					src="{base}/assets/browsers/Safari_logo.png"
+					alt="Safari Logo"
+					class="max-w-[150px] max-h-[150px] m-auto"
+				/>
+				<h1 class=" text-center text-2xl text-slate-800 font-semibold my-4">Safari</h1>
+			</div>
+		</div>
+	</div>
+	<hr class="my-2 mb-12 w-3/6" />
+	<h2 class="text-slate-800 text-4xl font-semibold">
 		Navigation Menus<span class="text-[#3549A6]">.</span>
 	</h2>
 	<p class="text-slate-600 my-4 text-lg">
