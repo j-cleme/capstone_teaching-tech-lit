@@ -1,7 +1,6 @@
 <script>
 	import Arrow from '$lib/Arrow.svelte';
 	import { base } from '$app/paths';
-	import { ChevronDown } from 'lucide-svelte';
 	import GetStarted from '$lib/GetStarted.svelte';
 </script>
 
@@ -22,6 +21,12 @@
 					A guided introduction to the internet for adults looking to learn tech intuition and
 					literacy.
 				</p>
+				<a
+					href="{base}/devices"
+					class="group inline-flex whitespace-nowrap rounded-md bg-[#ec598a] text-xl font-semibold text-white py-2 px-3 -translate-x-1 -translate-y-1 hover:translate-x-0 hover:translate-y-0 items-center justify-center transition duration-100"
+				>
+					Get Started <span class="px-2"><Arrow /></span>
+				</a>
 			</div>
 			<!-- svelte-ignore a11y-img-redundant-alt -->
 			<img
@@ -32,27 +37,6 @@
 		</div>
 		<GetStarted />
 	</div>
-	<section
-		class="flex flex-row lg:max-w-[47ch] text-xl w-screen gap-4 justify-around items-center mt-4"
-	>
-		<div>
-			<h2 class="text-3xl text-slate-800 font-semibold">
-				Introduction - Buttons<span class="text-[#3549A6]">.</span>
-			</h2>
-			<p class="text-slate-600">
-				A button is an interactable element that causes something to happen, like navigating to the
-				another page of a website or making a purchase. Buttons can look like anything. Click the
-				button to the right of this text to get started!
-			</p>
-		</div>
-		<a
-			href="{base}/devices"
-			class="group inline-flex whitespace-nowrap rounded-md bg-[#ec598a] text-xl font-semibold text-white py-2 px-3 -translate-x-1 -translate-y-1 hover:translate-x-0 hover:translate-y-0 items-center justify-center transition duration-100"
-		>
-			Get Started <span class="px-2"><Arrow /></span>
-			<!-- <span class="absolute -z-10 w-full h-full bg-black" /> -->
-		</a>
-	</section>
 	<section class="flex flex-row justify-center items-center my-8">
 		<picture>
 			<img src="{base}/assets/attention.svg" alt="Attention SVG" />
