@@ -15,23 +15,29 @@
 </script>
 
 <nav
-	class="w-11/12 m-auto mb-0 flex justify-between items-center py-8 h-18 md:h-12 text-sm
-	font-semibold border-b"
+	class="w-11/12 max-w-full m-auto mb-0 flex justify-between items-center py-8 h-18 md:h-12 text-sm
+	font-semibold border-b {navVisibleState ? 'flex-col divide-y ' : ''}"
 >
-	<div on:click={toggleMobileNav} on:keypress={toggleMobileNav} class="md:hidden">
-		<Menu
-			size={40}
-			class="mx-2 my-2 duration-75 text-neutral-600 {navVisibleState ? 'rotate-90' : ''} "
-		/>
-	</div>
-	<a href="{base}/" class="flex flex-row w-full m-0 md:justify-start items-center">
-		<img src="{base}/assets/logo.png" alt="Teaching Tech Lit logo" class="group h-6 w-6" />
-		<h1 class="group mx-1 md:px-2 py-2 text-lg font-semibold text-neutral-900">
-			Teaching Tech Lit<span
-				class="block bg-[#3549A6] max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5"
+	<div class="flex flex-row justify-start w-full">
+		<div
+			on:click={toggleMobileNav}
+			on:keypress={toggleMobileNav}
+			class="md:hidden place-self-start border-none"
+		>
+			<Menu
+				size={40}
+				class="mx-2 my-2 duration-75 text-neutral-600 {navVisibleState ? 'rotate-90' : ''} "
 			/>
-		</h1>
-	</a>
+		</div>
+		<a href="{base}/" class="flex flex-row w-full m-0 justify-start items-center border-none">
+			<img src="{base}/assets/logo.png" alt="Teaching Tech Lit logo" class="group h-6 w-6" />
+			<h1 class="group mx-1 md:px-2 py-2 text-lg font-semibold text-neutral-900">
+				Teaching Tech Lit<span
+					class="block bg-[#3549A6] max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5"
+				/>
+			</h1>
+		</a>
+	</div>
 	<a class="group px-2 py-2 min-w-max {navVisibleState ? '' : 'hidden md:inline'}" href="{base}/"
 		>Home
 		<span
