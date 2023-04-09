@@ -106,13 +106,11 @@
 					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a href="" class="text-white py-1 px-2 mx-1 hover:bg-blue-600 hover:rounded">Example</a>
 				</div>
-				<h1 class=" text-2xl text-slate-800 font-semibold ">
-					<span class="text-[#ec598b]">Top</span> Nav
-				</h1>
+				<h1 class=" text-2xl text-slate-800 font-semibold ">Top Nav</h1>
 				<p class="text-slate-600 max-w-[45ch]">
-					This menu is located at the top of the webpage and typically has the most important
-					sections of the website. This menu can include other drop-down options within it for more
-					specific subcategories.
+					This menu is <span class="text-[#ec598b]">located at the top of the webpage</span> and typically
+					has the most important sections of the website. This menu can include other drop-down options
+					within it for more specific subcategories.
 				</p>
 			</div>
 		</div>
@@ -127,27 +125,23 @@
 				<!-- svelte-ignore a11y-invalid-attribute -->
 				<a href="#" class="text-white py-1 px-2 hover:bg-blue-600 hover:rounded-b-sm">Example</a>
 			</div>
-			<h1 class=" text-2xl text-slate-800 font-semibold ">
-				<span class="text-[#ec598b]">Side</span> Nav
-			</h1>
+			<h1 class=" text-2xl text-slate-800 font-semibold ">Side Nav</h1>
 			<p class="text-slate-600 max-w-[45ch]">
-				This type of navigation is very similar to a top navigation bar but is located on the side
-				of the webpage and can be used to go through different parts or sections of a website. This
-				type of menu is usually used to show a lot of similar content or on websites with multiple
-				levels of menus.
+				This type of navigation is very similar to a top navigation bar but is <span
+					class="text-[#ec598b]">located on the side of the webpage</span
+				> and can be used to go through different parts or sections of a website. This type of menu is
+				usually used to show a lot of similar content or on websites with multiple levels of menus.
 			</p>
 		</div>
 		<div class="p-4 m-auto h-full grid">
 			<div class="place-self-center">
 				<Menu size={50} />
-				<h1 class=" text-2xl text-slate-800 font-semibold ">
-					<span class="text-[#ec598b]">Collapsed</span> Nav
-				</h1>
+				<h1 class=" text-2xl text-slate-800 font-semibold ">Collapsed Nav</h1>
 				<p class="text-slate-600 max-w-[45ch]">
 					This type of menu is often hidden away until you try to use it. This menu tends to look
-					like three horizontal lines stacked onto each other that can be clicked to show navigation
-					options. Collapsed navigation icons tend to be in the upper corners of a webpage and are
-					very common on mobile devices.
+					like <span class="text-[#ec598b]">three horizontal lines stacked onto each other</span> that
+					can be clicked to show navigation options. Collapsed navigation icons tend to be in the upper
+					corners of a webpage and are very common on mobile devices.
 				</p>
 			</div>
 		</div>
@@ -175,9 +169,9 @@
 
 		<div class="flex flex-col p-4 m-auto h-full">
 			<div class="overflow-x-scroll w-[300px] h-[46px] border border-gray-800 rounded-sm">
-				<p class="whitespace-nowrap text-white w-full cursor-default">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac risus ut neque laoreet
-					consequat vitae eget justo.
+				<p class="whitespace-nowrap w-full cursor-default">
+					This is an example of a scrollbar! Usually they're vertically aligned and on the side of
+					the webpage but in this case it's a horizontal scrollbar for text!
 				</p>
 			</div>
 			<h1 class=" text-3xl text-slate-800 font-semibold ">Scroll Bar</h1>
