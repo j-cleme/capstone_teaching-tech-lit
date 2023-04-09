@@ -59,6 +59,7 @@
 				</picture>
 			</section>
 		</div>
+		<hr class="w-3/6 m-auto my-8" />
 		<section class=" flex flex-row items-center my-14 w-full">
 			<section class="mr-12">
 				<h2 class="text-3xl text-slate-800 font-semibold">Start Buttons</h2>
@@ -87,6 +88,7 @@
 				</p>
 			</div>
 		</section>
+		<hr class="w-3/6 m-auto my-8" />
 		<section class="flex flex-row items-center">
 			<section class=" mr-12">
 				<h2 class="text-3xl text-slate-800 font-semibold">File Explorers</h2>
