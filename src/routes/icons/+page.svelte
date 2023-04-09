@@ -47,9 +47,7 @@
 	<div class="border-t w-full flex flex-col">
 		<div class="flex md:flex-row flex-col my-8">
 			<section class="md:max-w-[40ch]">
-				<h1 class=" text-3xl text-slate-800 font-semibold ">
-					Window <span class="text-[#ec598b]">Action</span> Buttons
-				</h1>
+				<h1 class=" text-3xl text-slate-800 font-semibold ">Window Action Buttons</h1>
 				<p class=" pt-2 text-base text-slate-600 mb-3.5 ">
 					In the top left or right corner of any program there will likely be three icons.
 				</p>
@@ -106,7 +104,9 @@
 					<MousePointer size={50} />
 					<div class="flex flex-col ml-3">
 						<h3 class=" text-xl text-slate-800">Cursor Arrow</h3>
-						<p class="text-slate-600 md:max-w-[45ch]">This is the default cursor icon.</p>
+						<p class="text-slate-600 md:max-w-[45ch]">
+							This is the <span class="text-[#ec598b]">default</span> cursor icon.
+						</p>
 					</div>
 				</div>
 				<div
@@ -116,8 +116,8 @@
 					<div class="flex flex-col ml-3">
 						<h3 class=" text-xl text-slate-800">Pointer</h3>
 						<p class="text-slate-600 md:max-w-[45ch]">
-							This looks like a little hand pointing its finger and usually denotes an option to
-							select.
+							This looks like a little hand <span class="text-[#ec598b]">pointing</span> its finger and
+							usually denotes an option to select.
 						</p>
 					</div>
 				</div>
@@ -125,7 +125,9 @@
 					<TextCursor size={50} />
 					<div class="flex flex-col ml-3">
 						<h3 class=" text-xl text-slate-800">Type</h3>
-						<p class="text-slate-600 md:max-w-[45ch]">This icon means this space is for typing.</p>
+						<p class="text-slate-600 md:max-w-[45ch]">
+							This icon means this space is for <span class="text-[#ec598b]">typing</span>.
+						</p>
 					</div>
 				</div>
 				<div class=" p-4 flex flex-row items-center h-full lg:border-r cursor-grab">
@@ -133,7 +135,7 @@
 					<div class="flex flex-col ml-3">
 						<h3 class=" text-xl text-slate-800">Hand / Grab</h3>
 						<p class="text-slate-600 md:max-w-[45ch]">
-							This allows you to grab by clicking and move things.
+							This allows you to <span class="text-[#ec598b]">grab</span> by clicking and move things.
 						</p>
 					</div>
 				</div>
@@ -142,7 +144,9 @@
 					<div class="flex flex-col ml-3">
 						<h3 class=" text-xl text-slate-800">Resize</h3>
 						<p class="text-slate-600 md:max-w-[45ch]">
-							Arrows going in both directions will allow you to resize an object.
+							Arrows going in both directions will allow you to <span class="text-[#ec598b]"
+								>resize</span
+							> an object.
 						</p>
 					</div>
 				</div>
@@ -151,7 +155,7 @@
 					<div class="flex flex-col ml-3">
 						<h3 class=" text-xl text-slate-800">Move</h3>
 						<p class="text-slate-600 md:max-w-[45ch]">
-							This allows you to move things around on a page.
+							This allows you to <span class="text-[#ec598b]">move</span> things around on a page.
 						</p>
 					</div>
 				</div>
@@ -173,7 +177,8 @@
 					<div class="flex flex-col ml-2">
 						<h3 class=" text-xl text-slate-800">Gear</h3>
 						<p class="text-slate-600 lg:max-w-[45ch]">
-							Gear icons are used to denote settings in programs and devices.
+							Gear icons are used to denote <span class="text-[#ec598b]">settings</span> in programs
+							and devices.
 						</p>
 					</div>
 				</div>
@@ -187,7 +192,9 @@
 					<div class="flex flex-col ml-2">
 						<h3 class=" text-xl text-slate-800">App Icons</h3>
 						<p class="text-slate-600 lg:max-w-[45ch]">
-							App icons are unique to each app and are used to start the program.
+							App icons are unique to each app and are used to <span class="text-[#ec598b]"
+								>start</span
+							> the program.
 						</p>
 					</div>
 				</div>
@@ -196,7 +203,9 @@
 					<div class="flex flex-col ml-2">
 						<h3 class=" text-xl text-slate-800">Site Logo</h3>
 						<p class="text-slate-600 lg:max-w-[45ch]">
-							Clicking on the logo for a website will take you to the home page.
+							Clicking on the logo for a website will take you to the <span class="text-[#ec598b]"
+								>home page</span
+							>.
 						</p>
 					</div>
 				</div>
