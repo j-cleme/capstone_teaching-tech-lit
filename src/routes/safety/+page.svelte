@@ -36,7 +36,7 @@
 		<GetStarted />
 	</div>
 	<h2 class="text-slate-800 text-4xl font-semibold">
-		Practicing Internet Safety<span class="text-[#3549A6]">.</span>
+		Practicing Internet <span class="text-[#ec598b]">Safety</span>
 	</h2>
 	<p class="text-slate-600 my-4 text-lg">
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit. In magna leo, vestibulum a condimentum

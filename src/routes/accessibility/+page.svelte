@@ -34,7 +34,7 @@
 		<GetStarted />
 	</div>
 	<h2 class="text-slate-800 text-4xl font-semibold mt-8">
-		Accessibility Options<span class="text-[#3549A6]">.</span>
+		Accessibility <span class="text-[#ec598b]">Options</span>
 	</h2>
 	<p class="text-slate-600 my-4 text-lg">
 		Many devices and applications offer a range of options that can help users customize their
@@ -46,10 +46,12 @@
 			<h1 class=" text-2xl text-slate-800 font-semibold ">Zoom</h1>
 			<p class="text-slate-600 max-w-[45ch]">
 				Many web browsers have built in zoom capabilities, these can be found in the settings on the
-				browser, signified by a magnifying glass. This allows you to enlarge any text, images, or
-				icons and make them easier to see. If you are on a laptop with a trackpad you can change the
-				zoom by putting two fingers on the pad, and moving them away from each other to zoom in. To
-				zoom out with this method put two fingers on the trackpad and bring your fingers together.
+				browser, signified by a magnifying glass. This allows you to <span class="text-[#ec598b]"
+					>enlarge</span
+				> any text, images, or icons and make them easier to see. If you are on a laptop with a trackpad
+				you can change the zoom by putting two fingers on the pad, and moving them away from each other
+				to zoom in. To zoom out with this method put two fingers on the trackpad and bring your fingers
+				together.
 			</p>
 		</div>
 
@@ -57,9 +59,10 @@
 			<Ear size={50} />
 			<h1 class=" text-2xl text-slate-800 font-semibold ">Narrator</h1>
 			<p class="text-slate-600 max-w-[45ch]">
-				The narrator feature gives you an audio description of what is currently happening on the
-				screen. It is used for things such as reading out text or describing actions. This can be
-				useful for people with visual impairments or those who prefer to listen rather than read.
+				The narrator feature gives you an <span class="text-[#ec598b]">audio description</span> of what
+				is currently happening on the screen. It is used for things such as reading out text or describing
+				actions. This can be useful for people with visual impairments or those who prefer to listen
+				rather than read.
 			</p>
 		</div>
 
@@ -67,9 +70,9 @@
 			<Type size={50} />
 			<h1 class=" text-2xl text-slate-800 font-semibold ">Adjustable Text Size</h1>
 			<p class="text-slate-600 max-w-[45ch]">
-				This feature allows you to adjust the size of the text on the screen to make it bigger or
-				smaller, depending on your preference. It is particularly useful for people with visual
-				impairments or those who prefer larger text.
+				This feature allows you to <span class="text-[#ec598b]">adjust the size</span> of the text on
+				the screen to make it bigger or smaller, depending on your preference. It is particularly useful
+				for people with visual impairments or those who prefer larger text.
 			</p>
 		</div>
 
@@ -77,9 +80,9 @@
 			<Palette size={50} />
 			<h1 class=" text-2xl text-slate-800 font-semibold ">Color Filters</h1>
 			<p class="text-slate-600 max-w-[45ch]">
-				Color filters are used to adjust the color scheme of a screen to make it easier to see and
-				more comfortable for your eyes. It is most useful for people with color blindness, low
-				vision, or sensitivity to certain colors
+				Color filters are used to <span class="text-[#ec598b]">adjust the color scheme</span> of a screen
+				to make it easier to see and more comfortable for your eyes. It is most useful for people with
+				color blindness, low vision, or sensitivity to certain colors
 			</p>
 		</div>
 
@@ -87,7 +90,8 @@
 			<MousePointer2 size={50} />
 			<h1 class=" text-2xl text-slate-800 font-semibold ">Cursor Size</h1>
 			<p class="text-slate-600 max-w-[45ch]">
-				This allows you to adjust the size of the cursor to make it easier to see and track.
+				This allows you to <span class="text-[#ec598b]">adjust the size</span> of the cursor to make
+				it easier to see and track.
 			</p>
 		</div>
 
@@ -95,8 +99,8 @@
 			<Keyboard size={50} />
 			<h1 class=" text-2xl text-slate-800 font-semibold ">Sticky Keys</h1>
 			<p class="text-slate-600 max-w-[45ch]">
-				This allows the user to press one key at a time for keyboard shortcuts, rather than needing
-				to press multiple keys at once.
+				This allows the user to <span class="text-[#ec598b]">press one key at a time</span> for keyboard
+				shortcuts, rather than needing to press multiple keys at once.
 			</p>
 		</div>
 	</div>
