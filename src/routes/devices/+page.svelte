@@ -9,7 +9,7 @@
 	<title>Lesson 1 - Devices</title>
 </svelte:head>
 
-<main class="flex flex-col justify-center m-auto">
+<main class="flex flex-col justify-center m-auto items-center">
 	<div
 		class="h-[91vh] flex flex-col items-center justify-items-center justify-center w-full border-b"
 	>

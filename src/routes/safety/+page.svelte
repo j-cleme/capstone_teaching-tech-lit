@@ -22,8 +22,7 @@
 				</h1>
 				<p class="pt-3.5 lg:max-w-[47ch] text-xl text-slate-600 mb-3.5">
 					It’s important to be safe when using the internet, though, especially with your personal
-					information. By learning and taking precautions, you can help protect yourself while
-					enjoying the benefits of the internet.
+					information.
 				</p>
 			</div>
 			<!-- svelte-ignore a11y-img-redundant-alt -->
@@ -39,8 +38,8 @@
 		Practicing Internet <span class="text-[#ec598b]">Safety</span>
 	</h2>
 	<p class="text-slate-600 my-4 text-lg">
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. In magna leo, vestibulum a condimentum
-		posuere, mattis id magna.
+		By learning and taking precautions, you can help protect yourself while enjoying the benefits of
+		the internet..
 	</p>
 	<div class="flex flex-row jusify-center w-full items-center justify-center my-6">
 		<div class="flex flex-col p-4">

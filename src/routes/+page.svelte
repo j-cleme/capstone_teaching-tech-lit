@@ -1,7 +1,7 @@
 <script>
 	import Arrow from '$lib/Arrow.svelte';
 	import { base } from '$app/paths';
-	import GetStarted from '$lib/GetStarted.svelte';
+	import LearnMore from '$lib/LearnMore.svelte';
 </script>
 
 <svelte:head>
@@ -35,9 +35,9 @@
 				class="max-w-[35rem] max-h-[35rem]"
 			/>
 		</div>
-		<GetStarted />
+		<LearnMore />
 	</div>
-	<section class="flex flex-row justify-center items-center my-8">
+	<section class="flex md:flex-row flex-col justify-center items-center my-8">
 		<picture>
 			<img src="{base}/assets/attention.svg" alt="Attention SVG" />
 		</picture>
