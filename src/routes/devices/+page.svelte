@@ -38,8 +38,8 @@
 			<section class="md:max-w-[40ch]">
 				<h1 class=" text-3xl text-slate-800 font-semibold ">Taskbars</h1>
 				<p class=" pt-2 text-base text-slate-600 mb-3.5 ">
-					Almost all devices have a top and/or bottom bar, these allow you to access things you need
-					often quickly and easily.
+					Almost all devices have a top and/or bottom taskbar, these allow you to access things you
+					need often quickly and easily.
 				</p>
 			</section>
 			<section class="md:grid md:grid-cols-2 flex flex-col justify-items-center w-full">
@@ -49,6 +49,10 @@
 						alt="MacOS desktop"
 						class=" m-auto mb-4 max-w-md"
 					/>
+					<p class="text-base text-slate-600 text-center">
+						MacOS - <span class="text-[#ec598b]">Top</span> and
+						<span class="text-[#ec598b]">Bottom</span> Taskbars
+					</p>
 				</picture>
 				<picture>
 					<img
@@ -56,6 +60,9 @@
 						alt="Windows desktop"
 						class=" m-auto mb-4 max-w-md"
 					/>
+					<p class="text-base text-slate-600 text-center">
+						Windows - <span class="text-[#ec598b]">Bottom</span> Taskbar
+					</p>
 				</picture>
 			</section>
 		</div>
@@ -64,9 +71,7 @@
 			<section class="mr-12">
 				<h2 class="text-3xl text-slate-800 font-semibold">Start Buttons</h2>
 				<p class="text-base text-slate-600 w-[40ch] pt-2 ">
-					A start button can be used to search a device for programs or files, its look and <span
-						class="text-[#ec598b]">location</span
-					>
+					A start button can be used to search a device for programs or files, its look and location
 					differ depending on device.
 				</p>
 			</section>
@@ -98,9 +103,12 @@
 					as well as folders you can make yourself.
 				</p>
 			</section>
-			<section class="md:grid md:grid-cols-2 flex flex-col justify-items-center w-full">
-				<picture class="flex items-center h-full">
+			<section class="md:grid md:grid-cols-2 flex flex-col justify-items-center w-full mb-4">
+				<picture class="flex flex-col items-center h-full">
 					<img src="assets/devices/Finder.png" alt="MacOS Finder" class=" m-auto mb-4 max-w-md" />
+					<p class="text-base text-slate-600 text-center">
+						MacOS - <span class="text-[#ec598b]">Finder</span>
+					</p>
 				</picture>
 				<picture class="flex flex-col items-center">
 					<img
@@ -108,6 +116,9 @@
 						alt="Windows desktop"
 						class=" m-auto mb-4 border max-w-md"
 					/>
+					<p class="text-base text-slate-600 text-center">
+						MacOS - <span class="text-[#ec598b]">Windows File Explorer</span>
+					</p>
 				</picture>
 			</section>
 		</section>
