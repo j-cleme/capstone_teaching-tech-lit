@@ -86,9 +86,10 @@
 	<h2 class="text-slate-800 text-4xl font-semibold">
 		Navigation Menus<span class="text-[#3549A6]">.</span>
 	</h2>
-	<p class="text-slate-600 my-4 text-lg">
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. In magna leo, vestibulum a condimentum
-		posuere, mattis id magna.
+	<p class="text-slate-600 my-4 text-lg max-w-[110ch] text-center">
+		Navigation menus are an important part of using a website. They provide a way to quickly move
+		between different sections and pages. There are a few different ways that navigation menus can
+		look and be used.
 	</p>
 	<div class="md:grid md:grid-cols-3 w-full content-center items-center my-6">
 		<div class="p-4 m-auto h-full grid">
@@ -96,19 +97,20 @@
 				<div class=" bg-gray-900 flex flex-row justify-around p-2 rounded-sm">
 					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
-						href="#"
+						href=""
 						aria-hidden="true"
 						class="text-white py-1 px-2 mx-1 bg-blue-600 rounded hover:bg-blue-500">Example</a
 					>
 					<!-- svelte-ignore a11y-invalid-attribute -->
-					<a href="#" class="text-white py-1 px-2 mx-1 hover:bg-blue-600 hover:rounded">Example</a>
+					<a href="" class="text-white py-1 px-2 mx-1 hover:bg-blue-600 hover:rounded">Example</a>
 					<!-- svelte-ignore a11y-invalid-attribute -->
-					<a href="#" class="text-white py-1 px-2 mx-1 hover:bg-blue-600 hover:rounded">Example</a>
+					<a href="" class="text-white py-1 px-2 mx-1 hover:bg-blue-600 hover:rounded">Example</a>
 				</div>
 				<h1 class=" text-2xl text-slate-800 font-semibold ">Top Nav</h1>
 				<p class="text-slate-600 max-w-[45ch]">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. In magna leo, vestibulum a
-					condimentum posuere, mattis id magna. Mauris pretium id eros in imperdiet.
+					This menu is located at the top of the webpage and typically has the most important
+					sections of the website. This menu can include other drop-down options within it for more
+					specific subcategories.
 				</p>
 			</div>
 		</div>
@@ -125,8 +127,10 @@
 			</div>
 			<h1 class=" text-2xl text-slate-800 font-semibold ">Side Nav</h1>
 			<p class="text-slate-600 max-w-[45ch]">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. In magna leo, vestibulum a
-				condimentum posuere, mattis id magna. Mauris pretium id eros in imperdiet.
+				This type of navigation is very similar to a top navigation bar but is located on the side
+				of the webpage and can be used to go through different parts or sections of a website. This
+				type of menu is usually used to show a lot of similar content or on websites with multiple
+				levels of menus.
 			</p>
 		</div>
 		<div class="p-4 m-auto h-full grid">
@@ -134,8 +138,10 @@
 				<Menu size={50} />
 				<h1 class=" text-2xl text-slate-800 font-semibold ">Collapsed Nav</h1>
 				<p class="text-slate-600 max-w-[45ch]">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. In magna leo, vestibulum a
-					condimentum posuere, mattis id magna. Mauris pretium id eros in imperdiet.
+					This type of menu is often hidden away until you try to use it. This menu tends to look
+					like three horizontal lines stacked onto each other that can be clicked to show navigation
+					options. Collapsed navigation icons tend to be in the upper corners of a webpage and are
+					very common on mobile devices.
 				</p>
 			</div>
 		</div>
@@ -144,9 +150,9 @@
 	<h2 class="text-slate-800 text-4xl font-semibold">
 		Common Browser <span class="text-[#ec598b]">Elements</span>
 	</h2>
-	<p class="text-slate-600 my-4 text-lg">
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. In magna leo, vestibulum a condimentum
-		posuere, mattis id magna.
+	<p class="text-slate-600 my-4 text-lg max-w-[110ch] text-center">
+		When browsing the internet there are some things that can help you navigate easier. Knowing what
+		they look like and do will help you become more familiar and comfortable with any website.
 	</p>
 	<div class="md:grid md:grid-cols-3 w-full my-6">
 		<div class="flex flex-col p-4 m-auto h-full">
