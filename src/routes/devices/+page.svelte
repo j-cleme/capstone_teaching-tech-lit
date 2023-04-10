@@ -11,7 +11,7 @@
 
 <main class="flex flex-col justify-center m-auto items-center">
 	<div
-		class="h-[91vh] flex flex-col items-center justify-items-center justify-center w-full border-b"
+		class="h-[91vh] md:mt-0 mt-10 flex flex-col items-center justify-items-center justify-center w-full border-b"
 	>
 		<div class="flex flex-col md:flex-row md:items-center mb-20">
 			<div class="md:mr-16">
@@ -33,8 +33,8 @@
 		</div>
 		<GetStarted />
 	</div>
-	<div class="flex flex-col w-full">
-		<div class="flex md:flex-row flex-col mt-8 items-center h-full mr-4">
+	<div class="flex flex-col w-full  items-center">
+		<div class="flex md:flex-row flex-col mt-8 items-center justify-evenly w-full h-full mr-4">
 			<section class="md:max-w-[40ch]">
 				<h1 class=" text-3xl text-slate-800 font-semibold ">Taskbars</h1>
 				<p class=" pt-2 text-xl text-slate-600 mb-3.5 ">
@@ -42,7 +42,7 @@
 					need often quickly and easily.
 				</p>
 			</section>
-			<section class="md:grid md:grid-cols-2 flex flex-col justify-items-center w-full">
+			<section class="md:grid md:grid-cols-2 flex flex-col justify-items-center">
 				<picture class="md:mt-0 mt-10">
 					<img
 						src="assets/devices/MacOS_desktop.jpg"
@@ -67,7 +67,7 @@
 			</section>
 		</div>
 		<hr class="w-3/6 m-auto my-8" />
-		<section class=" flex md:flex-row flex-col items-center my-14 w-full">
+		<section class=" flex md:flex-row flex-col items-center my-14 w-full justify-evenly">
 			<section class="md:mr-12">
 				<h2 class="text-3xl text-slate-800 font-semibold">Start Buttons</h2>
 				<p class="text-xl text-slate-600 md:w-[40ch] pt-2 ">
@@ -75,7 +75,7 @@
 					differ depending on device.
 				</p>
 			</section>
-			<div class="md:my-0 my-4 flex flex-col justify-center items-center w-full md:mt-0 mt-10">
+			<div class="md:my-0 my-4 flex flex-col justify-center items-centermd:mt-0 mt-10">
 				<img
 					src="assets/devices/apple_logo.png"
 					alt="Apple logo"
@@ -85,7 +85,7 @@
 					Located - <span class="text-[#ec598b]">Top Left</span>
 				</p>
 			</div>
-			<div class="md:my-0 my-4 flex flex-col justify-center items-center w-full">
+			<div class="md:my-0 my-4 flex flex-col justify-center items-center">
 				<img src="assets/devices/windows_logo.png" alt="" class="max-w-[10rem] h-auto mb-4" />
 				<p class="text-base text-slate-600 text-center">
 					Located - <span class="text-[#ec598b]">Bottom Left</span> or

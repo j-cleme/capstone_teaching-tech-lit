@@ -22,8 +22,10 @@
 	<title>Lesson 2 - Icons</title>
 </svelte:head>
 
-<main class="flex flex-col justify-center m-auto">
-	<div class="h-[91vh] flex flex-col items-center justify-items-center justify-center w-full">
+<main class="flex flex-col justify-center m-auto md:px-20">
+	<div
+		class="h-[91vh] md:mt-0 mt-10  flex flex-col items-center justify-items-center justify-center w-full border-b"
+	>
 		<div class="flex flex-col md:flex-row lg:items-center mb-20">
 			<div class="mr-16">
 				<p class=" tracking-wide text-[#ec598b] text-2xl">Lesson 2</p>
@@ -44,8 +46,8 @@
 		</div>
 		<GetStarted />
 	</div>
-	<div class="border-t w-full flex flex-col">
-		<div class="flex md:flex-row flex-col my-8">
+	<div class="w-full flex flex-col my-10">
+		<div class="flex md:flex-row flex-col my-8 ">
 			<section class="md:max-w-[40ch]">
 				<h1 class=" text-3xl text-slate-800 font-semibold ">Window Action Buttons</h1>
 				<p class=" pt-2 text-base text-slate-600 mb-3.5 ">
@@ -88,7 +90,7 @@
 		</div>
 		<!-- End of Windows Action Buttons -->
 		<hr class="w-3/6 m-auto my-8" />
-		<div class="flex lg:flex-row flex-col my-14 items-center">
+		<div class="flex lg:flex-row flex-col my-14 items-center m-auto">
 			<section class="md:max-w-[35ch] md:mr-14" role="contentinfo">
 				<h1 class=" text-3xl text-slate-800 font-semibold ">Cursors</h1>
 				<p class=" pt-2 text-base text-slate-600 mb-3.5 ">
@@ -163,7 +165,7 @@
 		</div>
 		<!-- End of Cursors -->
 		<hr class="w-3/6 m-auto my-8" />
-		<div class="flex md:flex-row flex-col mt-8">
+		<div class="flex md:flex-row flex-col mt-8 m-auto">
 			<section class="md:max-w-[40ch] md:mr-14">
 				<h1 class=" text-3xl text-slate-800 font-semibold ">Additonal Icons</h1>
 				<p class=" pt-2 text-base text-slate-600 mb-3.5 ">

@@ -11,7 +11,7 @@
 
 <main class="flex flex-col justify-center items-center m-auto">
 	<div
-		class="h-[91vh] flex flex-col items-center justify-items-center justify-center w-full border-b mb-4"
+		class="h-[91vh] md:mt-0 mt-10 flex flex-col items-center justify-items-center justify-center w-full border-b mb-4"
 	>
 		<div class="flex flex-col md:flex-row md:items-center">
 			<div class="md:mr-16">
@@ -86,7 +86,7 @@
 	<h2 class="text-slate-800 text-4xl font-semibold">
 		Navigation <span class="text-[#ec598b]">Menus</span>
 	</h2>
-	<p class="text-slate-600 my-4 text-lg max-w-[110ch] text-center">
+	<p class="text-slate-600 my-4 text-lg max-w-[110ch] md:text-center">
 		Navigation menus are an important part of using a website. They provide a way to quickly move
 		between different sections and pages. There are a few different ways that navigation menus can
 		look and be used.
@@ -94,17 +94,22 @@
 	<div class="md:grid md:grid-cols-3 w-full content-center items-center my-6">
 		<div class="p-4 m-auto h-full grid">
 			<div class="place-self-center">
-				<div class=" bg-gray-900 flex flex-row justify-around p-2 rounded-sm">
+				<div class=" bg-gray-900 flex flex-row justify-around p-2 rounded-sm md:w-full w-fit">
 					<!-- svelte-ignore a11y-invalid-attribute -->
-					<a
-						href=""
+					<p
 						aria-hidden="true"
-						class="text-white py-1 px-2 mx-1 bg-blue-600 rounded hover:bg-blue-500">Example</a
+						class="text-white py-1 px-2 mx-1 bg-blue-600 rounded hover:bg-blue-500 cursor-pointer"
 					>
+						Example
+					</p>
 					<!-- svelte-ignore a11y-invalid-attribute -->
-					<a href="" class="text-white py-1 px-2 mx-1 hover:bg-blue-600 hover:rounded">Example</a>
+					<p class="text-white py-1 px-2 mx-1 hover:bg-blue-600 hover:rounded cursor-pointer">
+						Example
+					</p>
 					<!-- svelte-ignore a11y-invalid-attribute -->
-					<a href="" class="text-white py-1 px-2 mx-1 hover:bg-blue-600 hover:rounded">Example</a>
+					<p class="text-white py-1 px-2 mx-1 hover:bg-blue-600 hover:rounded cursor-pointer">
+						Example
+					</p>
 				</div>
 				<h1 class=" text-2xl text-slate-800 font-semibold ">Top Nav</h1>
 				<p class="text-slate-600 max-w-[45ch]">
@@ -115,15 +120,17 @@
 			</div>
 		</div>
 		<div class="p-4 m-auto h-full">
-			<div class=" bg-gray-900 flex flex-col justify-around rounded-sm w-[300px]">
+			<div class=" bg-gray-900 flex flex-col justify-around rounded-sm md:w-[300px] w-[250px]">
 				<!-- svelte-ignore a11y-invalid-attribute -->
-				<a href="#" class="text-white py-1 px-2 bg-blue-600 hover:bg-blue-500 rounded-t-sm"
-					>Example</a
-				>
+				<p class="text-white py-1 px-2 bg-blue-600 hover:bg-blue-500 rounded-t-sm cursor-pointer">
+					Example
+				</p>
 				<!-- svelte-ignore a11y-invalid-attribute -->
-				<a href="#" class="text-white py-1 px-2 hover:bg-blue-600">Example</a>
+				<p class="text-white py-1 px-2 hover:bg-blue-600 cursor-pointer">Example</p>
 				<!-- svelte-ignore a11y-invalid-attribute -->
-				<a href="#" class="text-white py-1 px-2 hover:bg-blue-600 hover:rounded-b-sm">Example</a>
+				<p class="text-white py-1 px-2 hover:bg-blue-600 hover:rounded-b-sm cursor-pointer">
+					Example
+				</p>
 			</div>
 			<h1 class=" text-2xl text-slate-800 font-semibold ">Side Nav</h1>
 			<p class="text-slate-600 max-w-[45ch]">
@@ -176,7 +183,9 @@
 		</div>
 
 		<div class="flex flex-col p-4 m-auto h-full">
-			<div class="overflow-x-scroll w-[300px] h-[46px] border border-gray-800 rounded-sm">
+			<div
+				class="overflow-x-scroll md:w-[300px] w-[250px] h-[46px] border border-gray-800 rounded-sm"
+			>
 				<p class="whitespace-nowrap w-full cursor-default">
 					This is an example of a scrollbar! Usually they're vertically aligned and on the side of
 					the webpage but in this case it's a horizontal scrollbar for text!
@@ -191,26 +200,26 @@
 
 		<div class="flex flex-col p-4 m-auto h-full">
 			<div
-				class="h-[46px] w-[300px] bg-gray-600 text-white flex flex-row justify-around items-center rounded-sm border-b-4 border-gray-800"
+				class="h-[46px] md:w-[300px] w-[250px] bg-gray-600 text-white flex flex-row justify-around items-center rounded-sm border-b-4 border-gray-800"
 			>
 				<!-- svelte-ignore a11y-invalid-attribute -->
-				<a
-					href="#"
-					class=" bg-gray-800 w-full text-center align-middle leading-[42px] rounded-tr-lg drop-shadow-md"
-					>Example</a
+				<p
+					class=" bg-gray-800 w-full text-center align-middle leading-[42px] rounded-tr-lg drop-shadow-md cursor-pointer"
 				>
+					Example
+				</p>
 				<!-- svelte-ignore a11y-invalid-attribute -->
-				<a
-					href="#"
-					class="w-full text-center hover:leading-[42px] hover:rounded-t-lg hover:bg-gray-700"
-					>Example</a
+				<p
+					class="w-full text-center hover:leading-[42px] hover:rounded-t-lg hover:bg-gray-700 cursor-pointer"
 				>
+					Example
+				</p>
 				<!-- svelte-ignore a11y-invalid-attribute -->
-				<a
-					href="#"
-					class="w-full text-center hover:leading-[42px] hover:rounded-tl-lg hover:bg-gray-700"
-					>Example</a
+				<p
+					class="w-full text-center hover:leading-[42px] hover:rounded-tl-lg hover:bg-gray-700 cursor-pointer"
 				>
+					Example
+				</p>
 			</div>
 			<h1 class=" text-3xl text-slate-800 font-semibold ">Tabs</h1>
 			<p class="text-slate-600 max-w-[45ch]">

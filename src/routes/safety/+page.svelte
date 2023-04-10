@@ -12,7 +12,7 @@
 
 <main class="flex flex-col justify-center m-auto">
 	<div
-		class="h-[91vh] flex flex-col items-center justify-items-center justify-center w-full border-b mb-4"
+		class="h-[91vh] md:mt-0 mt-10 flex flex-col items-center justify-items-center justify-center w-full border-b mb-4"
 	>
 		<div class="flex flex-col md:flex-row lg:items-center">
 			<div class="mr-16">
@@ -41,7 +41,7 @@
 		By learning and taking precautions, you can help protect yourself while enjoying the benefits of
 		the internet..
 	</p>
-	<div class="flex md:flex-row flex-col jusify-center w-full items-center justify-center my-6">
+	<div class="flex md:flex-row flex-col jusify-center w-full items-center justify-center my-10">
 		<div class="flex flex-col p-4">
 			<label class="relative block">
 				<span class="sr-only">Search</span>
@@ -49,7 +49,7 @@
 					<Lock size={40} />
 				</span>
 				<input
-					class="placeholder:italic placeholder:text-slate-400 block bg-white w-full border border-slate-300 rounded-md py-2 pl-14 pr-3 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm h-[60px] w-[450px]"
+					class="placeholder:italic placeholder:text-slate-400 block bg-white border border-slate-300 rounded-md py-2 pl-14 pr-3 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm h-[60px] w-[450px]"
 					placeholder="Type a password here..."
 					type="text"
 					name="search"
@@ -74,8 +74,7 @@
 				internet.
 			</p>
 		</div>
-	</div>
-	<div class="flex md:flex-row flex-col jusify-center w-full items-center justify-center my-6">
+
 		<div class="flex flex-col p-4">
 			<img src="{base}/assets/safety/horn.png" alt="" class="w-[59px] h-[59px]" />
 			<h1 class=" text-3xl text-slate-800 font-semibold ">Ads</h1>
@@ -85,7 +84,8 @@
 				or investigate, <span class="text-[#ec598b]">it is safer to google search it</span>.
 			</p>
 		</div>
-
+	</div>
+	<div class="flex md:flex-row flex-col jusify-center w-full items-center justify-center my-10">
 		<div class="flex flex-col p-4">
 			<Modal basic>
 				<Content>
@@ -104,9 +104,6 @@
 				on the browser window it appears on.
 			</p>
 		</div>
-	</div>
-
-	<div class="flex md:flex-row flex-col jusify-center w-full items-center justify-center my-6">
 		<div class="flex flex-col p-4">
 			<Cookie size={59} />
 			<h1 class=" text-3xl text-slate-800 font-semibold ">Cookies</h1>

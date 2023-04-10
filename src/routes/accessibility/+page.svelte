@@ -11,7 +11,7 @@
 
 <main class="flex flex-col justify-center m-auto w-full">
 	<div
-		class="h-[91vh] flex flex-col items-center justify-items-center justify-center w-full border-b"
+		class="h-[91vh] md:mt-0 mt-10 flex flex-col items-center justify-items-center justify-center w-full border-b"
 	>
 		<div class="flex flex-col md:flex-row items-center">
 			<div class="md:mr-16">
@@ -40,8 +40,8 @@
 		Many devices and applications offer a range of options that can help users customize their
 		experience and make it easier to use.
 	</p>
-	<div class="md:grid md:grid-cols-2 w-full justify-items-center items-center my-2">
-		<div class="my-4">
+	<div class="md:grid md:grid-cols-3 w-full justify-items-center items-center my-6">
+		<div class="my-6">
 			<ZoomIn size={50} />
 			<h1 class=" text-2xl text-slate-800 font-semibold ">Zoom</h1>
 			<p class="text-slate-600 max-w-[45ch]">
@@ -53,7 +53,7 @@
 			</p>
 		</div>
 
-		<div class="my-4">
+		<div class="my-6">
 			<Ear size={50} />
 			<h1 class=" text-2xl text-slate-800 font-semibold ">Narrator</h1>
 			<p class="text-slate-600 max-w-[45ch]">
@@ -64,7 +64,7 @@
 			</p>
 		</div>
 
-		<div class="my-4">
+		<div class="my-6">
 			<Type size={50} />
 			<h1 class=" text-2xl text-slate-800 font-semibold ">Adjustable Text Size</h1>
 			<p class="text-slate-600 max-w-[45ch]">
@@ -74,7 +74,7 @@
 			</p>
 		</div>
 
-		<div class="my-4">
+		<div class="my-6">
 			<Palette size={50} />
 			<h1 class=" text-2xl text-slate-800 font-semibold ">Color Filters</h1>
 			<p class="text-slate-600 max-w-[45ch]">
@@ -84,7 +84,7 @@
 			</p>
 		</div>
 
-		<div class="my-4">
+		<div class="my-6">
 			<MousePointer2 size={50} />
 			<h1 class=" text-2xl text-slate-800 font-semibold ">Cursor Size</h1>
 			<p class="text-slate-600 max-w-[45ch]">
@@ -93,7 +93,7 @@
 			</p>
 		</div>
 
-		<div class="my-4">
+		<div class="my-6">
 			<Keyboard size={50} />
 			<h1 class=" text-2xl text-slate-800 font-semibold ">Sticky Keys</h1>
 			<p class="text-slate-600 max-w-[45ch]">
