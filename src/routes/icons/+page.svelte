@@ -39,7 +39,7 @@
 			<img
 				src="{base}/assets/icons/icons.svg"
 				alt="Icon Hero Image"
-				class="max-w-[35rem] max-h-[35rem]"
+				class="md:max-w-[35rem] md:max-h-[35rem] w-5/6 h-auto"
 			/>
 		</div>
 		<GetStarted />

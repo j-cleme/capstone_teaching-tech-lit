@@ -9,17 +9,17 @@
 	<title>Lesson 3 - Accessibility</title>
 </svelte:head>
 
-<main class="flex flex-col justify-center m-auto">
+<main class="flex flex-col justify-center m-auto w-full">
 	<div
 		class="h-[91vh] flex flex-col items-center justify-items-center justify-center w-full border-b"
 	>
-		<div class="flex flex-col lg:flex-row md:items-center">
-			<div class="mr-16">
+		<div class="flex flex-col md:flex-row items-center">
+			<div class="md:mr-16">
 				<p class=" tracking-wide text-[#ec598b] text-2xl">Lesson 3</p>
 				<h1 class="text-6xl text-slate-800 font-semibold">
 					Accessibility<span class="text-[#3549A6]">.</span>
 				</h1>
-				<p class="pt-3.5 lg:max-w-[47ch] text-xl text-slate-600 mb-3.5">
+				<p class="pt-3.5 md:max-w-[47ch] text-xl text-slate-600 mb-3.5">
 					Accessibility, also known as ease of access, refers to the features and settings that can
 					help make technology more accessible for people with disabilities or impairments.
 				</p>
@@ -28,7 +28,7 @@
 			<img
 				src="{base}/assets/accessibility/accessibility.svg"
 				alt="Accessibility Hero Image"
-				class="max-w-[35rem] max-h-[35rem]"
+				class="md:max-w-[35rem] md:max-h-[35rem] w-5/6 h-auto"
 			/>
 		</div>
 		<GetStarted />
@@ -48,10 +48,8 @@
 				Many web browsers have built in zoom capabilities, these can be found in the settings on the
 				browser, signified by a magnifying glass. This allows you to <span class="text-[#ec598b]"
 					>enlarge</span
-				> any text, images, or icons and make them easier to see. If you are on a laptop with a trackpad
-				you can change the zoom by putting two fingers on the pad, and moving them away from each other
-				to zoom in. To zoom out with this method put two fingers on the trackpad and bring your fingers
-				together.
+				> any text, images, or icons and make them easier to see. On a trackpad, you may be able to use
+				pinch gestures to zoom in and out.
 			</p>
 		</div>
 

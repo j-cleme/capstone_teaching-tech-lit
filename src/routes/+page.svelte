@@ -11,13 +11,13 @@
 	<div
 		class="h-[91vh] max-h-screen flex flex-col items-center justify-items-center justify-center w-full border-b"
 	>
-		<div class="flex flex-col md:flex-row lg:items-center mb-20">
-			<div class="mr-16">
+		<div class="flex flex-col md:flex-row md:items-center mb-20">
+			<div class="md:mr-16">
 				<p class=" tracking-wide text-[#ec598b] text-2xl">Home</p>
 				<h1 class="text-6xl text-slate-800 font-semibold">
 					Teaching Tech Lit<span class="text-[#3549A6]">.</span>
 				</h1>
-				<p class="pt-3.5 lg:max-w-[47ch] text-xl text-slate-600 mb-3.5">
+				<p class="pt-3.5 lg:max-w-[47ch] text-xl text-slate-600 mb-3">
 					A guided introduction to the internet for adults looking to learn tech intuition and
 					literacy.
 				</p>
@@ -32,14 +32,18 @@
 			<img
 				src="{base}/assets/educator.svg"
 				alt="Educators svg"
-				class="max-w-[35rem] max-h-[35rem]"
+				class="md:max-w-[35rem] md:max-h-[35rem] md:my-0 my-4 w-5/6 h-auto"
 			/>
 		</div>
 		<LearnMore />
 	</div>
 	<section class="flex md:flex-row flex-col justify-center items-center my-8">
 		<picture>
-			<img src="{base}/assets/attention.svg" alt="Attention SVG" />
+			<img
+				src="{base}/assets/attention.svg"
+				alt="Attention SVG"
+				class="md:max-w-[35rem] md:max-h-[35rem] w-5/6 h-auto"
+			/>
 		</picture>
 		<section class="p-8">
 			<h3 class="text-3xl text-slate-800 font-semibold">

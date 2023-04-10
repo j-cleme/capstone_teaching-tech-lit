@@ -13,13 +13,13 @@
 	<div
 		class="h-[91vh] flex flex-col items-center justify-items-center justify-center w-full border-b mb-4"
 	>
-		<div class="flex flex-col lg:flex-row md:items-center">
+		<div class="flex flex-col md:flex-row md:items-center">
 			<div class="md:mr-16">
 				<p class=" tracking-wide text-[#ec598b] text-2xl">Lesson 4</p>
 				<h1 class="text-6xl text-slate-800 font-semibold">
 					Browsers<span class="text-[#3549A6]">.</span>
 				</h1>
-				<p class="pt-3.5 lg:max-w-[47ch] text-xl text-slate-600 mb-3.5">
+				<p class="pt-3.5 md:max-w-[47ch] text-xl text-slate-600 mb-3.5">
 					A web browser is an application that lets you navigate the internet. This is how you will
 					access websites and online services. By using a browser, you can search for information,
 					shop online, connect with others, and countless other things.
@@ -29,7 +29,7 @@
 			<img
 				src="{base}/assets/browsers/browser.svg"
 				alt="Browser Hero Image"
-				class="md:max-w-[35rem] md:max-h-[35rem]"
+				class="md:max-w-[35rem] md:max-h-[35rem] w-5/6 h-auto"
 			/>
 		</div>
 		<GetStarted />
@@ -156,10 +156,18 @@
 	</p>
 	<div class="md:grid md:grid-cols-3 w-full my-6">
 		<div class="flex flex-col p-4 m-auto h-full">
-			<div class="p-2 w-[300px] border border-gray-800 rounded-sm flex flex-row">
-				<Search size={25} />
-				<p class="text-slate-600 text-lg mx-2">Search</p>
-			</div>
+			<label class="relative block">
+				<span class="sr-only">Search</span>
+				<span class="absolute inset-y-0 left-0 flex items-center pl-2">
+					<Search size={40} />
+				</span>
+				<input
+					class="placeholder:italic placeholder:text-slate-400 block bg-white w-full border border-slate-300 rounded-md py-2 pl-14 pr-3 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm h-[60px] w-[300px]"
+					placeholder="Search for anything..."
+					type="text"
+					name="search"
+				/>
+			</label>
 			<h1 class=" text-3xl text-slate-800 font-semibold ">Search Bar</h1>
 			<p class="text-slate-600 max-w-[45ch]">
 				The <span class="text-[#ec598b]">search bar</span> is a text box that lets you search a website

@@ -29,7 +29,7 @@
 			<img
 				src="{base}/assets/safety/safety.svg"
 				alt="Safety Hero Image"
-				class="max-w-[28rem] max-h-[28rem]"
+				class="md:max-w-[28rem] md:max-h-[28rem] w-5/6 h-auto"
 			/>
 		</div>
 		<GetStarted />
@@ -41,12 +41,20 @@
 		By learning and taking precautions, you can help protect yourself while enjoying the benefits of
 		the internet..
 	</p>
-	<div class="flex flex-row jusify-center w-full items-center justify-center my-6">
+	<div class="flex md:flex-row flex-col jusify-center w-full items-center justify-center my-6">
 		<div class="flex flex-col p-4">
-			<div class="p-2 w-[300px] border-2 border-gray-800 rounded-sm flex flex-row items-center">
-				<Lock size={40} />
-				<p class="text-slate-600 text-lg mx-2">Password</p>
-			</div>
+			<label class="relative block">
+				<span class="sr-only">Search</span>
+				<span class="absolute inset-y-0 left-0 flex items-center pl-2">
+					<Lock size={40} />
+				</span>
+				<input
+					class="placeholder:italic placeholder:text-slate-400 block bg-white w-full border border-slate-300 rounded-md py-2 pl-14 pr-3 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm h-[60px] w-[450px]"
+					placeholder="Type a password here..."
+					type="text"
+					name="search"
+				/>
+			</label>
 			<h1 class=" text-3xl text-slate-800 font-semibold ">Passwords</h1>
 			<p class="text-slate-600 max-w-[60ch]">
 				It is important to create <span class="text-[#ec598b]">strong</span> passwords on websites that
@@ -67,7 +75,7 @@
 			</p>
 		</div>
 	</div>
-	<div class="flex flex-row jusify-center w-full items-center justify-center my-6">
+	<div class="flex md:flex-row flex-col jusify-center w-full items-center justify-center my-6">
 		<div class="flex flex-col p-4">
 			<img src="{base}/assets/safety/horn.png" alt="" class="w-[59px] h-[59px]" />
 			<h1 class=" text-3xl text-slate-800 font-semibold ">Ads</h1>
@@ -98,7 +106,7 @@
 		</div>
 	</div>
 
-	<div class="flex flex-row jusify-center w-full items-center justify-center my-6">
+	<div class="flex md:flex-row flex-col jusify-center w-full items-center justify-center my-6">
 		<div class="flex flex-col p-4">
 			<Cookie size={59} />
 			<h1 class=" text-3xl text-slate-800 font-semibold ">Cookies</h1>
