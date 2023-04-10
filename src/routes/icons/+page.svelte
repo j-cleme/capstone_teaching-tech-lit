@@ -29,9 +29,7 @@
 		<div class="flex flex-col md:flex-row lg:items-center mb-20">
 			<div class="mr-16">
 				<p class=" tracking-wide text-[#ec598b] text-2xl">Lesson 2</p>
-				<h1 class="text-6xl text-slate-800 font-semibold">
-					Icons<span class="text-[#3549A6]">.</span>
-				</h1>
+				<h1 class="text-6xl text-slate-800 font-semibold">Icons</h1>
 				<p class="pt-3.5 lg:max-w-[47ch] text-xl text-slate-600 mb-3.5">
 					A lesson about the most common icons you'll encounter. Some of these appeared in your
 					pamphlet and will be reviewed.
@@ -56,7 +54,7 @@
 			</section>
 
 			<div class="flex md:flex-row flex-col m-auto ">
-				<div class="flex flex-row md:items-center md:border-r md:py-0 py-4 md:px-4">
+				<div class="flex md:flex-row flex-col md:items-center md:border-r md:py-0 py-4 md:px-4">
 					<X size={45} enable-background={'false'} />
 					<div class="flex flex-col ml-2">
 						<h3 class=" text-xl text-slate-800">Close</h3>
@@ -66,7 +64,7 @@
 					</div>
 				</div>
 
-				<div class="flex flex-row md:items-center md:border-r md:px-4 md:py-0 py-4">
+				<div class="flex md:flex-row flex-col md:items-center md:border-r md:px-4 md:py-0 py-4">
 					<Maximize size={45} enable-background={'false'} />
 					<div class="flex flex-col ml-2">
 						<h3 class=" text-xl text-slate-800">Maximize</h3>
@@ -77,7 +75,7 @@
 					</div>
 				</div>
 
-				<div class="flex flex-row md:items-center md:px-4 md:py-0 py-4">
+				<div class="flex md:flex-row flex-col md:items-center md:px-4 md:py-0 py-4">
 					<Minimize size={45} enable-background={'false'} />
 					<div class="flex flex-col ml-2">
 						<h3 class=" text-xl text-slate-800">Minimize</h3>
@@ -101,7 +99,7 @@
 
 			<div class="lg:grid lg:grid-cols-3 m-auto">
 				<div
-					class="px-4 pb-4 flex flex-row h-full lg:border-r lg:border-b items-center cursor-default"
+					class="px-4 pb-4 flex md:flex-row flex-col h-full lg:border-r lg:border-b md:items-center cursor-default"
 				>
 					<MousePointer size={50} />
 					<div class="flex flex-col ml-3">
@@ -112,7 +110,7 @@
 					</div>
 				</div>
 				<div
-					class="px-4 pb-4 flex flex-row items-center lg:border-r lg:border-b h-full cursor-pointer"
+					class="px-4 pb-4 flex md:flex-row flex-col md:items-center lg:border-r lg:border-b h-full cursor-pointer"
 				>
 					<Pointer size={50} />
 					<div class="flex flex-col ml-3">
@@ -123,7 +121,9 @@
 						</p>
 					</div>
 				</div>
-				<div class="px-4 pb-4 flex flex-row items-center h-full lg:border-b cursor-text">
+				<div
+					class="px-4 pb-4 flex md:flex-row flex-col md:items-center h-full lg:border-b cursor-text"
+				>
 					<TextCursor size={50} />
 					<div class="flex flex-col ml-3">
 						<h3 class=" text-xl text-slate-800">Type</h3>
@@ -132,7 +132,7 @@
 						</p>
 					</div>
 				</div>
-				<div class=" p-4 flex flex-row items-center h-full lg:border-r cursor-grab">
+				<div class=" p-4 flex md:flex-row flex-col md:items-center h-full lg:border-r cursor-grab">
 					<Grab size={50} />
 					<div class="flex flex-col ml-3">
 						<h3 class=" text-xl text-slate-800">Hand / Grab</h3>
@@ -141,7 +141,9 @@
 						</p>
 					</div>
 				</div>
-				<div class=" p-4 flex flex-row items-center h-full lg:border-r cursor-e-resize">
+				<div
+					class=" p-4 flex md:flex-row flex-col md:items-center h-full lg:border-r cursor-e-resize"
+				>
 					<MoveHorizontal size={50} />
 					<div class="flex flex-col ml-3">
 						<h3 class=" text-xl text-slate-800">Resize</h3>
@@ -152,7 +154,7 @@
 						</p>
 					</div>
 				</div>
-				<div class=" p-4 flex flex-row items-center h-full cursor-move">
+				<div class=" p-4 flex md:flex-row flex-col md:items-center h-full cursor-move">
 					<Move size={50} />
 					<div class="flex flex-col ml-3">
 						<h3 class=" text-xl text-slate-800">Move</h3>
@@ -174,8 +176,8 @@
 			</section>
 
 			<div class="flex md:flex-row flex-col m-auto ">
-				<div class="flex flex-row md:items-center md:border-r md:py-0 py-4 md:px-4">
-					<Settings size={45} />
+				<div class="flex md:flex-row flex-col md:items-center md:border-r md:py-0 py-4 md:px-4">
+					<Settings size={50} />
 					<div class="flex flex-col ml-2">
 						<h3 class=" text-xl text-slate-800">Gear</h3>
 						<p class="text-slate-600 lg:max-w-[45ch]">
@@ -185,7 +187,7 @@
 					</div>
 				</div>
 
-				<div class="flex flex-row items-center md:border-r md:px-4 md:py-0 py-4">
+				<div class="flex md:flex-row flex-col md:items-center md:border-r md:px-4 md:py-0 py-4">
 					<img
 						src="{base}/assets/icons/Edge_logo.png"
 						alt="Edge Logo"
@@ -200,7 +202,7 @@
 						</p>
 					</div>
 				</div>
-				<div class="flex flex-row items-center md:px-4 md:py-0 py-4">
+				<div class="flex md:flex-row flex-col md:items-center md:px-4 md:py-0 py-4">
 					<img src="{base}/assets/icons/logo.png" alt="Tech Lit Logo" class="max-w-[50px] h-auto" />
 					<div class="flex flex-col ml-2">
 						<h3 class=" text-xl text-slate-800">Site Logo</h3>

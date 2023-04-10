@@ -15,7 +15,7 @@
 			<div class="md:mr-16">
 				<p class=" tracking-wide text-[#ec598b] text-2xl">Home</p>
 				<h1 class="text-6xl text-slate-800 font-semibold">
-					Teaching Tech Lit<span class="text-[#3549A6]">.</span>
+					Teaching Tech Lit
 				</h1>
 				<p class="pt-3.5 lg:max-w-[47ch] text-xl text-slate-600 mb-3">
 					A guided introduction to the internet for adults looking to learn tech intuition and
