@@ -111,9 +111,10 @@
 				</div>
 				<h1 class=" text-2xl text-slate-800 font-semibold ">Top Nav</h1>
 				<p class="text-slate-600 max-w-[45ch]">
-					This menu is <span class="text-[#ec598b]">located at the top of the webpage</span> and typically
-					has the most important sections of the website. This menu can include other drop-down options
-					within it for more specific subcategories.
+					This menu is <span class="text-[#ec598b] font-semibold"
+						>located at the top of the webpage</span
+					> and typically has the most important sections of the website. This menu can include other
+					drop-down options within it for more specific subcategories.
 				</p>
 			</div>
 		</div>
@@ -133,7 +134,7 @@
 			<h1 class=" text-2xl text-slate-800 font-semibold ">Side Nav</h1>
 			<p class="text-slate-600 max-w-[45ch]">
 				This type of navigation is very similar to a top navigation bar but is <span
-					class="text-[#ec598b]">located on the side of the webpage</span
+					class="text-[#ec598b] font-semibold">located on the side of the webpage</span
 				> and can be used to go through different parts or sections of a website. This type of menu is
 				usually used to show a lot of similar content or on websites with multiple levels of menus.
 			</p>
@@ -144,16 +145,17 @@
 				<h1 class=" text-2xl text-slate-800 font-semibold ">Collapsed Nav</h1>
 				<p class="text-slate-600 max-w-[45ch]">
 					This type of menu is often hidden away until you try to use it. This menu tends to look
-					like <span class="text-[#ec598b]">three horizontal lines stacked onto each other</span> that
-					can be clicked to show navigation options. Collapsed navigation icons tend to be in the upper
-					corners of a webpage and are very common on mobile devices.
+					like <span class="text-[#ec598b] font-semibold"
+						>three horizontal lines stacked onto each other</span
+					> that can be clicked to show navigation options. Collapsed navigation icons tend to be in
+					the upper corners of a webpage and are very common on mobile devices.
 				</p>
 			</div>
 		</div>
 	</div>
 	<hr class="my-2 mb-12 w-3/6" />
 	<h2 class="text-slate-800 text-4xl font-semibold">
-		Common Browser <span class="text-[#ec598b]">Elements</span>
+		Common Browser <span class="text-[#ec598b] font-semibold">Elements</span>
 	</h2>
 	<p class="text-slate-600 my-4 text-lg max-w-[110ch] text-center">
 		When browsing the internet there are some things that can help you navigate easier. Knowing what
@@ -175,8 +177,9 @@
 			</label>
 			<h1 class=" text-3xl text-slate-800 font-semibold ">Search Bar</h1>
 			<p class="text-slate-600 max-w-[45ch]">
-				The <span class="text-[#ec598b]">search bar</span> is a text box that lets you search a website
-				or the internet for information. Typically the textbox will have a magnifying glass as an icon.
+				The <span class="text-[#ec598b] font-semibold">search bar</span> is a text box that lets you
+				search a website or the internet for information. Typically the textbox will have a magnifying
+				glass as an icon.
 			</p>
 		</div>
 
@@ -191,8 +194,8 @@
 			</div>
 			<h1 class=" text-3xl text-slate-800 font-semibold ">Scroll Bar</h1>
 			<p class="text-slate-600 max-w-[45ch]">
-				A <span class="text-[#ec598b]">scroll bar</span> is a visual representation of how far down a
-				webpage you are. They are typically shown as a thin dark colored bar.
+				A <span class="text-[#ec598b] font-semibold">scroll bar</span> is a visual representation of
+				how far down a webpage you are. They are typically shown as a thin dark colored bar.
 			</p>
 		</div>
 
@@ -221,8 +224,8 @@
 			</div>
 			<h1 class=" text-3xl text-slate-800 font-semibold ">Tabs</h1>
 			<p class="text-slate-600 max-w-[45ch]">
-				Many browsers use <span class="text-[#ec598b]">tabs</span> to help moving back and forth between
-				multiple webpages quick and easy.
+				Many browsers use <span class="text-[#ec598b] font-semibold">tabs</span> to help moving back
+				and forth between multiple webpages quick and easy.
 			</p>
 		</div>
 	</div>
@@ -232,9 +235,9 @@
 			<ArrowLeftRight size={65} />
 			<h1 class=" text-3xl text-slate-800 font-semibold ">Arrows</h1>
 			<p class="text-slate-600 max-w-[45ch]">
-				These are the <span class="text-[#ec598b]">navigation arrows</span>. The back arrow will
-				take you back to the previous webpage you were on if possible. The forward arrow will return
-				you to the page you were on before.
+				These are the <span class="text-[#ec598b] font-semibold">navigation arrows</span>. The back
+				arrow will take you back to the previous webpage you were on if possible. The forward arrow
+				will return you to the page you were on before.
 			</p>
 		</div>
 
@@ -242,8 +245,8 @@
 			<Bookmark size={65} />
 			<h1 class=" text-3xl text-slate-800 font-semibold ">Bookmarks</h1>
 			<p class="text-slate-600 max-w-[45ch]">
-				<span class="text-[#ec598b]">Bookmarks</span> are a very useful feature of browsers that allow
-				you to remember web pages you like to go to often.
+				<span class="text-[#ec598b] font-semibold">Bookmarks</span> are a very useful feature of browsers
+				that allow you to remember web pages you like to go to often.
 			</p>
 		</div>
 
@@ -251,8 +254,8 @@
 			<RotateCw size={65} />
 			<h1 class=" text-3xl text-slate-800 font-semibold ">Refresh</h1>
 			<p class="text-slate-600 max-w-[45ch]">
-				This is a <span class="text-[#ec598b]">refresh</span> button, it can be found on most browsers,
-				and it is usually shown by an arrow circling back on itself.
+				This is a <span class="text-[#ec598b] font-semibold">refresh</span> button, it can be found on
+				most browsers, and it is usually shown by an arrow circling back on itself.
 			</p>
 		</div>
 	</div>

@@ -59,7 +59,7 @@
 					<div class="flex flex-col ml-2">
 						<h3 class=" text-xl text-slate-800">Close</h3>
 						<p class="text-slate-600">
-							This will <span class="text-[#ec598b]">close</span> the program.
+							This will <span class="text-[#ec598b] font-semibold">close</span> the program.
 						</p>
 					</div>
 				</div>
@@ -69,8 +69,8 @@
 					<div class="flex flex-col ml-2">
 						<h3 class=" text-xl text-slate-800">Maximize</h3>
 						<p class="text-slate-600 max-w-[30ch]">
-							This will make the window <span class="text-[#ec598b]">maximize</span> or return to its
-							normal state.
+							This will make the window <span class="text-[#ec598b] font-semibold">maximize</span> or
+							return to its normal state.
 						</p>
 					</div>
 				</div>
@@ -80,7 +80,7 @@
 					<div class="flex flex-col ml-2">
 						<h3 class=" text-xl text-slate-800">Minimize</h3>
 						<p class="text-slate-600 md:max-w-[45ch]">
-							This will <span class="text-[#ec598b]">minimize</span> the program.
+							This will <span class="text-[#ec598b] font-semibold">minimize</span> the program.
 						</p>
 					</div>
 				</div>
@@ -105,7 +105,7 @@
 					<div class="flex flex-col ml-3">
 						<h3 class=" text-xl text-slate-800">Cursor Arrow</h3>
 						<p class="text-slate-600 md:max-w-[45ch]">
-							This is the <span class="text-[#ec598b]">default</span> cursor icon.
+							This is the <span class="text-[#ec598b] font-semibold">default</span> cursor icon.
 						</p>
 					</div>
 				</div>
@@ -116,8 +116,9 @@
 					<div class="flex flex-col ml-3">
 						<h3 class=" text-xl text-slate-800">Pointer</h3>
 						<p class="text-slate-600 md:max-w-[45ch]">
-							This looks like a little hand <span class="text-[#ec598b]">pointing</span> its finger and
-							usually denotes an option to select.
+							This looks like a little hand <span class="text-[#ec598b] font-semibold"
+								>pointing</span
+							> its finger and usually denotes an option to select.
 						</p>
 					</div>
 				</div>
@@ -128,7 +129,9 @@
 					<div class="flex flex-col ml-3">
 						<h3 class=" text-xl text-slate-800">Type</h3>
 						<p class="text-slate-600 md:max-w-[45ch]">
-							This icon means this space is for <span class="text-[#ec598b]">typing</span>.
+							This icon means this space is for <span class="text-[#ec598b] font-semibold"
+								>typing</span
+							>.
 						</p>
 					</div>
 				</div>
@@ -137,7 +140,8 @@
 					<div class="flex flex-col ml-3">
 						<h3 class=" text-xl text-slate-800">Hand / Grab</h3>
 						<p class="text-slate-600 md:max-w-[45ch]">
-							This allows you to <span class="text-[#ec598b]">grab</span> by clicking and move things.
+							This allows you to <span class="text-[#ec598b] font-semibold">grab</span> by clicking and
+							move things.
 						</p>
 					</div>
 				</div>
@@ -148,8 +152,8 @@
 					<div class="flex flex-col ml-3">
 						<h3 class=" text-xl text-slate-800">Resize</h3>
 						<p class="text-slate-600 md:max-w-[45ch]">
-							Arrows going in both directions will allow you to <span class="text-[#ec598b]"
-								>resize</span
+							Arrows going in both directions will allow you to <span
+								class="text-[#ec598b] font-semibold">resize</span
 							> an object.
 						</p>
 					</div>
@@ -159,7 +163,8 @@
 					<div class="flex flex-col ml-3">
 						<h3 class=" text-xl text-slate-800">Move</h3>
 						<p class="text-slate-600 md:max-w-[45ch]">
-							This allows you to <span class="text-[#ec598b]">move</span> things around on a page.
+							This allows you to <span class="text-[#ec598b] font-semibold">move</span> things around
+							on a page.
 						</p>
 					</div>
 				</div>
@@ -181,8 +186,9 @@
 					<div class="flex flex-col ml-2">
 						<h3 class=" text-xl text-slate-800">Gear</h3>
 						<p class="text-slate-600 lg:max-w-[45ch]">
-							Gear icons are used to denote <span class="text-[#ec598b]">settings</span> in programs
-							and devices.
+							Gear icons are used to denote <span class="text-[#ec598b] font-semibold"
+								>settings</span
+							> in programs and devices.
 						</p>
 					</div>
 				</div>
@@ -196,8 +202,8 @@
 					<div class="flex flex-col ml-2">
 						<h3 class=" text-xl text-slate-800">App Icons</h3>
 						<p class="text-slate-600 lg:max-w-[45ch]">
-							App icons are unique to each app and are used to <span class="text-[#ec598b]"
-								>start</span
+							App icons are unique to each app and are used to <span
+								class="text-[#ec598b] font-semibold">start</span
 							> the program.
 						</p>
 					</div>
@@ -207,8 +213,8 @@
 					<div class="flex flex-col ml-2">
 						<h3 class=" text-xl text-slate-800">Site Logo</h3>
 						<p class="text-slate-600 lg:max-w-[45ch]">
-							Clicking on the logo for a website will take you to the <span class="text-[#ec598b]"
-								>home page</span
+							Clicking on the logo for a website will take you to the <span
+								class="text-[#ec598b] font-semibold">home page</span
 							>.
 						</p>
 					</div>

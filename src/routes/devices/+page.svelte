@@ -48,8 +48,8 @@
 						class=" m-auto mb-4 md:max-w-md w-5/6 h-auto"
 					/>
 					<p class="text-base text-slate-600 text-center">
-						MacOS - <span class="text-[#ec598b]">Top</span> and
-						<span class="text-[#ec598b]">Bottom</span> Taskbars
+						MacOS - <span class="text-[#ec598b] font-semibold">Top</span> and
+						<span class="text-[#ec598b] font-semibold">Bottom</span> Taskbars
 					</p>
 				</picture>
 				<picture class="md:my-0 my-4">
@@ -59,7 +59,7 @@
 						class=" m-auto mb-4 md:max-w-md w-5/6 h-auto"
 					/>
 					<p class="text-base text-slate-600 text-center">
-						Windows - <span class="text-[#ec598b]">Bottom</span> Taskbar
+						Windows - <span class="text-[#ec598b] font-semibold">Bottom</span> Taskbar
 					</p>
 				</picture>
 			</section>
@@ -80,14 +80,14 @@
 					class="max-w-[10rem] h-auto mb-4"
 				/>
 				<p class="text-base text-slate-600 text-center">
-					Located - <span class="text-[#ec598b]">Top Left</span>
+					Located - <span class="text-[#ec598b] font-semibold">Top Left</span>
 				</p>
 			</div>
 			<div class="md:my-0 my-4 flex flex-col justify-center items-center">
 				<img src="assets/devices/windows_logo.png" alt="" class="max-w-[10rem] h-auto mb-4" />
 				<p class="text-base text-slate-600 text-center">
-					Located - <span class="text-[#ec598b]">Bottom Left</span> or
-					<span class="text-[#ec598b]"> Center</span>
+					Located - <span class="text-[#ec598b] font-semibold">Bottom Left</span> or
+					<span class="text-[#ec598b] font-semibold"> Center</span>
 				</p>
 			</div>
 		</section>
@@ -109,7 +109,7 @@
 						class=" m-auto mb-4 md:max-w-md w-5/6 h-auto"
 					/>
 					<p class="text-base text-slate-600 text-center">
-						MacOS - <span class="text-[#ec598b]">Finder</span>
+						MacOS - <span class="text-[#ec598b] font-semibold">Finder</span>
 					</p>
 				</picture>
 				<picture class="flex flex-col items-center md:my-0 my-4">
@@ -119,7 +119,7 @@
 						class=" m-auto mb-4 border md:max-w-md w-5/6 h-auto"
 					/>
 					<p class="text-base text-slate-600 text-center">
-						Windows - <span class="text-[#ec598b]">Windows File Explorer</span>
+						Windows - <span class="text-[#ec598b] font-semibold">Windows File Explorer</span>
 					</p>
 				</picture>
 			</section>

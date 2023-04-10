@@ -32,7 +32,7 @@
 		<GetStarted />
 	</div>
 	<h2 class="text-slate-800 text-4xl font-semibold mt-8">
-		Accessibility <span class="text-[#ec598b]">Options</span>
+		Accessibility <span class="text-[#ec598b] font-semibold">Options</span>
 	</h2>
 	<p class="text-slate-600 my-4 text-lg">
 		Many devices and applications offer a range of options that can help users customize their
@@ -44,8 +44,8 @@
 			<h1 class=" text-2xl text-slate-800 font-semibold ">Zoom</h1>
 			<p class="text-slate-600 max-w-[50ch]">
 				Many web browsers have built in zoom capabilities, these can be found in the settings on the
-				browser, signified by a magnifying glass. This allows you to <span class="text-[#ec598b]"
-					>enlarge</span
+				browser, signified by a magnifying glass. This allows you to <span
+					class="text-[#ec598b] font-semibold">enlarge</span
 				> any text, images, or icons and make them easier to see. On a trackpad, you may be able to use
 				pinch gestures to zoom in and out.
 			</p>
@@ -55,10 +55,11 @@
 			<Ear size={50} />
 			<h1 class=" text-2xl text-slate-800 font-semibold ">Narrator</h1>
 			<p class="text-slate-600 max-w-[50ch]">
-				The narrator feature gives you an <span class="text-[#ec598b]">audio description</span> of what
-				is currently happening on the screen. It is used for things such as reading out text or describing
-				actions. This can be useful for people with visual impairments or those who prefer to listen
-				rather than read.
+				The narrator feature gives you an <span class="text-[#ec598b] font-semibold"
+					>audio description</span
+				> of what is currently happening on the screen. It is used for things such as reading out text
+				or describing actions. This can be useful for people with visual impairments or those who prefer
+				to listen rather than read.
 			</p>
 		</div>
 
@@ -66,9 +67,9 @@
 			<Type size={50} />
 			<h1 class=" text-2xl text-slate-800 font-semibold ">Adjustable Text Size</h1>
 			<p class="text-slate-600 max-w-[50ch]">
-				This feature allows you to <span class="text-[#ec598b]">adjust the size</span> of the text on
-				the screen to make it bigger or smaller, depending on your preference. It is particularly useful
-				for people with visual impairments or those who prefer larger text.
+				This feature allows you to <span class="text-[#ec598b] font-semibold">adjust the size</span>
+				of the text on the screen to make it bigger or smaller, depending on your preference. It is particularly
+				useful for people with visual impairments or those who prefer larger text.
 			</p>
 		</div>
 
@@ -86,8 +87,8 @@
 			<MousePointer2 size={50} />
 			<h1 class=" text-2xl text-slate-800 font-semibold ">Cursor Size</h1>
 			<p class="text-slate-600 max-w-[50ch]">
-				This allows you to <span class="text-[#ec598b]">adjust the size</span> of the cursor to make
-				it easier to see and track.
+				This allows you to <span class="text-[#ec598b] font-semibold">adjust the size</span> of the cursor
+				to make it easier to see and track.
 			</p>
 		</div>
 
@@ -95,8 +96,9 @@
 			<Keyboard size={50} />
 			<h1 class=" text-2xl text-slate-800 font-semibold ">Sticky Keys</h1>
 			<p class="text-slate-600 max-w-[50ch]">
-				This allows the user to <span class="text-[#ec598b]">press one key at a time</span> for keyboard
-				shortcuts, rather than needing to press multiple keys at once.
+				This allows the user to <span class="text-[#ec598b] font-semibold"
+					>press one key at a time</span
+				> for keyboard shortcuts, rather than needing to press multiple keys at once.
 			</p>
 		</div>
 	</div>

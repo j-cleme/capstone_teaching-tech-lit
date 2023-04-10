@@ -33,7 +33,7 @@
 		<GetStarted />
 	</div>
 	<h2 class="text-slate-800 text-4xl font-semibold">
-		Practicing Internet <span class="text-[#ec598b]">Safety</span>
+		Practicing Internet <span class="text-[#ec598b] font-semibold">Safety</span>
 	</h2>
 	<p class="text-slate-600 my-4 text-lg">
 		By learning and taking precautions, you can help protect yourself while enjoying the benefits of
@@ -55,10 +55,10 @@
 			</label>
 			<h1 class=" text-3xl text-slate-800 font-semibold ">Passwords</h1>
 			<p class="text-slate-600 max-w-[60ch]">
-				It is important to create <span class="text-[#ec598b]">strong</span> passwords on websites that
-				have your personal information. Don't use the same password for multiple websites, because if
-				one is compromised they all are! The easiest way to keep your passwords safe is to write them
-				down, you can't hack paper!
+				It is important to create <span class="text-[#ec598b] font-semibold">strong</span> passwords
+				on websites that have your personal information. Don't use the same password for multiple websites,
+				because if one is compromised they all are! The easiest way to keep your passwords safe is to
+				write them down, you can't hack paper!
 			</p>
 		</div>
 
@@ -66,10 +66,10 @@
 			<User size={58} class="" />
 			<h1 class=" text-3xl text-slate-800 font-semibold ">Personal Info</h1>
 			<p class="text-slate-600 max-w-[60ch]">
-				Unless you are on a website you <span class="text-[#ec598b]">trust</span>, it's safer not to
-				submit your personal information, also it's important to know that personal information can
-				be faked by others. Remember, what you put on the internet is always available on the
-				internet.
+				Unless you are on a website you <span class="text-[#ec598b] font-semibold">trust</span>,
+				it's safer not to submit your personal information, also it's important to know that
+				personal information can be faked by others. Remember, what you put on the internet is
+				always available on the internet.
 			</p>
 		</div>
 
@@ -79,7 +79,9 @@
 			<p class="text-slate-600 max-w-[60ch]">
 				Internet ads are on most webpages, most are on the sides of the pages, or the middle of a
 				webpage. Ads very often have malware attached to them, if you see something you want to buy
-				or investigate, <span class="text-[#ec598b]">it is safer to google search it</span>.
+				or investigate, <span class="text-[#ec598b] font-semibold"
+					>it is safer to google search it</span
+				>.
 			</p>
 		</div>
 	</div>
@@ -98,7 +100,9 @@
 			<h1 class=" text-3xl text-slate-800 font-semibold ">Pop Ups</h1>
 			<p class="text-slate-600 max-w-[60ch]">
 				A pop up is usually an ad on a webpage used to trick you into clicking it so it can put
-				malware on your computer. <span class="text-[#ec598b]">It is OK to click the X button</span>
+				malware on your computer. <span class="text-[#ec598b] font-semibold"
+					>It is OK to click the X button</span
+				>
 				on the browser window it appears on.
 			</p>
 		</div>
@@ -107,7 +111,7 @@
 			<h1 class=" text-3xl text-slate-800 font-semibold ">Cookies</h1>
 			<p class="text-slate-600 max-w-[60ch]">
 				Cookies are internet files that track what you do on the internet. <span
-					class="text-[#ec598b]">THESE ARE NOT BAD THINGS</span
+					class="text-[#ec598b] font-semibold">THESE ARE NOT BAD THINGS</span
 				>. Cookies are typically used to keep you logged into websites without you having to
 				re-login on every page. They can be used by certain websites and advertisers to give you ads
 				and information based on your personal browsing history, many sites require your consent for
@@ -121,7 +125,9 @@
 			<p class="text-slate-600 max-w-[60ch]">
 				Phishing is one of the most common internet scams, usually in an email or some other form of
 				internet communication. They then either ask for money, gift cards, passwords, or other
-				sensitive information. It is always good to <span class="text-[#ec598b]">double check</span>
+				sensitive information. It is always good to <span class="text-[#ec598b] font-semibold"
+					>double check</span
+				>
 				through other means of communication if you expect a message might be a phishing attempt.
 			</p>
 		</div>
