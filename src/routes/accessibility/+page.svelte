@@ -38,7 +38,7 @@
 		Many devices and applications offer a range of options that can help users customize their
 		experience and make it easier to use.
 	</p>
-	<div class="md:grid md:grid-cols-3 w-full justify-items-center my-6">
+	<div class="md:grid md:grid-cols-3 w-full gap-4 justify-items-center my-6">
 		<div class="my-6">
 			<ZoomIn size={50} />
 			<h1 class=" text-2xl text-slate-800 font-semibold ">Zoom</h1>
