@@ -102,5 +102,6 @@
 <footer class="w-full mt-10 bg-[#3549A6] text-white p-8 flex flex-col">
 	<p>this is a beautiful, well crafted footer.</p>
 
+	<a href="{base}/about" class="underline max-w-fit">About Us <span>&#10148;</span></a>
 	<a href="{base}/" class="underline max-w-fit">back to home <span>&#10148;</span></a>
 </footer>
