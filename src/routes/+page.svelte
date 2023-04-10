@@ -9,7 +9,7 @@
 </svelte:head>
 <main class="flex flex-col justify-center m-auto">
 	<div
-		class="h-[91vh] md:mt-0 mt-10 md:max-h-screen flex flex-col items-center justify-items-center justify-center w-full border-b"
+		class="h-[91vh] md:mt-0 mt-14 md:max-h-screen flex flex-col items-center justify-items-center justify-center w-full border-b"
 	>
 		<div class="flex flex-col md:flex-row md:items-center mb-20">
 			<div class="md:mr-16">
