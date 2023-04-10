@@ -16,9 +16,7 @@
 		<div class="flex flex-col md:flex-row md:items-center">
 			<div class="md:mr-16">
 				<p class=" tracking-wide text-[#ec598b] text-2xl">Lesson 4</p>
-				<h1 class="text-6xl text-slate-800 font-semibold">
-					Browsers<span class="text-[#3549A6]">.</span>
-				</h1>
+				<h1 class="text-6xl text-slate-800 font-semibold">Browsers</h1>
 				<p class="pt-3.5 md:max-w-[47ch] text-xl text-slate-600 mb-3.5">
 					A web browser is an application that lets you navigate the internet. This is how you will
 					access websites and online services. By using a browser, you can search for information,

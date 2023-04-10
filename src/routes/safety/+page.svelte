@@ -17,9 +17,7 @@
 		<div class="flex flex-col md:flex-row lg:items-center">
 			<div class="mr-16">
 				<p class=" tracking-wide text-[#ec598b] text-2xl">Lesson 5</p>
-				<h1 class="text-6xl text-slate-800 font-semibold">
-					Safety<span class="text-[#3549A6]">.</span>
-				</h1>
+				<h1 class="text-6xl text-slate-800 font-semibold">Safety</h1>
 				<p class="pt-3.5 lg:max-w-[47ch] text-xl text-slate-600 mb-3.5">
 					It’s important to be safe when using the internet, though, especially with your personal
 					information.
@@ -41,7 +39,7 @@
 		By learning and taking precautions, you can help protect yourself while enjoying the benefits of
 		the internet..
 	</p>
-	<div class="flex md:flex-row flex-col jusify-center w-full items-center justify-center my-10">
+	<div class="flex md:flex-row flex-col jusify-center w-full justify-center my-10">
 		<div class="flex flex-col p-4">
 			<label class="relative block">
 				<span class="sr-only">Search</span>
@@ -85,14 +83,14 @@
 			</p>
 		</div>
 	</div>
-	<div class="flex md:flex-row flex-col jusify-center w-full items-center justify-center my-10">
+	<div class="flex md:flex-row flex-col jusify-center w-full justify-center my-10">
 		<div class="flex flex-col p-4">
 			<Modal basic>
 				<Content>
 					<h2>This is a pop up! Popups can appear like this or as an entirely different window!</h2>
 				</Content>
 				<Trigger>
-					<button class="btn text-xl text-white py-2 px-4 bg-[#3549A6] rounded-sm">
+					<button class="btn text-xl text-white py-2 px-4 bg-[#3549A6] rounded-md h-[59px]">
 						Click Me!</button
 					>
 				</Trigger>

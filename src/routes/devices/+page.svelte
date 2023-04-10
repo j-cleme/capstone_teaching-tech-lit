@@ -16,9 +16,7 @@
 		<div class="flex flex-col md:flex-row md:items-center mb-20">
 			<div class="md:mr-16">
 				<p class=" tracking-wide text-[#ec598b] text-2xl">Lesson 1</p>
-				<h1 class="text-6xl text-slate-800 font-semibold">
-					Devices<span class="text-[#3549A6]">.</span>
-				</h1>
+				<h1 class="text-6xl text-slate-800 font-semibold">Devices</h1>
 				<p class="pt-3.5 lg:max-w-[47ch] text-xl text-slate-600 mb-3.5">
 					All devices are different, but some functions are seen across all platforms. Let's explore
 					them.
