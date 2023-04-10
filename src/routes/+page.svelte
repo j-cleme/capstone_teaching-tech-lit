@@ -14,9 +14,7 @@
 		<div class="flex flex-col md:flex-row md:items-center mb-20">
 			<div class="md:mr-16">
 				<p class=" tracking-wide text-[#ec598b] text-2xl">Home</p>
-				<h1 class="text-6xl text-slate-800 font-semibold">
-					Teaching Tech Lit<span class="text-[#3549A6]">.</span>
-				</h1>
+				<h1 class="text-6xl text-slate-800 font-semibold">Teaching Tech Lit</h1>
 				<p class="pt-3.5 lg:max-w-[47ch] text-xl text-slate-600 mb-3">
 					A guided introduction to the internet for adults looking to learn tech intuition and
 					literacy.
@@ -30,8 +28,8 @@
 			</div>
 			<!-- svelte-ignore a11y-img-redundant-alt -->
 			<img
-				src="{base}/assets/educator.svg"
-				alt="Educators svg"
+				src="{base}/assets/teaching.svg"
+				alt="Image of man teaching"
 				class="md:max-w-[35rem] md:max-h-[35rem] md:my-0 my-4 w-5/6 h-auto"
 			/>
 		</div>
