@@ -1,7 +1,6 @@
 <script>
 	import Arrow from '$lib/Arrow.svelte';
 	import { base } from '$app/paths';
-	import LearnMore from '$lib/LearnMore.svelte';
 </script>
 
 <svelte:head>
@@ -9,9 +8,9 @@
 </svelte:head>
 <main class="flex flex-col justify-center m-auto">
 	<div
-		class="h-[91vh] md:mt-0 mt-14 md:max-h-screen flex flex-col items-center justify-items-center justify-center w-full"
+		class="min-h-[80vh] md:mt-0 mt-14 md:max-h-[90vh] flex flex-col items-center justify-items-center justify-center w-full"
 	>
-		<div class="flex flex-col md:flex-row md:items-center mb-20">
+		<div class="flex flex-col md:flex-row md:items-center">
 			<div class="md:mr-16">
 				<p class=" tracking-wide text-[#ec598b] text-2xl">Home</p>
 				<h1 class="text-6xl text-slate-800 font-semibold">Teaching Tech Lit</h1>
@@ -26,10 +25,9 @@
 					Get Started <span class="px-2"><Arrow /></span>
 				</a>
 			</div>
-			<!-- svelte-ignore a11y-img-redundant-alt -->
 			<img
 				src="{base}/assets/teaching.svg"
-				alt="Image of man teaching"
+				alt="Man pointing at a presentation"
 				class="md:max-w-[35rem] md:max-h-[35rem] md:my-0 my-4 w-5/6 h-auto"
 			/>
 		</div>

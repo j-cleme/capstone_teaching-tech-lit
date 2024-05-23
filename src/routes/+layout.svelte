@@ -20,6 +20,7 @@
 >
 	<div class="flex flex-row justify-start w-full">
 		<div
+			aria-hidden="true"
 			on:click={toggleMobileNav}
 			on:keypress={toggleMobileNav}
 			class="md:hidden place-self-start border-none"
