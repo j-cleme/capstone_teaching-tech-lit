@@ -1,0 +1,40 @@
+---
+import Navbar from "../components/Navbar.astro";
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+    <link rel="manifest" href="site.webmanifest" />
+    <meta name="viewport" content="width=device-width" />
+    <title>{title}</title>
+  </head>
+
+  <body class="flex flex-col justify-between h-screen">
+    <Navbar />
+
+    <main class="flex flex-col justify-center m-auto">
+      <slot />
+    </main>
+
+    <footer class="w-full mt-10 bg-[#3549A6] text-white p-8 flex flex-col">
+      <p>
+        this is a footer. most websites would have more links to other pages
+        here, but we don't.
+      </p>
+
+      <a href="/about" class="underline max-w-fit"
+        >About Us <span>&#10148;</span></a
+      >
+      <a href="/" class="underline max-w-fit"
+        >back to home <span>&#10148;</span></a
+      >
+    </footer>
+  </body>
+</html>

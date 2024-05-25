@@ -1,0 +1,55 @@
+---
+import NavItem from "./NavItem.astro";
+---
+
+<script>
+  let navVisibleState: Boolean = false;
+  function toggleMobileNav(): void {
+    navVisibleState = navVisibleState ? false : true;
+  }
+</script>
+
+<nav
+  class="w-11/12 max-w-full m-0 mx-auto flex justify-between items-center py-8 h-18 md:h-12 text-sm font-semibold border-b"
+>
+  <div class="flex flex-row justify-start w-full">
+    <button
+      aria-hidden="true"
+      onclick="toggleMobileNav()"
+      class="md:hidden place-self-start border-none"
+    >
+    </button>
+    <a
+      href="/"
+      class="flex flex-row w-full m-0 justify-start items-center border-none"
+    >
+      <img
+        src="/assets/logo.png"
+        alt="Teaching Tech Lit logo"
+        class="group h-6 w-6"
+      />
+      <h1
+        class="group mx-1 md:px-2 py-2 text-lg font-semibold text-neutral-900"
+      >
+        Teaching Tech Lit<span
+          class="block bg-[#3549A6] max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5"
+        ></span>
+      </h1>
+    </a>
+  </div>
+  <a
+    class="group px-2 py-2 min-w-max {navVisibleState ? '' : 'hidden md:inline'}"
+    href="/"
+    >Home
+    <span
+      class="block bg-[#3549A6] max-w-0 group-hover:max-w-full {$page.route.id == '/'
+				? 'max-w-full bg-[#ec598a]'
+				: ''} transition-all duration-300 h-0.5"
+    ></span>
+  </a>
+  <NavItem name="Devices" />
+  <NavItem name="Icons" />
+  <NavItem name="Accessibility" />
+  <NavItem name="Browsers" />
+  <NavItem name="Safety" />
+</nav>
