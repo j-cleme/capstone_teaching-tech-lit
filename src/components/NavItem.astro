@@ -1,0 +1,11 @@
+---
+const { name } = Astro.props;
+---
+
+<a class="group p-2 min-w-max hidden md:inline" href=`/${name.toLowerCase()}`>
+  <p>{name}</p>
+  <span
+    class="block bg-[#3549A6] max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5"
+  >
+  </span>
+</a>

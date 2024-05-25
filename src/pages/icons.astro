@@ -1,0 +1,176 @@
+---
+import Lesson from "../layouts/Lesson.astro";
+---
+
+<Lesson
+  title="Icons"
+  lessonId="2"
+  description="A lesson about the most common icons you'll encounter. Some of these appeared in your pamphlet and will be reviewed."
+>
+  <img
+    slot="hero"
+    src="/assets/icons/icons.svg"
+    alt="Icon Hero"
+    class="md:max-w-[35rem] md:max-h-[35rem] w-5/6 h-auto"
+  />
+
+  <section
+    class="grid grid-flow-row grid-cols-1 md:grid-cols-4 gap-6 m-4 max-w-[90vw] mx-auto"
+  >
+    <div>
+      <h1 class="text-3xl text-slate-800 font-semibold">
+        Window Action Buttons
+      </h1>
+      <p class="pt-2 text-base text-slate-600">
+        In the top left or right corner of any program there will likely be
+        three icons.
+      </p>
+    </div>
+
+    <div class="flex md:flex-row flex-col items-center">
+      <div class="flex flex-col">
+        <h3 class="text-xl text-slate-800">Close</h3>
+        <p class="text-slate-600">
+          This will <span class="text-[#ec598b] font-semibold">close</span> the program.
+        </p>
+      </div>
+    </div>
+
+    <div class="flex md:flex-row flex-col items-center">
+      <div class="flex flex-col">
+        <h3 class="text-xl text-slate-800">Maximize</h3>
+        <p class="text-slate-600 max-w-[30ch]">
+          This will make the window <span class="text-[#ec598b] font-semibold"
+            >maximize</span
+          > or return to its normal state.
+        </p>
+      </div>
+    </div>
+
+    <div class="flex md:flex-row flex-col items-center">
+      <div class="flex flex-col">
+        <h3 class="text-xl text-slate-800">Minimize</h3>
+        <p class="text-slate-600 md:max-w-[45ch]">
+          This will <span class="text-[#ec598b] font-semibold">minimize</span>
+          the program.
+        </p>
+      </div>
+    </div>
+    <div role="contentinfo" class="row-span-2">
+      <h1 class="text-3xl text-slate-800 font-semibold">Cursors</h1>
+      <p class="pt-2 text-base text-slate-600">
+        The cursor is the icon that moves around the screen with your mouse or
+        trackpad. It has many different icons that each mean something
+        different.
+      </p>
+    </div>
+
+    <div class="flex md:flex-row flex-col items-center">
+      <div class="flex flex-col">
+        <h3 class="text-xl text-slate-800">Cursor Arrow</h3>
+        <p class="text-slate-600 md:max-w-[45ch]">
+          This is the <span class="text-[#ec598b] font-semibold">default</span> cursor
+          icon.
+        </p>
+      </div>
+    </div>
+    <div class="flex md:flex-row flex-col items-center">
+      <div class="flex flex-col">
+        <h3 class="text-xl text-slate-800">Pointer</h3>
+        <p class="text-slate-600 md:max-w-[45ch]">
+          This looks like a little hand <span
+            class="text-[#ec598b] font-semibold">pointing</span
+          > its finger and usually denotes an option to select.
+        </p>
+      </div>
+    </div>
+    <div class="flex md:flex-row flex-col items-center">
+      <div class="flex flex-col">
+        <h3 class="text-xl text-slate-800">Type</h3>
+        <p class="text-slate-600 md:max-w-[45ch]">
+          This icon means this space is for <span
+            class="text-[#ec598b] font-semibold">typing</span
+          >.
+        </p>
+      </div>
+    </div>
+    <div class="flex md:flex-row flex-col items-start">
+      <div class="flex flex-col">
+        <h3 class="text-xl text-slate-800">Hand / Grab</h3>
+        <p class="text-slate-600 md:max-w-[45ch]">
+          This allows you to <span class="text-[#ec598b] font-semibold"
+            >grab</span
+          > by clicking and move things.
+        </p>
+      </div>
+    </div>
+    <div class="flex md:flex-row flex-col items-center">
+      <div class="flex flex-col">
+        <h3 class="text-xl text-slate-800">Resize</h3>
+        <p class="text-slate-600 md:max-w-[45ch]">
+          Arrows going in both directions will allow you to <span
+            class="text-[#ec598b] font-semibold">resize</span
+          > an object.
+        </p>
+      </div>
+    </div>
+    <div class="flex md:flex-row flex-col items-center">
+      <div class="flex flex-col">
+        <h3 class="text-xl text-slate-800">Move</h3>
+        <p class="text-slate-600 md:max-w-[45ch]">
+          This allows you to <span class="text-[#ec598b] font-semibold"
+            >move</span
+          > things around on a page.
+        </p>
+      </div>
+    </div>
+    <div>
+      <h1 class="text-3xl text-slate-800 font-semibold">Additonal Icons</h1>
+      <p class="pt-2 text-base text-slate-600">
+        These are some addtional icons that you may encounter across devices.
+      </p>
+    </div>
+
+    <div class="flex md:flex-row flex-col items-center">
+      <div class="flex flex-col">
+        <h3 class="text-xl text-slate-800">Gear</h3>
+        <p class="text-slate-600 lg:max-w-[45ch]">
+          Gear icons are used to denote <span
+            class="text-[#ec598b] font-semibold">settings</span
+          > in programs and devices.
+        </p>
+      </div>
+    </div>
+
+    <div class="flex md:flex-row flex-col items-center">
+      <img
+        src="/assets/icons/Edge_logo.png"
+        alt="Edge Logo"
+        class="max-w-[50px] h-auto"
+      />
+      <div class="flex flex-col ml-4">
+        <h3 class="text-xl text-slate-800">App Icons</h3>
+        <p class="text-slate-600 lg:max-w-[45ch]">
+          App icons are unique to each app and are used to <span
+            class="text-[#ec598b] font-semibold">start</span
+          > the program.
+        </p>
+      </div>
+    </div>
+    <div class="flex md:flex-row flex-col md:items-center">
+      <img
+        src="/assets/icons/logo.png"
+        alt="Tech Lit Logo"
+        class="max-w-[50px] h-auto"
+      />
+      <div class="flex flex-col">
+        <h3 class="text-xl text-slate-800">Site Logo</h3>
+        <p class="text-slate-600 lg:max-w-[45ch]">
+          Clicking on the logo for a website will take you to the <span
+            class="text-[#ec598b] font-semibold">home page</span
+          >.
+        </p>
+      </div>
+    </div>
+  </section>
+</Lesson>

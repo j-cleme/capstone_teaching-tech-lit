@@ -1,0 +1,252 @@
+---
+import Lesson from "../layouts/Lesson.astro";
+---
+
+<Lesson
+  title="Browsers"
+  lessonId="4"
+  description="A web browser is an application that lets you navigate the internet. This is how you will access websites and online services. By using a browser, you can search for information, shop online, connect with others, and countless other things."
+>
+  <img
+    slot="hero"
+    src="/assets/browsers/browser.svg"
+    alt="Browser Hero Image"
+    class="md:max-w-[35rem] md:max-h-[35rem] w-5/6 h-auto"
+  />
+
+  <section
+    class="grid grid-flow-row grid-cols-1 md:grid-cols-4 gap-6 m-4 max-w-[90vw] mx-auto"
+  >
+    <div class="col-span-2 row-span-2">
+      <h2 class="text-slate-800 text-4xl font-semibold">
+        Common Internet <span class="text-[#ec598b]">Browsers</span>
+      </h2>
+      <p class="text-slate-600 my-4 text-lg">
+        Below are some of the most commonly used Internet Browsers today.
+      </p>
+    </div>
+    <div class="self-center">
+      <img
+        src="/assets/browsers/Chrome_logo.svg"
+        alt="Chrome Logo"
+        class="max-w-[150px] h-auto m-auto"
+      />
+      <h1 class="text-center text-2xl text-slate-800 font-semibold my-4">
+        Google Chrome
+      </h1>
+    </div>
+    <div class="self-center">
+      <img
+        src="/assets/icons/Edge_logo.png"
+        alt="Edge Logo"
+        class="max-w-[150px] h-auto m-auto"
+      />
+      <h1 class="text-center text-2xl text-slate-800 font-semibold my-4">
+        Microsoft Edge
+      </h1>
+    </div>
+    <div class="self-center">
+      <img
+        src="/assets/browsers/Firefox_logo.png"
+        alt="Firefox Logo"
+        class="max-w-[150px] max-h-[150px] m-auto"
+      />
+      <h1 class="text-center text-2xl text-slate-800 font-semibold my-4">
+        Firefox
+      </h1>
+    </div>
+    <div class="self-center">
+      <img
+        src="/assets/browsers/Safari_logo.png"
+        alt="Safari Logo"
+        class="max-w-[150px] max-h-[150px] m-auto"
+      />
+      <h1 class="text-center text-2xl text-slate-800 font-semibold my-4">
+        Safari
+      </h1>
+    </div>
+
+    <div>
+      <h2 class="text-slate-800 text-4xl font-semibold">
+        Navigation <span class="text-[#ec598b]">Menus</span>
+      </h2>
+      <p class="text-slate-600 my-4 text-lg max-w-[110ch]">
+        Navigation menus are an important part of using a website. They provide
+        a way to quickly move between different sections and pages. There are a
+        few different ways that navigation menus can look and be used.
+      </p>
+    </div>
+    <div class="grid">
+      <div class="place-self-center">
+        <div
+          class="bg-gray-900 flex flex-row justify-around p-2 rounded-sm md:w-full w-fit"
+        >
+          <p
+            aria-hidden="true"
+            class="text-white py-1 px-2 mx-1 bg-blue-600 rounded hover:bg-blue-500 cursor-pointer"
+          >
+            Example
+          </p>
+          <p
+            class="text-white py-1 px-2 mx-1 hover:bg-blue-600 hover:rounded cursor-pointer"
+          >
+            Example
+          </p>
+          <p
+            class="text-white py-1 px-2 mx-1 hover:bg-blue-600 hover:rounded cursor-pointer"
+          >
+            Example
+          </p>
+        </div>
+        <h1 class="text-2xl text-slate-800 font-semibold">Top Nav</h1>
+        <p class="text-slate-600 max-w-[45ch]">
+          This menu is <span class="text-[#ec598b] font-semibold"
+            >located at the top of the webpage</span
+          > and typically has the most important sections of the website. This menu
+          can include other drop-down options within it for more specific subcategories.
+        </p>
+      </div>
+    </div>
+    <div class="grid">
+      <div class="place-self-center">
+        <div
+          class="bg-gray-900 flex flex-col justify-around rounded-sm w-[250px]"
+        >
+          <p
+            class="text-white py-1 px-2 bg-blue-600 hover:bg-blue-500 rounded-t-sm cursor-pointer"
+          >
+            Example
+          </p>
+          <p class="text-white py-1 px-2 hover:bg-blue-600 cursor-pointer">
+            Example
+          </p>
+          <p
+            class="text-white py-1 px-2 hover:bg-blue-600 hover:rounded-b-sm cursor-pointer"
+          >
+            Example
+          </p>
+        </div>
+        <h1 class="text-2xl text-slate-800 font-semibold">Side Nav</h1>
+        <p class="text-slate-600 max-w-[45ch]">
+          This type of navigation is very similar to a top navigation bar but is <span
+            class="text-[#ec598b] font-semibold"
+            >located on the side of the webpage</span
+          > and can be used to go through different parts or sections of a website.
+          This type of menu is usually used to show a lot of similar content or on
+          websites with multiple levels of menus.
+        </p>
+      </div>
+    </div>
+    <div class="grid">
+      <div class="place-self-center">
+        <h1 class="text-2xl text-slate-800 font-semibold">Collapsed Nav</h1>
+        <p class="text-slate-600 max-w-[45ch]">
+          This type of menu is often hidden away until you try to use it. This
+          menu tends to look like <span class="text-[#ec598b] font-semibold"
+            >three horizontal lines stacked onto each other</span
+          > that can be clicked to show navigation options. Collapsed navigation
+          icons tend to be in the upper corners of a webpage and are very common
+          on mobile devices.
+        </p>
+      </div>
+    </div>
+    <div class="col-span-2">
+      <h2 class="text-slate-800 text-4xl font-semibold">
+        Common Browser <span class="text-[#ec598b] font-semibold">Elements</span
+        >
+      </h2>
+      <p class="text-slate-600 my-4 text-lg max-w-[110ch]">
+        When browsing the internet there are some things that can help you
+        navigate easier. Knowing what they look like and do will help you become
+        more familiar and comfortable with any website.
+      </p>
+    </div>
+    <div class="grid">
+      <label class="relative block">
+        <span class="sr-only">Search</span>
+        <span class="absolute inset-y-0 left-0 flex items-center pl-2"> </span>
+        <input
+          class="placeholder:italic placeholder:text-slate-400 block bg-white w-full border border-slate-300 rounded-md py-2 pl-14 pr-3 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm h-[60px]"
+          placeholder="Search for anything..."
+          type="text"
+          name="search"
+        />
+      </label>
+      <h1 class="text-3xl text-slate-800 font-semibold">Search Bar</h1>
+      <p class="text-slate-600 max-w-[45ch]">
+        The <span class="text-[#ec598b] font-semibold">search bar</span> is a text
+        box that lets you search a website or the internet for information. Typically
+        the textbox will have a magnifying glass as an icon.
+      </p>
+    </div>
+    <div>
+      <div
+        class="overflow-x-scroll md:w-[300px] w-[250px] h-[46px] border border-gray-800 rounded-sm"
+      >
+        <p class="whitespace-nowrap w-full cursor-default">
+          This is an example of a scrollbar! Usually they're vertically aligned
+          and on the side of the webpage but in this case it's a horizontal
+          scrollbar for text!
+        </p>
+      </div>
+      <h1 class="text-3xl text-slate-800 font-semibold">Scroll Bar</h1>
+      <p class="text-slate-600 max-w-[45ch]">
+        A <span class="text-[#ec598b] font-semibold">scroll bar</span> is a visual
+        representation of how far down a webpage you are. They are typically shown
+        as a thin dark colored bar.
+      </p>
+    </div>
+    <div>
+      <div
+        class="h-[46px] md:w-[300px] w-[250px] bg-gray-600 text-white flex flex-row justify-around items-center rounded-sm border-b-4 border-gray-800"
+      >
+        <p
+          class="bg-gray-800 w-full text-center align-middle leading-[42px] rounded-tr-lg drop-shadow-md cursor-pointer"
+        >
+          Example
+        </p>
+        <p
+          class="w-full text-center hover:leading-[42px] hover:rounded-t-lg hover:bg-gray-700 cursor-pointer"
+        >
+          Example
+        </p>
+        <p
+          class="w-full text-center hover:leading-[42px] hover:rounded-tl-lg hover:bg-gray-700 cursor-pointer"
+        >
+          Example
+        </p>
+      </div>
+      <h1 class="text-3xl text-slate-800 font-semibold">Tabs</h1>
+      <p class="text-slate-600 max-w-[45ch]">
+        Many browsers use <span class="text-[#ec598b] font-semibold">tabs</span>
+        to help moving back and forth between multiple webpages quick and easy.
+      </p>
+    </div>
+    <div>
+      <h1 class="text-3xl text-slate-800 font-semibold">Arrows</h1>
+      <p class="text-slate-600 max-w-[45ch]">
+        These are the <span class="text-[#ec598b] font-semibold"
+          >navigation arrows</span
+        >. The back arrow will take you back to the previous webpage you were on
+        if possible. The forward arrow will return you to the page you were on
+        before.
+      </p>
+    </div>
+    <div>
+      <h1 class="text-3xl text-slate-800 font-semibold">Bookmarks</h1>
+      <p class="text-slate-600 max-w-[45ch]">
+        <span class="text-[#ec598b] font-semibold">Bookmarks</span> are a very useful
+        feature of browsers that allow you to remember web pages you like to go to
+        often.
+      </p>
+    </div>
+    <div>
+      <h1 class="text-3xl text-slate-800 font-semibold">Refresh</h1>
+      <p class="text-slate-600 max-w-[45ch]">
+        This is a <span class="text-[#ec598b] font-semibold">refresh</span> button,
+        it can be found on most browsers, and it is usually shown by an arrow circling
+        back on itself.
+      </p>
+    </div>
+  </section>
+</Lesson>

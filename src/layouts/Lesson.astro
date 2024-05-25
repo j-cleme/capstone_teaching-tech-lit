@@ -1,0 +1,21 @@
+---
+import Base from "../layouts/Base.astro";
+
+const { title, lessonId, description } = Astro.props;
+---
+
+<Base title={title}>
+  <div
+    class="flex flex-col md:flex-row md:items-center items-center justify-center w-full border-b min-h-[33vh]"
+  >
+    <div class="md:mr-16">
+      <p class="tracking-wide text-[#ec598b] text-2xl">Lesson {lessonId}</p>
+      <h1 class="text-6xl text-slate-800 font-semibold">{title}</h1>
+      <p class="pt-3.5 lg:max-w-[47ch] text-xl text-slate-600 mb-3.5">
+        {description}
+      </p>
+    </div>
+    <slot name="hero" />
+  </div>
+  <slot />
+</Base>
